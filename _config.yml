@@ -8,13 +8,13 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: Lucid
-email: null
+title: Diapsalmata
+email: tanweerzakariya@gmaik.com
 description: >-
-  True knowledge exists in knowing that you know nothing...
+  Philosophical fragments
 url: "https://zakariya.github.io/"
 domain: "zakariya.github.io"
-github_username:  the_enlightened_one
+github_username:  NotZakariya
 
 # Build settings
 theme: minima
