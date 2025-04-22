@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<p style="font-size:25px", style="text-align: center">
+<p style="font-size:25px">
 <b><u>A Word of Caution:</u></b>
 <br /> <br />
 <i> My hesitance to write speaks volumes.<br />
