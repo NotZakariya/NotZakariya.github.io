@@ -3,8 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-<centre>
-<p style="font-size:25px">
+
+<p style="font-size:21px",style="text-align:center">
 <b><u>A Word of Caution:</u></b>
 <br /> <br />
 <i> My hesitance to write speaks volumes.<br />
