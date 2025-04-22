@@ -14,6 +14,6 @@ In balancing accuracy with clarity, I fear my work shall become another Tractatu
 So, I shall borrow its words of caution:<br /></i>
 </p>
 <p style="font-size:25px">
-<i><b>“My work consists of two parts, the one presented here plus all that I have not written. And it is precisely this second part that is the important point… I’ve managed in my book to put everything firmly into place by being silent about it” ~ Wittgenstein</b></i>
+<i><b>“My work consists of two parts, the one presented here plus all that I have not written. And it is precisely this second part that is the important point… I’ve managed in my book to put everything firmly into place by being silent about it”</b></i>
 </p>
-<p><i>~ Wittgenstein</i></p>
+<p style="font-size:20px"><i>~ Wittgenstein</i></p>
