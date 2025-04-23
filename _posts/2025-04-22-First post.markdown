@@ -2,7 +2,7 @@
 layout: post
 title: "False Florin"
 date: 2025-04-22 19:34:00 +0000
-categories: poetry
+categories: poetry/prose
 ---
 
 *Forsake thine golden idol:*\
