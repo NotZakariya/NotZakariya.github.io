@@ -5,8 +5,7 @@ date: 2025-04-22 19:34:00 +0000
 categories: poetry
 ---
 
-###False Florin
-
+### False Florin
 *Forsake thine golden idol:*\
 *The coveted coin that turns both sheep and lambs from the true way.*\
 *For of the shepherd it has made a wolf,*\
