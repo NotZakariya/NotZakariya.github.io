@@ -11,14 +11,8 @@ navigation_header:
     url: /about/
 
 ## Looks
-remote_theme: broccolini/swiss
-##daviddarnes/alembic@main
-
-fonts:
-  preconnect_urls:
-    - https://fonts.gstatic.com
-  font_urls:
-    - https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap
+remote_theme: daviddarnes/alembic@main
+# remote_theme: broccolini/swiss
 
 ## Technicals
 url: "https://zakariya.github.io/"
