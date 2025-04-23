@@ -1,0 +1,15 @@
+---
+title: false
+styles: true
+---
+
+@import alembic;
+* {
+  font-family: 'Lora', serif;
+  $headingtype: (
+  font-family: 'Helvetica, serif',
+  regular: 400,
+  bold: 700,
+  cap-height: 0.75
+) !default;
+}
