@@ -9,13 +9,13 @@ categories: poetry
 *Forsake thine golden idol:*\
 *The coveted coin that turns both sheep and lambs from the true way.*\
 *For of the shepherd it has made a wolf,*\
-*And of his flock, obedience to a mortal “salvation”.*\
+*And of his flock, obedience to a mortal “salvation”.*
 
 
 *How woefully blind they must seem to passing travellers:*\
 *Bound in rapture by woollen fetters and boasting self-made chains with souls that sag-*\
 *-Full of Pride, Envy and Avarice:*\
-*Three burning coals that have set all hearts on fire.*\
+*Three burning coals that have set all hearts on fire.*
 
 
 *To Dante, that raging fire lay buried deep beneath the Earth - A thought that offered fleeting repose to the sinner.*\
@@ -29,14 +29,14 @@ categories: poetry
 *Yet I hear no chirp of dawn chorus, I know only of its fabled song that wakes men from delusion.*\
 *Shut out to lend our ears to a more pleasing euphony?*\
 *Or drowned out by a choir in a song of black flame,*\
-*Reaching crescendo on an anthem: Ode To Coin.*\
+*Reaching crescendo on an anthem: Ode To Coin.*
 
 
 *If music be the food of love, of hate, of joy, of sorrow, of great opposites and dualities,*\
 *If its coloured words may bleach men’s eyes black and white,*\
 *Then play no more.*\
 *If songs of passion can raze great truths and raise yet greater legends,*\
-*Perhaps only the sober elegy, the calming of the senses, can cool blinding zeal.*\
+*Perhaps only the sober elegy, the calming of the senses, can cool blinding zeal.*
 
 
 *To look modern man cold in the eye and speak plain:*\
@@ -45,7 +45,7 @@ categories: poetry
 *To loosen his tight grip on that bottomless chalice - desire for mortal fulfilment.*\
 *For what adequate response is there to the fact of our finitude?*\
 *In those two plain words lies no firewood, no fuel, no rhetoric to ignite another flame,*\
-*Just plain Truth.*\
+*Just plain Truth.*
 
 
 *And in remembering man’s great blessing: giver of purpose, form and dignity,*\
