@@ -12,7 +12,7 @@ categories: poetry
 *And of his flock, obedience to a mortal “salvation”.*\
 
 
-*How woefully blind they must seem to the traveller:*\
+*How woefully blind they must seem to passing travellers:*\
 *Bound in rapture by woollen fetters and boasting self-made chains with souls that sag-*\
 *-Full of Pride, Envy and Avarice:*\
 *Three burning coals that have set all hearts on fire.*\
