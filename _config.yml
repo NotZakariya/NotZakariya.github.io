@@ -9,6 +9,8 @@ navigation_header:
     url: /
   - title: About
     url: /about/
+  - title: Search 
+    % include site-search.html %
 
 ## Looks
 remote_theme: daviddarnes/alembic@main
