@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TITLE HERE"
-categories: null
+categories: prot deut trit
 ---
 
 Type your essay here
