@@ -9,8 +9,13 @@ navigation_header:
     url: /
   - title: About
     url: /about/
+  - title: Tags
+    url: /categories/
   - title: Search 
     url: /search/
+
+
+
 
 ## Looks
 remote_theme: daviddarnes/alembic@main
