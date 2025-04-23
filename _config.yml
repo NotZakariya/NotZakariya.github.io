@@ -11,7 +11,9 @@ navigation_header:
     url: /about/
 
 ## Looks
-remote_theme: daviddarnes/alembic@main
+remote_theme: benbalter/retlab
+
+##daviddarnes/alembic@main
 
 fonts:
   preconnect_urls:
