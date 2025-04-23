@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-### A Word of Caution:
+## A Word of Caution:
 
 *My hesitance to write speaks volumes.*  \
 *To commit thoughts to words is to reduce them to this fettered form.*  \
