@@ -10,7 +10,7 @@ navigation_header:
   - title: About
     url: /about/
   - title: Search 
-  - % include site-search.html %
+    url: /search/
 
 ## Looks
 remote_theme: daviddarnes/alembic@main
