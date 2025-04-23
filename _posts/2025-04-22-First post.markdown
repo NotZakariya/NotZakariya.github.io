@@ -21,7 +21,7 @@ categories: poetry
 *To Dante, that raging fire lay buried deep beneath the Earth - A thought that offered fleeting repose to the sinner.*\
 *But now great cities also burn like torches,*\
 *Fed by mountains of paper bills that ignite their masters’ hearts with unquenchable desire.*\
-*To the sheep, the grand lustre of false florin flickers irrisistably against those passionate flames of mortal trinity:*\
+*To these sheep, the grand lustre of false florin flickers irrisistably against those passionate flames of mortal trinity:*\
 *Three smouldering coals that have set all hearts on fire.*\
 *Beneath their obfuscating smoke, seeing Inferno for Empyrean.*\
 
