@@ -1,9 +1,3 @@
----
-layout: post
-title: "Contradictions"
-date: 2025-04-23 19:59:00 +0000
-categories: poetry
----
 
 “When one understands Brorson’s words - “When the heart is most oppressed, then the harp of joy is tuned”, then he has in them a motto for all poetic existence, which necessarily must be unhappy.”
 For poetry is the smoke of burning passion, and passion is the tension in contradictions - the will that holds together two opposing forces.
