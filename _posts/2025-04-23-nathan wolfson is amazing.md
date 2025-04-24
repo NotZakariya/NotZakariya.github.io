@@ -1,5 +1,5 @@
 ---
 layout: post
-title: "nathan wolfson is amazing
+title: "nathan wolfson is amazing"
 categories: null
 ---
