@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hearts Pierced True"
+title: "Thy venerable vulnerable heart"
 categories: poetry/prose
 ---
 *The knife that plunges deepest into the heart causes the most pain and damage, but also lets the most light shine in and lets the most darkness seep out.*\
