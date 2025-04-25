@@ -22,7 +22,7 @@ categories: poetry/prose
 *Fed by mountains of paper bills that ignite their masters’ hearts with unquenchable desire.*\
 *To these sheep, the grand lustre of false florin flickers irrisistably against those passionate flames of mortal trinity:*\
 *Three smouldering coals that have set all hearts on fire.*\
-*Beneath their obfuscating smoke, seeing Inferno for Empyrean.*\
+*Beneath their obfuscating smoke, seeing Inferno for Empyrean.*
 
 
 *Yet I hear no chirp of dawn chorus, I know only of its fabled song that wakes men from delusion.*\
