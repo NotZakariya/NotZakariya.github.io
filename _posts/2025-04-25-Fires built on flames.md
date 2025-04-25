@@ -21,14 +21,14 @@ categories: poetry/prose
 *With a last crying breath, strangled by the hypocritic oath.*\
 *Out dies reason.*\
 *Out dies honour.*\
-*Only silence pervades through the gloom of neglect.*\
+*Only silence pervades through the gloom of neglect.*
 
 *But now I feel around for icy igneous bars,*\
 *Squinting through an ashen light that takes the city captive.*\
 *And I recognise those same nostalgic fires of frivolous bunting,*\
 *Now carving locked legacies into young dim faces,*\
 *Who befriend guns for toys, flesh for food-*\
-*The patriotic fight becomes love.*\
+*The patriotic fight becomes love.*
 
 *The demon deified, the inferno we bred:*\
 *Wartime ideology - the insurrection that bled.*
