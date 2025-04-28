@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Fires built on flames"
+title: "An analysis of bad poetry:"
 categories: poetry/prose
 ---
+
+
 *Through shattered glasses, patchwork eyes,*\
 *I try to reason, fail to surmise,*\
 *How the flame of freedom, the zealous cries,*\
