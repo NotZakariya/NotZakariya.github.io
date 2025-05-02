@@ -4,6 +4,8 @@ title: "An analysis of bad poetry:"
 categories: Unfinished
 ---
 > ***CAUTION: THIS PIECE IS UNFINISHED. I don't think reading it is quite worth your time just yet...***
+
+
 Recently, I came across this piece which I'd written a few years ago. I think it serves as a perfect example 
 A few years ago, I wrote this piece, which I have found. I think it serves as a testament to what one ought **not** to do when writing
 
