@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Posts
+output: true
 description:    
     "Oftentimes, I think most people percieve me to be quite     misanthropic... and a bit crazy... so I'm surprised by how many people have asked me to write down my thoughts.
 
