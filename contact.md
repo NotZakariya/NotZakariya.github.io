@@ -4,7 +4,7 @@ excerpt: "my contact details"
 permalink: /contact/
 ---
 
-## Let me know what you think! at:
+Let me know what you think, at:
 
 ### tanweerzakariya@gmail.com
 
