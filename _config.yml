@@ -74,6 +74,8 @@ navigation_header:
     url: /search/
   - title: About
     url: /about/
+  - title: Contact
+    url: /contact/
 
 navigation_footer:
   - title: Tags
@@ -82,6 +84,8 @@ navigation_footer:
     url: /search/
   - title: About
     url: /about/
+  - title: Contact
+    url: /contact/
   - title: Home
     url: https://notzakariya.github.io
 
