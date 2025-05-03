@@ -26,7 +26,7 @@ collections:
     output: true
     description: "Some thoughts" # The post list page content
     feature_text: |
-      Welcome to the blog
+      Hello there
     feature_image: "/assets/header.png"
 
 # 6. Jekyll collections settings
@@ -54,7 +54,7 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Diapsalmata" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/διάψαλμα.png" # Site logo, also used in jekyll-seo-tag
-description: "Philosophical fragments" # Site description and default description, also used in jekyll-seo-tag
+description: "Philosophical fragments..." # Site description and default description, also used in jekyll-seo-tag
 url: "https://notzakariya.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/NotZakariya/NotZakariya.github.io"
