@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Foreword
+title: Diapsalmata
 output: true
 feature_text: |
 feature_image: "/assets/Header.png"
