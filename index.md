@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: Posts
 title: Some thoughts:
 feature_text: |
 feature_image: "/assets/Header.png"
