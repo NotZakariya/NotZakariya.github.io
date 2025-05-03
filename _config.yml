@@ -4,6 +4,18 @@ email: tanweerzakariya@gmail.com
 description: >-
   Philosophical fragments...
 
+  
+plugins:
+- jekyll-remote-theme
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
+- jemoji
 
 
 # 5. Collections
@@ -42,6 +54,4 @@ domain: "zakariya.github.io"
 github_username: NotZakariya
 lang: en-GB
 
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
+
