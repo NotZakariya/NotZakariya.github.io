@@ -53,7 +53,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Diapsalmata" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/διάψαλμα.png" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logo.png" # Site logo, also used in jekyll-seo-tag
 description: "Philosophical fragments..." # Site description and default description, also used in jekyll-seo-tag
 url: "https://notzakariya.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
