@@ -8,5 +8,6 @@ permalink: /contact/
 
 ### tanweerzakariya@gmail.com
 
-I'm always up for a conversation about philosophy or theology
-Feel free to email to ask any questions or ask for reading too, I'd be more than happy to help ;)
+I love talking about stuff like this, so feel free to drop me an email if you have any questions, want any reading on suggestions, or if you have any reading suggestions, have any suggestions, thoughts or if you just want to have a chat about some ideas, I'd be more than happy to hear what you think!
+
+;)
