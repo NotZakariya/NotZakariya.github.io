@@ -20,7 +20,7 @@ categories: Poetry/Prose
 *To Dante, that raging fire lay buried deep beneath the Earth - A thought that offered fleeting repose to the sinner.*\
 *But now great cities also burn like torches,*\
 *Fed by mountains of paper bills that ignite their masters’ hearts with unquenchable desire.*\
-*To these sheep, the grand lustre of false florin flickers irrisistably against those passionate flames of mortal trinity:*\
+*To these sheep, the grand lustre of false florin flickers irresistibly against those passionate flames of mortal trinity:*\
 *Three smouldering coals that have set all hearts on fire.*\
 *Beneath their obfuscating smoke, seeing Inferno for Empyrean.*
 
@@ -41,7 +41,7 @@ categories: Poetry/Prose
 *To look modern man cold in the eye and speak plain:*\
 *Memento Mori*\
 *Perhaps, those two words might cause him to shudder,*\
-*To loosen his tight grip on that bottomless chalice - desire for mortal fulfilment.*\
+*To loosen his tight grip on that bottomless chalice - desire for mortal fulfillment.*\
 *For what adequate response is there to the fact of our finitude?*\
 *In those two plain words lies no firewood, no fuel, no rhetoric to ignite another flame,*\
 *Just plain Truth.*
