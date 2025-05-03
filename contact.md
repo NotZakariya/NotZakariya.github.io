@@ -3,13 +3,13 @@ title: Contact details
 excerpt: "my contact details"
 permalink: /contact/
 ---
-<br>
+
 <br>
 There are few things that I enjoy more than talking about Philosophy and Theology, so feel free to drop me an email at:
 
 > **tanweerzakariya@gmail.com**
 
-Especially if you have any:
+*Especially*, if you have any:
 - questions
 - suggestions
 - comments
