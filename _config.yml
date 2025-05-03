@@ -4,6 +4,21 @@ email: tanweerzakariya@gmail.com
 description: >-
   Philosophical fragments...
 
+
+
+# 5. Collections
+collections:
+  posts:
+    title: Posts # Needed for Siteleaf
+    output: true
+    description: "Some thoughts" # The post list page content
+    feature_text: |
+      Welcome to the blog
+    feature_image: "/assets/header.png"
+
+
+
+
 navigation_header:
   - title: Diapsalmata
     url: /
