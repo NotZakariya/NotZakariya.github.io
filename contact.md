@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Contact details
 excerpt: "my contact details"
 permalink: /contact/
 ---
