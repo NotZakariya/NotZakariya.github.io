@@ -5,7 +5,6 @@ output: true
 feature_text: |
 feature_image: "/assets/Header.png"
 excerpt: "Philosophical fragments..."
-permalink: /Home/
 ---  
 As you may know, for a very long time I have maintained the belief that I have nothing new to bring to philosophy, absolutely nothing at all.
 
