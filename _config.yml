@@ -22,7 +22,7 @@ timezone: Europe/London # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Foreword: # Needed for Siteleaf
+    title: Foreword # Needed for Siteleaf
     output: true
     description: "Some thoughts" # The post list page content
     feature_text: |

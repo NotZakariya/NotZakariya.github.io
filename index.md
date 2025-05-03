@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Foreword:
+title: Foreword
 output: true
 feature_text: |
 feature_image: "/assets/Header.png"
