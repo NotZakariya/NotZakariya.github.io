@@ -11,7 +11,7 @@ As you may know, for a very long time I have maintained the belief that I have n
 
 None of my ideas are new and none of my ideas are my own. They all come from far greater beings, with far more wisdom than myself.
 It is also my firm belief that philosophy is complete.
-As for those who claim to be pushing the boundaries of philosophy *"forwards and onwards"*, I deem them to be pitiful individuals, who *start* with untenable beliefs and work backwards to rationalise their self-deceit and guesswork - to salvage the comfort of their ignorance.
+As for those who claim to be pushing the boundaries of philosophy *"forwards and onwards"*, I deem them to be pitiful individuals, who *start* with untenable beliefs and work *backwards* to rationalise their self-deceit and guesswork - to salvage the comfort of their ignorance.
 
 
 But even though I believe that I have no great wisdom to speak of that has not been spoken of before me, I have also come to recognise that philosophy is a path adorned with lies, traps, smooth talkers and all other manners of falsities.
