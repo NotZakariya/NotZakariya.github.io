@@ -13,7 +13,8 @@ paginate_path: blog/page:num # jekyll-paginate > blog page
 author: Zakariya Tanweer # jekyll-seo-tag > default author
 
 # 4. Jekyll settings
-
+sass:
+  style: compressed # Style compression
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: Europe/London # Timezone for blog posts and alike
@@ -64,7 +65,6 @@ email: "tanweerzakariya@gmail.com"
 # google_analytics_anonymize_ip: ""
 # service_worker: false # Will turn off the service worker if set to false
 # short_name: "Al" # The web application short name, defaults to the site title
-css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 
 
 
