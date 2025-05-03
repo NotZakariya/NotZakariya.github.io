@@ -1,9 +1,6 @@
 ---
 layout: blog
 title: Posts
-feature_text: |
-feature_image: "/assets/Header.png"
-excerpt: "Some thoughts:"
 description:    
     "Oftentimes, I think most people percieve me to be quite     misanthropic... and a bit crazy... so I'm surprised by how many people have asked me to write down my thoughts.
 
@@ -12,4 +9,8 @@ description:
     So here they are... or rather here they aren't, because A levels have guilt tripped me into doing revising some really riveting concepts - like quadrats. I just *love* quadrats... because who doesn't wake up with a burning desire to write a six marker on the biodiversity of grass in a field... 
 
     So until I get around to writing something truly meaningful, this is all I have to offer..."
+feature_text: |
+feature_image: "/assets/Header.png"
+excerpt: "Some thoughts:"
+
 ---
