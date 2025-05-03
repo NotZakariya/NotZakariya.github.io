@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Thy venerable vulnerable heart"
-categories: poetry/prose
+categories: Poetry/Prose
 ---
 *The knife that plunges deepest into the heart causes the most pain and damage, but also lets the most light shine in and lets the most darkness seep out.*\
 *This state of agony, where thoughts flow freely in and out, this, dear reader, is called vulnerability.*\
