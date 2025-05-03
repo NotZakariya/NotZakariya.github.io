@@ -16,7 +16,7 @@ As for those who claim to be pushing the boundaries of philosophy *"forwards and
 
 But even though I believe that I have no great wisdom to speak of that has not been spoken of before me, I have also come to recognise that philosophy is a path adorned with lies, traps, smooth talkers and all other manners of falsities.
 To avoid the throes of darkness (as I believe I have done), is ***so*** difficult that I don't even know how to describe it.
-In truth, one of my dearest and most deepseated convictions, is that I have only done so by the grace of God alone. I can find no other explanation for how someone who once bore so much weakness, and emnity in his heart, with no particular intellectual gifts, has been able to do so.
+In truth, one of my dearest and most deep-seated convictions, is that I have only done so by the grace of God alone. I can find no other explanation for how someone who once bore so much weakness, and emnity in his heart, with no particular intellectual gifts, has been able to do so.
 And so I write with the intention to guide, as I have been guided, to what is evident to me to be the clear truth - "لا ريب فيه¨ (there is no doubt in it).
 
 
