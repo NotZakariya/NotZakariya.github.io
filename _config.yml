@@ -26,7 +26,6 @@ collections:
     output: true
     description: "Philosophical fragments..." # The post list page content
     feature_text: |
-      Hello there
     feature_image: "/assets/header.png"
 
 # 6. Jekyll collections settings
@@ -76,8 +75,13 @@ navigation_header:
   - title: About
     url: /about/
 
-
-
+navigation_footer:
+  - title: Tags
+    url: /categories/
+  - title: Search 
+    url: /search/
+  - title: About
+    url: /about/
 
 ## Looks
 remote_theme: daviddarnes/alembic@main
