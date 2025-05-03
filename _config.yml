@@ -82,6 +82,8 @@ navigation_footer:
     url: /search/
   - title: About
     url: /about/
+  - title: Home
+    url: /Home/
 
 ## Looks
 remote_theme: daviddarnes/alembic@main
