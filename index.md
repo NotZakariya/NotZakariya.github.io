@@ -1,6 +1,6 @@
 ---
-layout: Posts
-title: Some thoughts:
+layout: blog
+title: Posts
 feature_text: |
 feature_image: "/assets/Header.png"
 excerpt: "Some thoughts:"
