@@ -5,17 +5,7 @@ description: >-
   Philosophical fragments...
 
   
-plugins:
-- jekyll-remote-theme
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-feed
-- jekyll-commonmark
-- jekyll-include-cache
-- jemoji
+
 
 # 3. Gem settings
 paginate: 2 # jekyll-paginate > items per page
@@ -101,3 +91,14 @@ github_username: NotZakariya
 lang: en-GB
 
 
+plugins:
+- jekyll-remote-theme
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
+- jemoji
