@@ -3,7 +3,7 @@ layout: blog
 title: Diapsalmata
 output: true
 feature_text: |
-feature_image: "/assets/Header.png" width="300" height="800"
+feature_image: "/assets/Header.png"
 excerpt: "Philosophical fragments..."
 ---  
 
