@@ -63,13 +63,7 @@ $monospacetype: (
   opacity: 1 !important;
 }
 
-@media (max-width: 768px) {
-  .logo {
-    display: block !important; /* Ensure it is displayed on smaller screens */
-    width: 100%; /* Make sure it fits the mobile screen */
-    visibility: visible !important; /* Ensure it is visible */
-  }
-}
+
 
 // TIP: Load custom fonts in _config.yaml
 @import "alembic";
