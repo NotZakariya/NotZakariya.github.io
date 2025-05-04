@@ -44,17 +44,20 @@ $monospacetype: (
   max-width: 100%;
 }
 .feature {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
+  background-size: cover !important;   /* Adds !important to override any inline styles */
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  width: 100% !important;
 }
 
 @media (max-width: 768px) {
   .feature {
-    background-size: contain;
-    min-height: 200px; /* adjust as needed for mobile */
+    background-size: contain !important;  /* Ensures it scales correctly on smaller screens */
+    min-height: 200px !important;  /* Adjust height on mobile */
   }
+}
+.feature {
+  background-color: red !important;  /* Temporarily change the background to red */
 }
 
 // TIP: Load custom fonts in _config.yaml
