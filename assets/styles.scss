@@ -40,5 +40,10 @@ $monospacetype: (
   cap-height: 0.68
 ) !default;
 
+.background {
+  max-width: 100%;
+}
+
+
 // TIP: Load custom fonts in _config.yaml
 @import "alembic";
