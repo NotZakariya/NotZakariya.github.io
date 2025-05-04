@@ -3,9 +3,11 @@ layout: blog
 title: Diapsalmata
 output: true
 feature_text: |
-feature_image: "/assets/Header.png"
+feature_image: "/assets/Header.png" width="300" height="800"
 excerpt: "Philosophical fragments..."
 ---  
+
+
 As you may know, for a very long time I have maintained the belief that I have nothing new to bring to philosophy, absolutely nothing at all.
 
 
