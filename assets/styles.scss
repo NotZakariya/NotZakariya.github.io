@@ -43,7 +43,43 @@ $monospacetype: (
 .background {
   max-width: 100%;
 }
-
+h1 {
+  font-size: 4.286em; /* 60px */
+  margin-bottom: 24px;
+  width: auto;
+  text-align: center;
+  }
+  /* Portrait and Landscape */
+  
+  @media only screen 
+  and (min-device-width: 240px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  h1 {
+  font-size: 4em; /* a little smaller*/
+  }
+  }
+  /* Portrait */
+  @media only screen 
+  and (min-device-width: 240px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  h1 {
+  font-size: 3.5em; /* a little smaller*/
+  }
+  }
+  
+  /* Landscape */
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+  h1 {
+  font-size: 3em; /* a little smaller*/
+  }
+  
 
 // TIP: Load custom fonts in _config.yaml
 @import "alembic";
