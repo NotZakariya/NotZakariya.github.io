@@ -26,7 +26,7 @@ collections:
     output: true
     description: "Philosophical fragments..." # The post list page content
     feature_text: |
-    feature_image: "/assets/header.png"
+    # feature_image: "/assets/header.png"
 
 # 6. Jekyll collections settings
 defaults:
