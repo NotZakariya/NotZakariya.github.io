@@ -43,7 +43,19 @@ $monospacetype: (
 .background {
   max-width: 100%;
 }
+.feature {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
 
+@media (max-width: 768px) {
+  .feature {
+    background-size: contain;
+    min-height: 200px; /* adjust as needed for mobile */
+  }
+}
 
 // TIP: Load custom fonts in _config.yaml
 @import "alembic";
