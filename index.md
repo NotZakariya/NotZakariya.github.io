@@ -3,10 +3,10 @@ layout: blog
 title: Diapsalmata
 output: true
 feature_text: |
-feature_image: "/assets/Header.png" {:style="header"}
+feature_image: "/assets/Header.png" 
 excerpt: "Philosophical fragments..."
 ---  
-![Header](/assets/Header.png){:style="header"}
+
 
 
 As you may know, for a very long time I have maintained the belief that I have nothing new to bring to philosophy, absolutely nothing at all.
