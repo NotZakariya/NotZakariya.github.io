@@ -3,7 +3,7 @@ layout: blog
 title: Diapsalmata
 output: true
 feature_text: |
-feature_image: "/assets/Header.png"
+feature_image: "/assets/Header.png" {:style="header"}
 excerpt: "Philosophical fragments..."
 ---  
 ![Header](/assets/Header.png){:style="header"}
