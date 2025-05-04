@@ -57,6 +57,11 @@ $monospacetype: (
   }
 }
 
+.logo {
+  visibility: visible !important;
+  display: block !important;
+  opacity: 1 !important;
+}
 
 // TIP: Load custom fonts in _config.yaml
 @import "alembic";
