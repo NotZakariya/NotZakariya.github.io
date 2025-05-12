@@ -87,7 +87,8 @@ navigation_footer:
     url: /contact/
   - title: Home
     url: https://notzakariya.github.io
-
+  - title: DoNotes
+    url: https://donotes.app
 ## Looks
 remote_theme: daviddarnes/alembic@main
 # remote_theme: broccolini/swiss
