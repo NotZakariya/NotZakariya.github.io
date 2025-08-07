@@ -19,7 +19,7 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
 // Layout containers
 .container {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1400px;
   min-width: 320px;
   margin: 3.5rem auto 3.5rem auto;
   padding: 2.2rem 2.2rem;
@@ -35,9 +35,6 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   line-height: 1.7;
   color: $textColour;
   box-sizing: border-box;
-  min-width: 300px;
-  width: 90vw;
-  max-width: 760px;
   transition: box-shadow 0.2s, border 0.2s;
 
 // Responsive container width
@@ -51,14 +48,14 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
 // Gradient border under header
 .header-gradient-bar {
   width: 100vw;
-  height: 5px;
+  height: 4px;
   background: linear-gradient(90deg, $focusColour 0%, $accentColour 100%);
   border: none;
   margin: 0;
   padding: 0;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  position: absolute;
+  left: 0;
+  bottom: 0;
   z-index: 10;
 }
 // Modern footer always present
@@ -74,8 +71,8 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   margin-top: 4rem;
   box-shadow: 0 -2px 24px rgba(5,191,133,0.08);
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  bottom: 0;
   z-index: 10;
 }
 // For extra polish, style the main content area

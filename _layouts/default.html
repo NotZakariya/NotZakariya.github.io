@@ -44,6 +44,8 @@
 
     <header class="site-header">
       <div class="header-bar"></div>
+    </header>
+    <div class="header-gradient-bar"></div>
       <div class="header-flex">
         <div class="logo-wrap">
           {% if site.logo %}
@@ -72,6 +74,7 @@
       {{ content }}
     </main>
 
+    {% include site-footer.html %}
     <!-- Removed missing site-sw.html include -->
     <!-- Removed theme-specific includes -->
   </body>
