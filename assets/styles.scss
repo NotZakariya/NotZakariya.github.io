@@ -31,12 +31,15 @@ a {
   color: $linkColour;
   text-decoration: none;
   transition: color 0.2s;
+  border-radius: 4px;
   &:hover {
     color: $hoverColour;
   }
   &:focus {
     color: $focusColour;
-    outline: none;
+    outline: 2px solid $focusColour;
+    outline-offset: 2px;
+    background: rgba(252,67,0,0.08);
   }
 }
 
@@ -60,7 +63,7 @@ nav {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin: 1rem 0;
+  margin: 1.5rem 0 1.5rem 0;
   list-style: none;
   padding: 0;
 }
@@ -83,7 +86,7 @@ ul, ol {
 }
 
 .chat-bubble {
-  background: $cardBackground;
+  background: linear-gradient(135deg, #fff 80%, #05bf8512 100%);
   border: 1px solid $borderColour;
   border-radius: 1.2em;
   padding: 1.2em 1.5em;
@@ -91,10 +94,20 @@ ul, ol {
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
   font-size: 1.1em;
   line-height: 1.7;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s;
   &:hover {
     border-color: $accentColour;
+    box-shadow: 0 4px 16px rgba(5,191,133,0.08);
   }
+
+
+.main-title {
+  font-size: 2.2em;
+  font-weight: 700;
+  margin: 1.5rem 0 1rem 0;
+  color: $accentColour;
+  text-align: center;
+}
 }
 
 .post-title {
@@ -131,5 +144,10 @@ ul, ol {
   nav {
     flex-direction: column;
     gap: 0.5rem;
+    align-items: center;
+  }
+  .main-title {
+    font-size: 1.3em;
+    margin: 1rem 0 0.5rem 0;
   }
 }
