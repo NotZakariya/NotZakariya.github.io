@@ -17,6 +17,7 @@ $bodyFont: 'Georgia', 'Times New Roman', Times, serif !default;
 $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif !default;
 
 // Second gradient border under header (placed after main content to avoid Jekyll issues)
+// Second gradient border under header (placed after main content to avoid Jekyll issues)
 .header-gradient-bar-bottom {
   width: 100vw;
   height: 4px;
@@ -25,17 +26,32 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   margin: 0 0 2.5rem 0;
   padding: 0;
   display: block;
-  
+}
+
 // Layout containers
 .container {
   width: 100%;
-  max-width: 85vw;
-  /* Prevent container from being too wide on large screens */
+  max-width: 95vw;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  @media (min-width: 900px) and (max-width: 1199px) {
+    max-width: 900px;
+  }
+  @media (min-width: 1020px) and (max-width: 1100px) {
+    max-width: 98vw;
+  }
   @media (min-width: 1200px) {
+    max-width: 1500px;
   }
   min-width: 320px;
   margin: 3.5rem auto 3.5rem auto;
-  padding: 2.2rem 2.2rem;
+  padding: 2.2rem 1.5rem;
+  @media (min-width: 900px) {
+    padding: 2.2rem 2.2rem;
+  }
+  @media (max-width: 600px) {
+    padding: 1.2rem 0.5rem;
+  }
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,29 +60,23 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   border-radius: 18px;
   box-shadow: 0 4px 32px rgba(5,191,133,0.08), 0 1.5px 8px rgba(0,0,0,0.04);
   border: 1.5px solid $borderColour;
-  font-family: 'Playfair Display', 'Georgia', 'Times New Roman', Times, serif;
-  font-size: 15vw;
-  font-weight: 700;
-  color: #fff;
+  font-family: $bodyFont;
+  font-size: 1.08rem;
+  color: $textColour;
   letter-spacing: 0.01em;
-  text-align: center;
-  width: 100%;
-  margin: 0;
-  padding: 4rem 0 4rem 0;
-  text-shadow: 0 8px 48px rgba(0,0,0,0.18);
-  background: transparent;
+  text-align: left;
+  text-shadow: none;
 }
 // Gradient border under header
 .header-gradient-bar {
   width: 100vw;
   height: 4px;
-  background: linear-gradient(90deg, $focusColour 0%, $accentColour 100%);
+  background: $accentColour;
   border: none;
   margin: 0;
   padding: 0;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  display: block;
+  position: static;
   z-index: 10;
 }
 // Modern footer always present
@@ -124,6 +134,7 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   box-sizing: border-box;
   justify-content: space-between;
   background: $backgroundColour;
+  border-bottom: 4px solid $accentColour;
 }
 
 // Second gradient border under header (placed after header for Jekyll compatibility)
@@ -157,7 +168,7 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   letter-spacing: 0.01em;
   text-decoration: none;
   padding: 0.4em 2.2em;
-  border-radius: 8px;
+  border-radius: 24px;
   background: #fff;
   box-shadow: 0 2px 8px rgba(5,191,133,0.07);
   transition: color 0.2s, border 0.2s, background 0.2s;
@@ -165,14 +176,14 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   margin-right: 0.2em;
   display: inline-block;
   position: relative;
-  border: 3px solid;
-  border-image: linear-gradient(90deg, $focusColour 0%, $accentColour 100%) 1;
+  border: 3px solid $accentColour;
   z-index: 1;
   overflow: visible;
 }
 .main-nav a.active, .main-nav a:focus, .main-nav a:hover {
   color: $focusColour;
   background: #fff;
+  border-color: $focusColour;
 @keyframes border-gradient-move {
   0% {
     --border-gradient: linear-gradient(90deg, #fc4300 0%, #05bf85 100%);
@@ -212,12 +223,12 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
 }
 // Footer
 .footer {
-  background: #fff;
+  background: transparent;
   box-shadow: 0 -2px 24px rgba(5,191,133,0.08);
   text-align: center;
   padding: 1.5rem 0 1.5rem 0;
   width: 100%;
-  border-top: 4px solid $accentColour;
+  border-top: none;
   font-size: 1.05em;
   color: $captionColour;
   margin-top: 3rem;
@@ -365,23 +376,23 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 .footer nav a {
-  background: #fff;
-  color: $accentColour;
+  background: transparent;
+  color: #fff;
   font-weight: 700;
   font-size: 1.08em;
-  border-radius: 999px;
+  border-radius: 32px;
   padding: 0.5em 1.7em;
   text-decoration: none;
-  box-shadow: 0 2px 8px rgba(5,191,133,0.10);
+  box-shadow: none;
   margin: 0.2em 0.2em;
   transition: color 0.2s, background 0.2s, box-shadow 0.2s;
   border: none;
   display: inline-block;
 }
 .footer nav a:hover, .footer nav a:focus {
-  color: #fff;
-  background: $focusColour;
-  box-shadow: 0 4px 18px rgba(252,67,0,0.13);
+  color: $focusColour;
+  background: rgba(255,255,255,0.12);
+  box-shadow: none;
 }
 // Hero Banner with gradient overlay and parallax effect
 .hero-banner {
@@ -425,8 +436,13 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 180px;
   height: auto;
   display: block;
-/* Removed duplicate .hero-title block at end of file */
-  /* Remove flex-shrink to avoid nav compressing */
+  border: 3px solid $accentColour;
+  transition: border-color 0.2s;
+}
+.logo:hover, .logo:focus,
+.site-logo img:hover, .site-logo img:focus {
+  border-color: $focusColour;
+  /* Keep border-radius unchanged for square corners */
 }
 @keyframes gradient-move {
   0% { background-position: 0% 50%; }
