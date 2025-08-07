@@ -51,11 +51,11 @@
           {% endif %}
         </div>
         <nav class="main-nav">
-          <a href="/">Home</a>
-          <a href="/categories/">Tags</a>
-          <a href="/search/">Search</a>
-          <a href="/about/">About</a>
-          <a href="/contact/">Contact</a>
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/tags/' | relative_url }}">Tags</a>
+          <a href="{{ '/search/' | relative_url }}">Search</a>
+          <a href="{{ '/about/' | relative_url }}">About</a>
+          <a href="{{ '/contact/' | relative_url }}">Contact</a>
         </nav>
       </div>
     </header>
