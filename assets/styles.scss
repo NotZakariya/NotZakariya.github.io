@@ -3,67 +3,113 @@ title: false
 styles: true
 ---
 
-
-// Background colours
-$backgroundColour: #ffffff !default;
-$codeBackgroundColour: #fafafa !default;
-$featureBackgroundColour: #f9fafa !default;
-$accentColour: #05bf85 !default;
-// Text colours
-$headingColour: #242e2b !default;
-$bodyColour: #384743 !default;
+// Color Scheme
+$backgroundColour: #f7f7f8 !default;
+$cardBackground: #fff !default;
+$borderColour: #e5e5e5 !default;
+$accentColour: #05bf85 !default; // Green
 $linkColour: #05bf85 !default;
-$hoverColour: #00803eee !default;
-$focusColour: #ff1e00 !default;
+$hoverColour: #00803e !default;
+$focusColour: #fc4300 !default; // Orange
 $captionColour: #fc4300 !default;
-$white: #ffffff !default;
+$textColour: #222 !default;
 
 // Typography
-$bodytype: (
-  font-family: "Lora, serif",
-  regular: 400,
-  bold: 700,
-  italic: italic,
-  cap-height: 0.75
-) !default;
+$bodyFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif !default;
+$headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif !default;
 
-$headingtype: (
-  font-family: '"Merriweather", serif',
-  regular: 400,
-  bold: 700,
-  cap-height: 0.75
-) !default;
-
-$monospacetype: (
-  font-family: "Menlo, monospace",
-  regular: 400,
-  cap-height: 0.68
-) !default;
-
-.background {
-  max-width: 100%;
-}
-.feature {
-  background-size: cover !important;   /* Adds !important to override any inline styles */
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  width: 100% !important;
+// Base Styles
+body {
+  font-family: $bodyFont;
+  background: $backgroundColour;
+  color: $textColour;
+  margin: 0;
+  padding: 0;
 }
 
-@media (max-width: 768px) {
-  .feature {
-    background-size: contain !important;  /* Ensures it scales correctly on smaller screens */
-    min-height: 200px !important;  /* Adjust height on mobile */
+a {
+  color: $linkColour;
+  text-decoration: none;
+  transition: color 0.2s;
+  &:hover {
+    color: $hoverColour;
+  }
+  &:focus {
+    color: $focusColour;
+    outline: none;
   }
 }
 
-.logo {
-  visibility: visible !important;
-  display: block !important;
-  opacity: 1 !important;
+.header, .site-header {
+  background: $cardBackground;
+  border-bottom: 1px solid $borderColour;
+  padding: 1.5rem 0 1rem 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -1px;
 }
 
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
 
+nav {
+  margin: 1rem 0;
+  text-align: center;
+  a {
+    color: $textColour;
+    margin: 0 1rem;
+    font-weight: 500;
+    &:hover {
+      color: $accentColour;
+    }
+  }
+}
 
-// TIP: Load custom fonts in _config.yaml
-@import "alembic";
+.chat-bubble {
+  background: $cardBackground;
+  border: 1px solid $borderColour;
+  border-radius: 1.2em;
+  padding: 1.2em 1.5em;
+  margin: 1.5em 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  font-size: 1.1em;
+  line-height: 1.7;
+  transition: border-color 0.2s;
+  &:hover {
+    border-color: $accentColour;
+  }
+}
+
+.post-title {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  color: $accentColour;
+}
+
+.caption, .post-meta {
+  color: $captionColour;
+  font-size: 0.95em;
+  margin-bottom: 0.5em;
+}
+
+.logo {
+  max-width: 120px;
+  margin: 0 auto 1rem auto;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 0.5rem;
+  }
+  .header, .site-header {
+    font-size: 1.3rem;
+    padding: 1rem 0 0.5rem 0;
+  }
+  .chat-bubble {
+    padding: 1em
