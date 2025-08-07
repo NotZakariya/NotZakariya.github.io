@@ -45,13 +45,28 @@
     {% include site-before-start.html %}
   </head>
 
-  <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
-    {% include site-icons.svg %}
 
-    {{ content }}
+  <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
+    <header class="site-header">
+      <div class="container">
+        {% if site.logo %}
+          <img src="{{ site.logo }}" alt="{{ site.title }} logo" class="logo" />
+        {% endif %}
+        <nav>
+          <a href="/">Home</a>
+          <a href="/categories/">Tags</a>
+          <a href="/search/">Search</a>
+          <a href="/about/">About</a>
+          <a href="/contact/">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      {{ content }}
+    </main>
 
     {% if site.service_worker != false %}{% include site-sw.html %}{% endif %}
-
     {% include site-before-end.html %}
   </body>
 
