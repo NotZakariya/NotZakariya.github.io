@@ -82,7 +82,11 @@ navigation_footer:
   - title: Search 
     url: /search/
   - title: About
-## Removed stray/duplicate navigation and url block
+    url: /about/
+  - title: Contact
+    url: /contact/
+  - title: Home
+    url: https://notzakariya.github.io
 
 ## Looks
 remote_theme: daviddarnes/alembic@main
