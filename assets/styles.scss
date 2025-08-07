@@ -1,8 +1,6 @@
 
 
----
-// Color Scheme
-$backgroundColour: #f7f7f8 !default;
+bundle install: #f7f7f8 !default;
 $cardBackground: #fff !default;
 $borderColour: #e5e5e5 !default;
 $accentColour: #05bf85 !default; // Green
@@ -10,11 +8,11 @@ $linkColour: #05bf85 !default;
 $hoverColour: #00803e !default;
 $focusColour: #fc4300 !default; // Orange
 $captionColour: #fc4300 !default;
+
 $textColour: #222 !default;
 
-// Font stacks
-$bodyFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif !default;
-$headingFont: 'Georgia', 'Times New Roman', Times, serif !default;
+$bodyFont: 'Georgia', 'Times New Roman', Times, serif !default;
+$headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif !default;
 
 // Layout containers
 .container {
@@ -51,8 +49,6 @@ $headingFont: 'Georgia', 'Times New Roman', Times, serif !default;
   max-width: 80px;
   height: auto;
   display: block;
-  margin: 0;
-}
 .main-nav {
   display: flex;
   gap: 1.2rem;
@@ -67,6 +63,7 @@ $headingFont: 'Georgia', 'Times New Roman', Times, serif !default;
   letter-spacing: 0.01em;
   text-decoration: none;
   padding: 0.4em 1.2em;
+
   border-radius: 999px;
   border: 2px solid transparent;
   transition: background 0.2s, color 0.2s, border 0.2s;
@@ -112,7 +109,7 @@ $headingFont: 'Georgia', 'Times New Roman', Times, serif !default;
   margin-top: 3rem;
 }
 
-// Typography
+
 body {
   font-family: $bodyFont;
   min-height: 100vh;
@@ -266,22 +263,8 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 0 2px 8px rgba(252,67,0,0.10);
 }
 
-// Typography
-$bodyFont: 'Georgia', 'Times New Roman', Times, serif !default;
-$headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif !default;
 
-// Base Styles
-
-body {
-  font-family: $bodyFont;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  color: $textColour;
-  background: #f7f7f8;
-  display: flex;
-  flex-direction: column;
-}
+// ...existing code...
 
 @keyframes bgmove {
   0% { background-position: 0% 50%; }
