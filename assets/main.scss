@@ -42,7 +42,7 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   display: flex;
   gap: 1.2rem;
   align-items: center;
-  margin-left: auto;
+  margin-left: 12vw;
 }
 // Nav buttons as white boxes with animated gradient border
 .main-nav a {
@@ -297,7 +297,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .logo-wrap {
   flex: 0 0 auto;
-  margin-right: auto;
 }
 .logo-link {
   display: flex;
@@ -309,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin: 0;
   background: none;
-  border: 4px solid $focusColour;
+  border: 4px solid $accentColour;
   border-radius: 16px;
   box-sizing: border-box;
 }
