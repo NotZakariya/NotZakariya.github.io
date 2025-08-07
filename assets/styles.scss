@@ -1,22 +1,61 @@
-// Hero Banner
+
+// Hero Banner with gradient overlay and parallax effect
 .hero-banner {
   width: 100%;
-  background: #fff;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 2px 16px rgba(0,0,0,0.06);
-  }
+  margin-bottom: 2.5rem;
+  min-height: 260px;
+  overflow: hidden;
+  background: linear-gradient(90deg, $focusColour 0%, $accentColour 100%);
+  box-shadow: 0 4px 32px rgba(0,0,0,0.08);
 }
----
-title: false
-styles: true
----
+.hero-banner img {
+  width: 100%;
+  height: auto;
+  min-height: 220px;
+  object-fit: cover;
+  opacity: 0.92;
+  filter: drop-shadow(0 2px 16px rgba(0,0,0,0.10));
+  mix-blend-mode: lighten;
+  transition: transform 0.7s cubic-bezier(.25,.46,.45,.94);
+  will-change: transform;
+}
+.hero-banner:hover img {
+  transform: scale(1.025) rotate(-0.5deg);
+  opacity: 1;
+}
+
+// Logo polish
+.logo, .site-logo img {
+  max-width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 0 0 0;
+  filter: drop-shadow(0 2px 8px rgba(5,191,133,0.10));
+  transition: filter 0.2s;
+}
+.logo-link:hover .logo, .logo-link:focus .logo {
+  filter: drop-shadow(0 4px 16px rgba(252,67,0,0.18));
+}
+
+// Navigation polish
+.main-nav a {
+  color: $textColour;
+  font-weight: 700;
+  font-size: 1.18rem;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition: color 0.2s, text-shadow 0.2s;
+  position: relative;
+  text-shadow: 0 1px 0 #fff, 0 2px 8px rgba(5,191,133,0.04);
+}
+.main-nav a:hover, .main-nav a:focus {
+  color: $focusColour;
+  text-shadow: 0 2px 8px rgba(252,67,0,0.10);
+}
 
 // Color Scheme
 $backgroundColour: #f7f7f8 !default;
