@@ -57,16 +57,29 @@ a {
 }
 
 nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
   margin: 1rem 0;
-  text-align: center;
-  a {
-    color: $textColour;
-    margin: 0 1rem;
-    font-weight: 500;
-    &:hover {
-      color: $accentColour;
-    }
-  }
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  color: $textColour;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: $accentColour;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .chat-bubble {
@@ -97,10 +110,11 @@ nav {
   margin-bottom: 0.5em;
 }
 
-.logo {
+.logo, .site-logo img {
   max-width: 120px;
-  margin: 0 auto 1rem auto;
+  height: auto;
   display: block;
+  margin: 0 auto 1rem auto;
 }
 
 @media (max-width: 600px) {
@@ -114,4 +128,7 @@ nav {
   .chat-bubble {
     padding: 1em 0.7em;
   }
-}
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
