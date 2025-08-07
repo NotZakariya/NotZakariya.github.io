@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 
 <br>
-Feel free to drop me an email if you have any:
+Feel free to drop me an email, if you have any:
 - questions
 - suggestions
 - comments
