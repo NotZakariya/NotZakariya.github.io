@@ -13,30 +13,8 @@
   z-index: 100;
   backdrop-filter: blur(8px) saturate(1.2);
   border-top: 6px solid;
-  border-image: linear-gradient(90deg, $focusColour 0%, $accentColour 100%) 1;
-
-
-// Hero Banner with gradient overlay and parallax effect
-.hero-banner {
-  width: 100%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-// Sticky, glassy, colorful footer
-.footer {
-  background: rgba(255,255,255,0.85);
-  box-shadow: 0 -2px 24px rgba(5,191,133,0.08);
-  text-align: center;
-  padding: 1.5rem 0 1.5rem 0;
-  width: 100%;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  z-index: 100;
-  backdrop-filter: blur(8px) saturate(1.2);
-  border-top: 6px solid;
-  border-image: linear-gradient(90deg, $focusColour 0%, $accentColour 100%) 1;
-}
+    border-image: linear-gradient(90deg, $focusColour 0%, $accentColour 100%) 1;
+  }
 
 // Hero Banner with gradient overlay and parallax effect
 .hero-banner {
@@ -61,8 +39,6 @@
   mix-blend-mode: lighten;
   transition: transform 0.7s cubic-bezier(.25,.46,.45,.94);
   will-change: transform;
-  text-shadow: 0 2px 8px rgba(252,67,0,0.10);
-}
   text-shadow: 0 2px 8px rgba(252,67,0,0.10);
 }
 
