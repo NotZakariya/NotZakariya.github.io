@@ -3,7 +3,7 @@ source "https://rubygems.org"
 # gem "jekyll", "~> 4.4.1"
 gem "github-pages", "~> 232", group: :jekyll_plugins
  
-gem "jekyll-remote-theme"
+# gem "jekyll-remote-theme" # No longer needed
 # gem "minima", "~> 2.5" # Not used, commented out for optimization
 
 group :jekyll_plugins do
