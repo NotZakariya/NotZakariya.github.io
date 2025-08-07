@@ -1,5 +1,17 @@
 ---
 ---
+// Color Scheme
+$backgroundColour: #f7f7f8 !default;
+$backgroundColour: #f7f7f8 !default;
+$cardBackground: #fff !default;
+$borderColour: #e5e5e5 !default;
+$accentColour: #05bf85 !default; // Green
+$linkColour: #05bf85 !default;
+$hoverColour: #00803e !default;
+$focusColour: #fc4300 !default; // Orange
+$captionColour: #fc4300 !default;
+$textColour: #222 !default;
+
 // Sticky, glassy, colorful footer
 .footer {
   background: rgba(255,255,255,0.85);
@@ -41,17 +53,6 @@
   will-change: transform;
   text-shadow: 0 2px 8px rgba(252,67,0,0.10);
 }
-
-// Color Scheme
-$backgroundColour: #f7f7f8 !default;
-$cardBackground: #fff !default;
-$borderColour: #e5e5e5 !default;
-$accentColour: #05bf85 !default; // Green
-$linkColour: #05bf85 !default;
-$hoverColour: #00803e !default;
-$focusColour: #fc4300 !default; // Orange
-$captionColour: #fc4300 !default;
-$textColour: #222 !default;
 
 // Typography
 $bodyFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif !default;
