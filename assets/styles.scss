@@ -1,3 +1,15 @@
+
+// Color Scheme
+$backgroundColour: #f7f7f8 !default;
+$cardBackground: #fff !default;
+$borderColour: #e5e5e5 !default;
+$accentColour: #05bf85 !default; // Green
+$linkColour: #05bf85 !default;
+$hoverColour: #00803e !default;
+$focusColour: #fc4300 !default; // Orange
+$captionColour: #fc4300 !default;
+$textColour: #222 !default;
+
 // Standardized post list and tag styles
 .container {
   max-width: 700px;
@@ -78,16 +90,6 @@
   background: #fff;
   box-shadow: 0 2px 8px rgba(5,191,133,0.07);
 }
-// Color Scheme
-$backgroundColour: #f7f7f8 !default;
-$cardBackground: #fff !default;
-$borderColour: #e5e5e5 !default;
-$accentColour: #05bf85 !default; // Green
-$linkColour: #05bf85 !default;
-$hoverColour: #00803e !default;
-$focusColour: #fc4300 !default; // Orange
-$captionColour: #fc4300 !default;
-$textColour: #222 !default;
 
 // Sticky, glassy, colorful footer
 .footer {
