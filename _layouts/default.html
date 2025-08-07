@@ -66,6 +66,11 @@
       </div>
     </header>
 
+    {% if page.url == '/' or page.url == '/index.html' %}
+      <div class="hero-banner">
+        <img src="/assets/Header.png" alt="Site banner" />
+      </div>
+    {% endif %}
     <main class="container">
       {{ content }}
     </main>
