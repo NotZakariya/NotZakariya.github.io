@@ -92,11 +92,7 @@ navigation_footer:
 remote_theme: daviddarnes/alembic@main
 # remote_theme: broccolini/swiss
 
-## Technicals
-url: "https://zakariya.github.io/"
-domain: "zakariya.github.io"
-github_username: NotZakariya
-lang: en-GB
+
 
 
 plugins:

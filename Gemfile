@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gem "github-pages", "~> 232", group: :jekyll_plugins
  
 gem "jekyll-remote-theme"
-gem "minima", "~> 2.5"
+# gem "minima", "~> 2.5" # Not used, commented out for optimization
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
