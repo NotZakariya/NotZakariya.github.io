@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<div class="container">
+<!-- container removed, handled by layout -->
   <h1 class="main-title">Posts</h1>
   <ul class="post-list">
     {% for post in site.posts %}
@@ -20,4 +20,4 @@ title: Home
       </li>
     {% endfor %}
   </ul>
-</div>
+<!-- container removed, handled by layout -->

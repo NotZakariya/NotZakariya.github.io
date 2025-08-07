@@ -3,11 +3,11 @@ title: Search
 layout: default
 ---
 
-<div class="container">
+<!-- container removed, handled by layout -->
   <h1 class="main-title">Search</h1>
   <input type="text" id="search-input" placeholder="Type to search posts..." class="search-bar" autocomplete="off">
   <ul id="search-results" class="post-list"></ul>
-</div>
+<!-- container removed, handled by layout -->
 
 <script>
 const posts = [

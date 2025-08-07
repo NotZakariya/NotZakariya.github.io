@@ -3,7 +3,7 @@ title: Tags
 layout: default
 ---
 
-<div class="container">
+<!-- container removed, handled by layout -->
   <h1 class="main-title">Tags</h1>
   <div class="tags-cloud">
     {% assign tags = site.tags | sort %}
@@ -20,4 +20,4 @@ layout: default
       {% endfor %}
     </ul>
   {% endfor %}
-</div>
+<!-- container removed, handled by layout -->
