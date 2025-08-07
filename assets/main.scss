@@ -28,11 +28,12 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
 .header-flex {
   display: flex;
   align-items: center;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1.2rem 2rem 1.2rem 2rem;
-  justify-content: flex-start;
+  width: 100vw;
+  min-width: 0;
+  margin: 0;
+  padding: 1.2rem 4vw 1.2rem 4vw;
+  box-sizing: border-box;
+  justify-content: space-between;
 }
 .logo-wrap {
   flex: 0 0 auto;
@@ -277,17 +278,10 @@ h1, h2, h3, h4, h5, h6 {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
-.header-flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1.2rem 2rem 1.2rem 2rem;
-  width: 100%;
-}
 .logo-wrap {
   flex: 0 0 auto;
+  margin-right: auto;
+  min-width: 0;
 }
 .logo-link {
   display: flex;
@@ -308,6 +302,8 @@ h1, h2, h3, h4, h5, h6 {
   gap: 1.2rem;
   align-items: center;
   margin-left: auto;
+  margin-right: 4vw;
+  /* Remove flex-shrink to avoid nav compressing */
 }
 @keyframes gradient-move {
   0% { background-position: 0% 50%; }
