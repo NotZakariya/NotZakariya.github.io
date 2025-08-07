@@ -1,3 +1,5 @@
+---
+---
 // Sticky, glassy, colorful footer
 .footer {
   background: rgba(255,255,255,0.85);
@@ -12,7 +14,6 @@
   backdrop-filter: blur(8px) saturate(1.2);
   border-top: 6px solid;
   border-image: linear-gradient(90deg, $focusColour 0%, $accentColour 100%) 1;
-// ...existing code...
 
 // Hero Banner with gradient overlay and parallax effect
 .hero-banner {
@@ -26,7 +27,7 @@
   overflow: hidden;
   background: linear-gradient(90deg, $focusColour 0%, $accentColour 100%);
   box-shadow: 0 4px 32px rgba(0,0,0,0.08);
-}
+
 .hero-banner img {
   width: 100%;
   height: auto;
