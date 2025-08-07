@@ -191,32 +191,33 @@ body {
 }
 
 
+
 .main-nav a {
-  color: #fff;
-  font-weight: 700;
+  color: #111;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  font-weight: 600;
   font-size: 1.18rem;
   letter-spacing: 0.01em;
   text-decoration: none;
-  transition: background 0.2s, box-shadow 0.2s, color 0.2s;
+  transition: border 0.3s, color 0.2s, box-shadow 0.2s, background 0.2s;
   position: relative;
   padding: 0.5em 1.5em;
   border-radius: 999px;
-  background: linear-gradient(90deg, $focusColour 0%, $accentColour 100%);
-  background-size: 200% 200%;
-  animation: bgmove 12s ease-in-out infinite;
+  background: #fff;
+  border: 3px solid;
+  border-image: linear-gradient(90deg, $focusColour 0%, $accentColour 100%) 1;
+  background-clip: padding-box;
   box-shadow: 0 2px 12px rgba(5,191,133,0.10);
-  border: none;
   outline: none;
   margin-left: 0.2em;
   margin-right: 0.2em;
   display: inline-block;
 }
 .main-nav a:hover, .main-nav a:focus {
-  color: #fff;
-  background: linear-gradient(270deg, $accentColour 0%, $focusColour 100%);
-  background-size: 200% 200%;
-  animation: bgmove 12s ease-in-out infinite;
+  color: $focusColour;
+  border-image: linear-gradient(270deg, $accentColour 0%, $focusColour 100%) 1;
   box-shadow: 0 4px 24px rgba(252,67,0,0.18);
+  background: #fff;
   transform: translateY(-2px) scale(1.04);
 }
 
