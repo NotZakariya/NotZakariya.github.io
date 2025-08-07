@@ -5,7 +5,11 @@ permalink: /contact/
 ---
 
 <br>
-Feel free to drop me an email, if you have any:
+Feel free to drop me an email at:
+
+> **tanweerzakariya@gmail.com**
+
+if you have any:
 - questions
 - suggestions
 - comments
@@ -15,10 +19,6 @@ Feel free to drop me an email, if you have any:
 - if you have any reading suggestions
 - or just want to have a chat about some ideas!
 
-at:
-
-> **tanweerzakariya@gmail.com**
-
-I'd be more than happy to hear what you think!
+I'd be interested to hear what you think!
 
 ;)
