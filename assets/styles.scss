@@ -43,14 +43,62 @@ a {
   }
 }
 
-.header, .site-header {
+
+.site-header {
   background: $cardBackground;
-  border-bottom: 1px solid $borderColour;
-  padding: 1.5rem 0 1rem 0;
-  text-align: center;
-  font-size: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.header-bar {
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(90deg, $focusColour 0%, $accentColour 100%);
+  border-radius: 0 0 8px 8px;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.2rem 2rem 1.2rem 2rem;
+}
+
+.logo-wrap {
+  flex: 0 0 auto;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo, .site-logo img {
+  max-width: 90px;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+
+.main-nav {
+  display: flex;
+  gap: 2.2rem;
+  align-items: center;
+}
+
+.main-nav a {
+  color: $textColour;
   font-weight: 600;
-  letter-spacing: -1px;
+  font-size: 1.15rem;
+  text-decoration: none;
+  transition: color 0.2s;
+  position: relative;
+}
+.main-nav a:hover, .main-nav a:focus {
+  color: $focusColour;
 }
 
 .container {
@@ -130,18 +178,30 @@ ul, ol {
   margin: 0 auto 1rem auto;
 }
 
+@media (max-width: 800px) {
+  .header-flex {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .main-nav {
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 0.7rem;
+  }
+  .logo, .site-logo img {
+    max-width: 70px;
+  }
+}
+
 @media (max-width: 600px) {
   .container {
     padding: 0 0.5rem;
   }
-  .header, .site-header {
-    font-size: 1.3rem;
-    padding: 1rem 0 0.5rem 0;
-  }
   .chat-bubble {
     padding: 1em 0.7em;
   }
-  nav {
+  .main-nav {
     flex-direction: column;
     gap: 0.5rem;
     align-items: center;
