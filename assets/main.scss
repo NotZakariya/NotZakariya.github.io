@@ -63,30 +63,60 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   margin-right: 0.2em;
   display: inline-block;
   position: relative;
-  border: 2px solid;
-  border-image: linear-gradient(90deg, $focusColour 0%, $accentColour 100%) 1;
-  background: #fff;
+  border: none;
   color: $accentColour;
   z-index: 1;
   overflow: visible;
+  position: relative;
 }
 .main-nav a::before {
-  display: none;
+  content: "";
+  position: absolute;
+  top: -3px; left: -3px; right: -3px; bottom: -3px;
+  border-radius: 12px;
+  background: linear-gradient(270deg, $focusColour, $accentColour, $focusColour, $accentColour);
+  background-size: 400% 400%;
+  animation: gradient-move 3s linear infinite;
+  z-index: 0;
+  pointer-events: none;
+  box-sizing: border-box;
 }
 .main-nav a {
   background-clip: padding-box;
   background: #fff;
   color: $accentColour;
   z-index: 1;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 2px; left: 2px; right: 2px; bottom: 2px;
+    border-radius: 8px;
+    background: #fff;
+    z-index: 1;
+  }
+  // To ensure nav text is always visible, wrap nav link text in a <span> in your HTML:
+  // <a href="..."><span>Link Text</span></a>
+  span {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
 }
 .main-nav a.active, .main-nav a:focus, .main-nav a:hover {
   color: $focusColour;
   background: #fff;
-  border-image: linear-gradient(270deg, $focusColour, $accentColour, $focusColour, $accentColour) 1;
-  animation: border-gradient-move 2.5s linear infinite;
+.main-nav a.active::before, .main-nav a:focus::before, .main-nav a:hover::before {
+  animation-duration: 2.5s;
+}
 @keyframes border-gradient-move {
-  0% { border-image-source: linear-gradient(90deg, $focusColour 0%, $accentColour 100%); }
-  100% { border-image-source: linear-gradient(270deg, $accentColour 0%, $focusColour 100%); }
+  0% {
+    --border-gradient: linear-gradient(90deg, #fc4300 0%, #05bf85 100%);
+  }
+  100% {
+    --border-gradient: linear-gradient(270deg, #05bf85 0%, #fc4300 100%);
+  }
 }
 }
 @keyframes gradient-move {
