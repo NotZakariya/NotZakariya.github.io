@@ -19,6 +19,8 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   padding: 0 1.5rem;
 }
 
+
+// Header modernized
 .site-header {
   width: 100%;
   background: #fff;
@@ -31,28 +33,34 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
 .header-flex {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   max-width: 1200px;
   margin: 0 auto;
   padding: 1.2rem 2rem;
+  position: relative;
 }
 .logo-wrap {
   flex: 0 0 auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
 }
 .logo-link {
   display: flex;
   align-items: center;
 }
 .logo, .site-logo img {
-  max-width: 80px;
+  max-width: 60px;
   height: auto;
   display: block;
+  margin-right: 1.2rem;
 }
 .main-nav {
   display: flex;
   gap: 1.2rem;
   align-items: center;
   justify-content: flex-end;
+  margin-left: auto;
 }
 .main-nav a {
   color: $accentColour;
@@ -64,13 +72,34 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   padding: 0.4em 1.2em;
   border-radius: 999px;
   border: 2px solid transparent;
-  transition: background 0.2s, color 0.2s, border 0.2s;
   background: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.2s;
+}
+.main-nav a::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background: linear-gradient(270deg, $focusColour, $accentColour, $focusColour, $accentColour);
+  background-size: 400% 400%;
+  animation: gradient-move 3s linear infinite;
+  transition: border 0.2s;
 }
 .main-nav a:hover, .main-nav a:focus {
   color: #fff;
+}
+.main-nav a:hover::before, .main-nav a:focus::before {
   background: linear-gradient(90deg, $accentColour 0%, $focusColour 100%);
-  border: 2px solid $accentColour;
+  background-size: 200% 200%;
+}
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }
 // Hero/banner
 .hero-banner {
