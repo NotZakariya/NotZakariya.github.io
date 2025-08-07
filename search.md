@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Search
+layout: default
 ---
 
 <div class="container">

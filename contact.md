@@ -1,7 +1,6 @@
 ---
-title: Contact details
-excerpt: "my contact details"
-permalink: /contact/
+title: Contact
+layout: default
 ---
 
 <br>
