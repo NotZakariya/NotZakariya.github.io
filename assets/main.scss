@@ -24,6 +24,7 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
 }
 
 // Header layout: logo left, nav flush right
+// Header layout: logo left, nav flush right
 .header-flex {
   display: flex;
   align-items: center;
@@ -31,6 +32,7 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   max-width: 1200px;
   margin: 0 auto;
   padding: 1.2rem 2rem 1.2rem 2rem;
+  justify-content: flex-start;
 }
 .logo-wrap {
   flex: 0 0 auto;
@@ -42,7 +44,7 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   display: flex;
   gap: 1.2rem;
   align-items: center;
-  margin-left: 12vw;
+  margin-left: auto;
 }
 // Nav buttons as white boxes with animated gradient border
 .main-nav a {
