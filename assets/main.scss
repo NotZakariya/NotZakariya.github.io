@@ -23,12 +23,24 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   padding: 0 1rem;
 }
 
+.header-flex {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.2rem 2rem 1.2rem 2rem;
+}
+.logo-wrap {
+  flex: 0 0 auto;
+  margin-right: 0;
+}
 .main-nav {
   display: flex;
   gap: 1.2rem;
   align-items: center;
-  justify-content: flex-end;
   margin-left: auto;
+  /* This pushes the nav as far right as possible */
 }
 .main-nav a {
   color: $accentColour;
@@ -348,6 +360,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     gap: 1.2rem;
     margin-top: 0.7rem;
+    margin-left: 0;
   }
   .logo, .site-logo img {
     max-width: 120px;
@@ -364,6 +377,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     gap: 0.5rem;
     align-items: center;
+    margin-left: 0;
   }
   .main-title {
     font-size: 1.3em;
