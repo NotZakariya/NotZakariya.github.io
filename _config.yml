@@ -89,7 +89,7 @@ navigation_footer:
     url: https://notzakariya.github.io
 
 ## Looks
-remote_theme: daviddarnes/alembic@main
+# remote_theme: daviddarnes/alembic@main
 # remote_theme: broccolini/swiss
 
 
