@@ -13,8 +13,8 @@
   z-index: 100;
   backdrop-filter: blur(8px) saturate(1.2);
   border-top: 6px solid;
-    border-image: linear-gradient(90deg, $focusColour 0%, $accentColour 100%) 1;
-  }
+  border-image: linear-gradient(90deg, $focusColour 0%, $accentColour 100%) 1;
+}
 
 // Hero Banner with gradient overlay and parallax effect
 .hero-banner {
@@ -28,6 +28,7 @@
   overflow: hidden;
   background: linear-gradient(90deg, $focusColour 0%, $accentColour 100%);
   box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+}
 .hero-banner img {
   width: 100%;
   height: auto;
@@ -76,9 +77,6 @@ body {
   100% { background-position: 0% 50%; }
 }
 
-// ...existing code...
-// ...existing code...
-
 .header-flex {
   display: flex;
   align-items: center;
@@ -87,12 +85,12 @@ body {
   margin: 0 auto;
   padding: 1.2rem 2rem 1.2rem 2rem;
   width: 100%;
-// ...existing code...
+}
 
 .logo-wrap {
   flex: 0 0 auto;
   margin-right: auto;
-// ...existing code...
+}
 
 .logo-link {
   display: flex;
@@ -151,8 +149,6 @@ nav {
   margin: 1.5rem 0 1.5rem 0;
   list-style: none;
 }
-// ...existing code...
-
 
 .main-title {
   font-size: 2.2em;
