@@ -96,7 +96,7 @@ navigation_footer:
 
 
 plugins:
-- jekyll-remote-theme
+## jekyll-remote-theme removed; not needed
 - jekyll-sitemap
 - jekyll-mentions
 - jekyll-paginate
