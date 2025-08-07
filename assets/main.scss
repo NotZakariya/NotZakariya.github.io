@@ -61,7 +61,7 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   margin-right: 0.2em;
   display: inline-block;
   position: relative;
-  border: none;
+  border: 2px solid transparent;
   z-index: 1;
   overflow: hidden;
 }
@@ -74,11 +74,16 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   background: linear-gradient(270deg, $focusColour, $accentColour, $focusColour, $accentColour);
   background-size: 400% 400%;
   animation: gradient-move 3s linear infinite;
-  z-index: -1;
-  -webkit-mask:
-    linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  z-index: 2;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
+  pointer-events: none;
+}
+.main-nav a {
+  background-clip: padding-box;
 }
 .main-nav a.active, .main-nav a:focus, .main-nav a:hover {
   color: $focusColour;
