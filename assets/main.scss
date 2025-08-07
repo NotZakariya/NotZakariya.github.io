@@ -16,6 +16,16 @@ $textColour: #222 !default;
 $bodyFont: 'Georgia', 'Times New Roman', Times, serif !default;
 $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif !default;
 
+// Second gradient border under header (placed after main content to avoid Jekyll issues)
+.header-gradient-bar-bottom {
+  width: 100vw;
+  height: 4px;
+  background: linear-gradient(90deg, $focusColour 0%, $accentColour 100%);
+  border: none;
+  margin: 0 0 2.5rem 0;
+  padding: 0;
+  display: block;
+}
 // Layout containers
 .container {
   width: 100%;
@@ -112,6 +122,17 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   padding: 1.2rem 4vw 1.2rem 4vw;
   box-sizing: border-box;
   justify-content: space-between;
+}
+
+// Second gradient border under header (placed after header for Jekyll compatibility)
+.header-gradient-bar-bottom {
+  width: 100vw;
+  height: 4px;
+  background: linear-gradient(90deg, $focusColour 0%, $accentColour 100%);
+  border: none;
+  margin: 0 0 2.5rem 0;
+  padding: 0;
+  display: block;
 }
 .logo-wrap {
   flex: 0 0 auto;
@@ -212,6 +233,10 @@ body {
   background: $backgroundColour;
   display: flex;
   flex-direction: column;
+}
+
+main.container {
+  flex: 1 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: $headingFont;
@@ -314,17 +339,11 @@ h1, h2, h3, h4, h5, h6 {
 // Sticky, glassy, colorful footer
 .footer {
   background: rgba(255,255,255,0.85);
-  box-shadow: 0 -2px 24px rgba(5,191,133,0.08);
+  /* Removed box-shadow and border-image to eliminate gradient line at bottom */
   text-align: center;
   padding: 1.5rem 0 1.5rem 0;
   width: 100%;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  z-index: 100;
-  backdrop-filter: blur(8px) saturate(1.2);
-  border-top: 6px solid;
-  border-image: linear-gradient(90deg, $focusColour 0%, $accentColour 100%) 1;
+  margin-top: 3rem;
 }
 // Hero Banner with gradient overlay and parallax effect
 .hero-banner {
