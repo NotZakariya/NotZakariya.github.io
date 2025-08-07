@@ -1,0 +1,8 @@
+{
+  "name": "NotZakariya",
+  "short_name": "NotZakariya",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f7f8",
+  "theme_color": "#05bf85"
+}
