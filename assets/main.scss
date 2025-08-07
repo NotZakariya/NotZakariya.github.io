@@ -63,23 +63,15 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   margin-right: 0.2em;
   display: inline-block;
   position: relative;
-  border: 2px solid transparent; // fallback border color
-  z-index: 1;
-  overflow: hidden;
+  border: 2px solid;
+  border-image: linear-gradient(90deg, $focusColour 0%, $accentColour 100%) 1;
   background: #fff;
   color: $accentColour;
+  z-index: 1;
+  overflow: visible;
 }
 .main-nav a::before {
-  content: "";
-  position: absolute;
-  top: -2px; left: -2px; right: -2px; bottom: -2px;
-  border-radius: 10px;
-  background: linear-gradient(90deg, $focusColour 0%, $accentColour 100%);
-  background-size: 200% 100%;
-  animation: gradient-move 2.5s linear infinite;
-  z-index: 0;
-  pointer-events: none;
-  box-sizing: border-box;
+  display: none;
 }
 .main-nav a {
   background-clip: padding-box;
@@ -90,6 +82,12 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
 .main-nav a.active, .main-nav a:focus, .main-nav a:hover {
   color: $focusColour;
   background: #fff;
+  border-image: linear-gradient(270deg, $focusColour, $accentColour, $focusColour, $accentColour) 1;
+  animation: border-gradient-move 2.5s linear infinite;
+@keyframes border-gradient-move {
+  0% { border-image-source: linear-gradient(90deg, $focusColour 0%, $accentColour 100%); }
+  100% { border-image-source: linear-gradient(270deg, $accentColour 0%, $focusColour 100%); }
+}
 }
 @keyframes gradient-move {
   0% { background-position: 0% 50%; }
