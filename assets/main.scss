@@ -1,5 +1,4 @@
 
-$---
 ---
 $backgroundColour: #f7f7f8 !default;
 $cardBackground: #fff !default;
@@ -104,6 +103,14 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   margin-top: 3rem;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headingFont;
+  color: $accentColour;
+  margin-top: 2.2rem;
+  margin-bottom: 1.1rem;
+}
+
+body {
   font-family: $bodyFont;
   min-height: 100vh;
   margin: 0;
