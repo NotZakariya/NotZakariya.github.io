@@ -3,7 +3,8 @@ title: Tags
 layout: default
 ---
 
-<!-- container removed, handled by layout -->
+
+<div class="main-content">
   <h1 class="main-title">Tags</h1>
   {% assign tags = site.tags | sort %}
   {% if tags.size > 0 %}
@@ -23,4 +24,4 @@ layout: default
       </ul>
     {% endif %}
   {% endfor %}
-<!-- container removed, handled by layout -->
+</div>

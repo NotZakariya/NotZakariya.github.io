@@ -18,6 +18,7 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
 
 // Second gradient border under header (placed after main content to avoid Jekyll issues)
 // Second gradient border under header (placed after main content to avoid Jekyll issues)
+
 .header-gradient-bar-bottom {
   width: 100vw;
   height: 4px;
@@ -28,7 +29,6 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   display: block;
 }
 
-// Layout containers
 .container {
   width: 100%;
   max-width: 95vw;
@@ -78,6 +78,37 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   display: block;
   position: static;
   z-index: 10;
+}
+// Tags page styles
+.tags-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 2em 0 2em 0;
+  justify-content: center;
+}
+.tags-cloud .tag {
+  background: #f7f7f8;
+  color: $accentColour;
+  border-radius: 999px;
+  padding: 0.1em 0.7em;
+  font-size: 0.85em;
+  margin: 0 0.3em 0.3em 0;
+  text-decoration: none;
+  font-weight: normal;
+  border: 1.5px solid $accentColour;
+  box-shadow: none;
+  display: inline-block;
+  transition: background 0.2s, color 0.2s;
+}
+.tags-cloud .tag:hover {
+  background: $accentColour;
+  color: #fff;
+}
+.tag-count {
+  font-size: 0.8em;
+  color: $captionColour;
+  margin-left: 0.2em;
 }
 // Modern footer always present
 .site-footer {
@@ -315,14 +346,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 .tag {
   display: inline-block;
-  background: $accentColour;
-  color: #fff;
+  background: #f7f7f8;
+  color: $accentColour;
   border-radius: 999px;
-  padding: 0.2em 0.9em;
-  font-size: 0.98em;
-  margin: 0 0.2em 0.2em 0;
+  padding: 0.1em 0.7em;
+  font-size: 0.85em;
+  margin: 0 0.3em 0.3em 0;
   text-decoration: none;
-  transition: background 0.2s, color 0.2s;
+  font-weight: normal;
+  border: 1.5px solid $accentColour;
+  box-shadow: none;
+  display: inline-block;
 }
 .tag:hover {
   background: $focusColour;
@@ -379,7 +413,85 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
   color: #fff;
   font-weight: 700;
+
   font-size: 1.08em;
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin: 2.5em 0;
+}
+
+.post-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(5,191,133,0.10);
+  border: 1px solid $borderColour;
+  padding: 2em 2em 1.5em 2em;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.post-card:hover {
+  box-shadow: 0 8px 32px rgba(5,191,133,0.18);
+  transform: translateY(-4px) scale(1.02);
+}
+.post-card-header {
+  margin-bottom: 0.7em;
+}
+.post-card-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: $accentColour;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.post-card-title:hover {
+  color: $focusColour;
+}
+.post-card-meta {
+  font-size: 1em;
+  color: $captionColour;
+  margin-bottom: 0.7em;
+  display: flex;
+  gap: 1.2em;
+  align-items: center;
+}
+.post-card-date {
+  font-weight: 500;
+  color: $focusColour;
+}
+.post-card-author {
+  font-style: italic;
+}
+.post-card-tags {
+  margin-bottom: 0.7em;
+}
+.post-card-tags .tag {
+  background: $accentColour;
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.2em 0.9em;
+  font-size: 0.98em;
+  margin: 0 0.2em 0.2em 0;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+.post-card-tags .tag:hover {
+  background: $accentColour;
+  color: #fff;
+}
+.post-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2em;
+  margin-bottom: 0.7em;
+}
+.post-card-excerpt {
+  font-size: 1.08em;
+  color: $textColour;
+  margin-top: 0.7em;
+}
   border-radius: 32px;
   padding: 0.5em 1.7em;
   text-decoration: none;
