@@ -1,7 +1,6 @@
 ---
 ---
-
-
+$backgroundColour: #f7f7f8 !default;
 $backgroundColour: #f7f7f8 !default;
 $cardBackground: #fff !default;
 $borderColour: #e5e5e5 !default;
@@ -18,11 +17,94 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
 
 // Second gradient border under header (placed after main content to avoid Jekyll issues)
 // Second gradient border under header (placed after main content to avoid Jekyll issues)
-
+// Super-polished tag section and post card styles
+.tag-section {
+  margin-bottom: 4em;
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tag-section-title {
+  font-size: 2.2em;
+  font-weight: 700;
+  color: $accentColour;
+  text-align: center;
+  margin: 2.5em 0 1.2em 0;
+  letter-spacing: 0.01em;
+  text-shadow: 0 2px 8px rgba(5,191,133,0.10);
+}
+.tag-post-card {
+  background: rgba(255,255,255,0.85);
+  border-radius: 2em;
+  box-shadow: 0 8px 32px rgba(5,191,133,0.12);
+  border: 1.5px solid rgba(5,191,133,0.18);
+  padding: 2em 2em 1.5em 2em;
+  margin-bottom: 2.5em;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: box-shadow 0.2s, transform 0.2s;
+  backdrop-filter: blur(6px);
+}
+.tag-post-card:hover {
+  box-shadow: 0 16px 48px rgba(5,191,133,0.18);
+  transform: translateY(-4px) scale(1.03);
+}
+.tag-post-title {
+  font-size: 1.35em;
+  font-weight: 700;
+  color: $accentColour;
+  text-decoration: none;
+  margin-bottom: 0.5em;
+  transition: color 0.2s;
+  text-shadow: 0 2px 8px rgba(5,191,133,0.07);
+}
+.tag-post-title:hover {
+  color: $focusColour;
+}
+.tag-post-meta {
+  font-size: 1em;
+  color: $captionColour;
+  margin-bottom: 0.7em;
+  display: flex;
+  gap: 1.2em;
+  align-items: center;
+}
+.tag-post-date {
+  font-weight: 500;
+  color: $focusColour;
+}
+.tag-post-tags {
+  margin-bottom: 0.7em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+// Tag pills for posts (solid color, no gradient)
+.tag-post-tags .tag-pill {
+  background: $accentColour;
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.3em 1.3em;
+  font-size: 1em;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 2px 8px rgba(5,191,133,0.07);
+  display: inline-block;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+.tag-post-tags .tag-pill:hover {
+  background: $focusColour;
+  color: #fff;
+  box-shadow: 0 4px 18px rgba(5,191,133,0.13);
+  transform: scale(1.08);
+}
 .header-gradient-bar-bottom {
   width: 100vw;
   height: 4px;
-  background: linear-gradient(90deg, $focusColour 0%, $accentColour 100%);
   border: none;
   margin: 0 0 2.5rem 0;
   padding: 0;
@@ -34,6 +116,7 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   max-width: 95vw;
   box-sizing: border-box;
   overflow-wrap: break-word;
+  max-width: 900px;
   @media (min-width: 900px) and (max-width: 1199px) {
     max-width: 900px;
   }
@@ -82,20 +165,25 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
 // Tags page styles
 .tags-cloud {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-  margin: 2em 0 2em 0;
-  justify-content: center;
-}
-.tags-cloud .tag {
-  background: #f7f7f8;
-  color: $accentColour;
+  background: $accentColour;
+  color: #fff;
   border-radius: 999px;
-  padding: 0.1em 0.7em;
-  font-size: 0.85em;
-  margin: 0 0.3em 0.3em 0;
+  padding: 0.5em 2em;
+  font-size: 1.15em;
+  margin: 0 0.5em 1em 0;
   text-decoration: none;
-  font-weight: normal;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0 2px 8px rgba(5,191,133,0.10);
+  display: inline-block;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+.tags-cloud .tag:hover,
+.tag-post-tags .tag-pill:hover {
+  background: $focusColour;
+  color: #fff;
+  box-shadow: 0 6px 24px rgba(5,191,133,0.18);
+  transform: scale(1.07);
   border: 1.5px solid $accentColour;
   box-shadow: none;
   display: inline-block;

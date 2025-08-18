@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Tag: {{ page.tag }}"
+---
+
+<h1 style="color: #009e73; font-size: 2rem; font-weight: 700; margin-bottom: 2rem;">Articles tagged '{{ page.tag }}'</h1>
+<ul style="list-style: none; padding: 0;">
+  {% assign tag = page.tag %}
+  {% assign found = false %}
+  {% for post in site.posts %}
+    {% if post.tags contains tag %}
+      {% assign found = true %}
+      <li style="margin-bottom: 1.5rem;">
+        <a href="{{ post.url }}" style="font-size: 1.2rem; color: #009e73; font-weight: 600; text-decoration: none;">{{ post.title }}</a>
+        <span style="color: #666; font-size: 0.95rem;">({{ post.date | date: "%B %d, %Y" }})</span>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% unless found %}
+  <div style="color: #ff5722; font-size: 1.2rem; margin-top: 2rem;">No articles found for this tag.</div>
+{% endunless %}

@@ -26,6 +26,10 @@ collections:
     output: true
     description: "Philosophical fragments..." # The post list page content
     feature_text: |
+  pages:
+    output: true
+  _pages:
+    output: true
 
 # 6. Jekyll collections settings
 defaults:

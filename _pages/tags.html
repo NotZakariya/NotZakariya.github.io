@@ -1,0 +1,31 @@
+
+---
+title: Tags
+layout: default
+permalink: /tags/
+---
+
+<div style="max-width: 700px; margin: 0 auto; padding: 2rem 1rem; text-align: center;">
+  <h1 style="font-size: 2.5rem; color: #009e73; font-weight: 700; margin-bottom: 2rem; text-align: left;">Tags & Posts</h1>
+  <div style="text-align: left;">
+    {% assign tags = site.tags | sort %}
+    {% for tag in tags %}
+      <div style="margin-bottom: 2.5rem;">
+        <h2 style="color: #009e73; font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem;">{{ tag[0] }}</h2>
+        {% assign posts = tag[1] %}
+        {% if posts.size > 0 %}
+          <ul style="list-style: none; padding: 0;">
+            {% for post in posts %}
+              <li style="margin-bottom: 1.2rem;">
+                <a href="{{ post.url }}" style="font-size: 1.1rem; color: #009e73; font-weight: 600; text-decoration: none;">{{ post.title }}</a>
+                <span style="color: #666; font-size: 0.95rem;">({{ post.date | date: "%B %d, %Y" }})</span>
+              </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <div style="color: #ff5722; font-size: 1.1rem;">No posts for this tag.</div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
