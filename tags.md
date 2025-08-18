@@ -4,43 +4,70 @@ layout: default
 permalink: /tags/
 ---
 
-<div style="display: flex; gap: 2rem; max-width: 1200px; margin: 0 auto; padding: 2rem 1rem 2rem 1rem;">
+
+
+<div style="display: flex; align-items: flex-start; justify-content: flex-start; gap: 2rem; max-width: 1200px; margin: 0 auto; padding: 2rem 0 0 0; width: 100%; box-sizing: border-box;">
   <!-- Sidebar -->
-  <div style="min-width: 280px; max-width: 400px; background: rgba(255,255,255,0.2); border-radius: 20px; box-shadow: 0 4px 24px rgba(0,0,0,0.07); padding: 2rem 1rem 2rem 1rem; margin: 0; height: fit-content; position: sticky; top: 2rem;">
-    <h2 style="color: #009e73; font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem;">Tags</h2>
+  <div style="min-width: 280px; max-width: 400px; margin-left: 0 !important; padding-left: 0 !important; height: fit-content; position: sticky; top: 2rem;">
+
+<div style="display: flex; align-items: center; gap: 1em; margin-bottom: 1.5rem;">
+  <h2 style="color: #009e73; font-size: 1.5rem; font-weight: 700; margin: 0;">Tags</h2>
+  <input id="tag-search" type="text" placeholder="Search tags..." style="padding: 0.4em 1em; font-size: 1em; border: 2px solid #009966; border-radius: 1em;">
+</div>
     {% assign tags = site.tags | sort %}
-    {% if tags.size > 0 %}
-      {% for tag in tags %}
-        <a href="#{{ tag[0] | slugify }}" style="background: #fff; color: #009e73; border: 2px solid #009e73; border-radius: 2rem; padding: 0.5rem 1.5rem; font-size: 1.1rem; font-weight: 600; text-decoration: none; box-shadow: 0 2px 8px rgba(0,0,0,0.07); transition: background 0.2s, color 0.2s; display: block; margin-bottom: 0.5rem; text-align: left;"
-          onmouseover="this.style.background='#009e73';this.style.color='#fff'"
-          onmouseout="this.style.background='#fff';this.style.color='#009e73'"
-        >{{ tag[0] }}</a>
-      {% endfor %}
-    {% else %}
-      <div style="color: #ff5722; font-size: 1.2rem; text-align: left; margin-top: 2rem;">No tags found.</div>
-    {% endif %}
+    <div id="tags-sidebar-list">
+      {% if tags.size > 0 %}
+        {% for tag in tags %}
+          <a class="sidebar-tag" href="#{{ tag[0] | slugify }}" style="background: #fff; color: #009e73; border: 2px solid #009e73; border-radius: 2rem; padding: 0.5rem 1.5rem; font-size: 1.1rem; font-weight: 600; text-decoration: none; box-shadow: 0 2px 8px rgba(0,0,0,0.07); transition: background 0.2s, color 0.2s; display: block; margin-bottom: 0.5rem; text-align: left;"
+            onmouseover="this.style.background='#009e73';this.style.color='#fff'"
+            onmouseout="this.style.background='#fff';this.style.color='#009e73'"
+          >{{ tag[0] }}</a>
+        {% endfor %}
+      {% else %}
+        <div style="color: #ff5722; font-size: 1.2rem; text-align: left; margin-top: 2rem;">No tags found.</div>
+      {% endif %}
+    </div>
   </div>
 
   <!-- Main Content -->
-  <div style="flex: 1; text-align: left;">
+  <div style="flex: 1; text-align: left; max-width: 600px; margin: 0 auto;">
     <h1 style="font-size: 2.5rem; color: #009e73; font-weight: 700; margin-bottom: 2rem;">Tags & Posts</h1>
-    {% for tag in tags %}
-      <div id="{{ tag[0] | slugify }}" style="margin-bottom: 2.5rem; scroll-margin-top: 2rem;">
-        <h2 style="color: #009e73; font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem;">{{ tag[0] }}</h2>
-        {% assign posts = tag[1] %}
-        {% if posts.size > 0 %}
-          <ul style="list-style: none; padding: 0;">
-            {% for post in posts %}
-              <li style="margin-bottom: 1.2rem;">
-                <a href="{{ post.url }}" style="font-size: 1.1rem; color: #009e73; font-weight: 600; text-decoration: none;">{{ post.title }}</a>
-                <span style="color: #666; font-size: 0.95rem;">({{ post.date | date: "%B %d, %Y" }})</span>
-              </li>
-            {% endfor %}
-          </ul>
-        {% else %}
-          <div style="color: #ff5722; font-size: 1.1rem;">No posts for this tag.</div>
-        {% endif %}
-      </div>
-    {% endfor %}
+    <div id="tags-posts-list">
+      {% for tag in tags %}
+        <div class="tag-group" data-tag="{{ tag[0] | downcase }}" id="{{ tag[0] | slugify }}" style="margin-bottom: 2.5rem; scroll-margin-top: 2rem;">
+          <h2 style="color: #009e73; font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem;">{{ tag[0] }}</h2>
+          {% assign posts = tag[1] %}
+          {% if posts.size > 0 %}
+            <ul style="list-style: none; padding: 0;">
+              {% for post in posts %}
+                <li style="margin-bottom: 1.2rem;">
+                  <a href="{{ post.url }}" style="font-size: 1.1rem; color: #009e73; font-weight: 600; text-decoration: none;">{{ post.title }}</a>
+                  <span style="color: #666; font-size: 0.95rem;">({{ post.date | date: "%B %d, %Y" }})</span>
+                </li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <div style="color: #ff5722; font-size: 1.1rem;">No posts for this tag.</div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
+
+<script>
+// Filter tags and posts as user types
+document.getElementById('tag-search').addEventListener('input', function(e) {
+  const query = e.target.value.trim().toLowerCase();
+  // Sidebar tags
+  document.querySelectorAll('#tags-sidebar-list .sidebar-tag').forEach(function(tag) {
+    const text = tag.textContent.toLowerCase();
+    tag.style.display = text.includes(query) ? '' : 'none';
+  });
+  // Posts list
+  document.querySelectorAll('#tags-posts-list .tag-group').forEach(function(group) {
+    const tagText = group.getAttribute('data-tag');
+    group.style.display = tagText && tagText.includes(query) ? '' : 'none';
+  });
+});
+</script>
