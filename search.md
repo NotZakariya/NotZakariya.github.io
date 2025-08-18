@@ -36,7 +36,8 @@ input.addEventListener('input', function() {
   );
   filtered.forEach(post => {
     const li = document.createElement('li');
-    li.innerHTML = `<a href="${post.url}">${post.title}</a> <span class="post-meta">${post.date}</span>`;
+    li.innerHTML = `<a href="${post.url}">${post.title}</a> <span class="post-meta">${post.date}</span>` +
+      (post.excerpt ? `<div class="post-card-excerpt">${post.excerpt}</div>` : '');
     results.appendChild(li);
   });
 });

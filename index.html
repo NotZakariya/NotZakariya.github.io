@@ -12,6 +12,13 @@ pagination:
     <div class="post-card">
       <div class="post-card-header">
         <a class="post-card-title" href="{{ post.url }}">{{ post.title }}</a>
+        <div class="post-card-excerpt" style="margin-top:0.7em; font-size:1.13em; color:#444; font-family:'Georgia',serif;">
+          {% if post.excerpt and post.excerpt != '' %}
+            {{ post.excerpt | strip_html | truncate: 200 }}
+          {% else %}
+            {{ post.content | strip_html | truncate: 200 }}
+          {% endif %}
+        </div>
       </div>
       <div class="post-card-meta">
         <span class="post-card-date">{{ post.date | date: "%B %d, %Y" }}</span>
@@ -24,7 +31,6 @@ pagination:
           {% endfor %}
         </div>
       {% endif %}
-      <div class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</div>
     </div>
   {% endfor %}
 </div>

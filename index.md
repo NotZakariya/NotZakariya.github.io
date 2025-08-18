@@ -17,6 +17,13 @@ title: Home
             {% endfor %}
           </span>
         {% endif %}
+        <div class="post-card-excerpt" style="margin-top:0.7em; font-size:1.13em; color:#444; font-family:'Georgia',serif;">
+          {% if post.excerpt and post.excerpt != '' %}
+            {{ post.excerpt | strip_html | truncate: 200 }}
+          {% else %}
+            {{ post.content | strip_html | truncate: 200 }}
+          {% endif %}
+        </div>
       </li>
     {% endfor %}
   </ul>
