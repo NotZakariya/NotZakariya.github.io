@@ -12,7 +12,7 @@ $captionColour: #fc4300 !default;
 
 $textColour: #222 !default;
 
-$bodyFont: 'Georgia', 'Times New Roman', Times, serif !default;
+$bodyFont: 'Merriweather', 'Georgia', Times, serif !default;
 $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif !default;
 
 // Second gradient border under header (placed after main content to avoid Jekyll issues)
@@ -389,6 +389,17 @@ h1, h2, h3, h4, h5, h6 {
   color: $accentColour;
   text-align: center;
 }
+.post-title-main {
+  font-size: 2.7em;
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  font-style: italic;
+  color: $accentColour;
+  text-align: center;
+  margin: 1.5em 0 1em 0;
+  letter-spacing: 0.04em;
+  text-shadow: 0 4px 24px rgba(5,191,133,0.10);
+}
 .post-title {
   font-size: 1.3em;
   font-weight: 600;
@@ -476,6 +487,16 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   background: #fff;
   box-shadow: 0 2px 8px rgba(5,191,133,0.07);
+}
+
+// Classy search bar placeholder
+.search-bar::placeholder,
+.search-bar input::placeholder {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-size: 1.15em;
+  color: #888;
+  letter-spacing: 0.04em;
 }
 
 @keyframes footer-gradient-move {

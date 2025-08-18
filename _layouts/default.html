@@ -70,6 +70,9 @@
     {% include site-feature.html %}
 
     <main class="container">
+      {% if page.title and page.layout == "post" %}
+        <h1 class="post-title-main">{{ page.title }}</h1>
+      {% endif %}
       {{ content }}
     </main>
 
