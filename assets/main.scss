@@ -771,15 +771,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-width: 840px) {
-  .tag-section,
-  .tag-section *,
-  .tag-section:parent,
-  .tag-section-parent,
   .sidebar,
   [class*="sidebar"],
-  [id*="sidebar"],
-  [class*="tag-list"],
-  [id*="tag-list"] {
+  [id*="sidebar"] {
     display: none !important;
     visibility: hidden !important;
     height: 0 !important;

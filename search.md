@@ -46,7 +46,8 @@ input.addEventListener('input', function() {
 <style>
 .search-bar {
   width: 100%;
-  max-width: 400px;
+  max-width: 95vw;
+  box-sizing: border-box;
   padding: 0.7em 1em;
   font-size: 1.1em;
   border: 1px solid #e5e5e5;

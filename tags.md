@@ -31,7 +31,10 @@ permalink: /tags/
 
   <!-- Main Content -->
   <div style="flex: 1; text-align: left; max-width: 600px; margin: 0 auto;">
-    <h1 style="font-size: 2.5rem; color: #009e73; font-weight: 700; margin-bottom: 2rem;">Tags & Posts</h1>
+  <h1 style="font-size: 2.5rem; color: #009e73; font-weight: 700; margin-bottom: 2rem;">All Tags</h1>
+  <div id="mobile-tag-search" style="display:none; margin-bottom: 1.5rem;">
+  <input type="text" placeholder="Search tags..." style="padding: 0.4em 1em; font-size: 1.13em; border: 2px solid #009966; border-radius: 1em; font-family: 'Georgia', serif; font-style: italic; letter-spacing: 0.04em; color: #444; margin-top: 0; margin-left: 0; margin-right: 0; display: block; text-align: center; width: 100%; max-width: 95vw; box-sizing: border-box; margin: 0 auto;">
+  </div>
     <div id="tags-posts-list">
       {% assign tags = site.tags | sort %}
       {% for tag in tags %}
@@ -61,8 +64,8 @@ permalink: /tags/
 
 <script>
 // Filter tags and posts as user types
-document.getElementById('tag-search').addEventListener('input', function(e) {
-  const query = e.target.value.trim().toLowerCase();
+function handleTagSearchInput(query) {
+  query = query.trim().toLowerCase();
   // Sidebar tags
   document.querySelectorAll('#tags-sidebar-list .sidebar-tag').forEach(function(tag) {
     const text = tag.textContent.toLowerCase();
@@ -73,5 +76,28 @@ document.getElementById('tag-search').addEventListener('input', function(e) {
     const tagText = group.getAttribute('data-tag');
     group.style.display = tagText && tagText.includes(query) ? '' : 'none';
   });
+}
+
+document.getElementById('tag-search').addEventListener('input', function(e) {
+  handleTagSearchInput(e.target.value);
 });
+
+var mobileSearch = document.querySelector('#mobile-tag-search input');
+if (mobileSearch) {
+  mobileSearch.addEventListener('input', function(e) {
+    handleTagSearchInput(e.target.value);
+  });
+}
+
+function checkSidebarVisibility() {
+  var sidebar = document.querySelector('.sidebar-tag');
+  var mobileSearchBar = document.getElementById('mobile-tag-search');
+  if (window.innerWidth < 1200) {
+    if (mobileSearchBar) mobileSearchBar.style.display = 'block';
+  } else {
+    if (mobileSearchBar) mobileSearchBar.style.display = 'none';
+  }
+}
+window.addEventListener('resize', checkSidebarVisibility);
+window.addEventListener('DOMContentLoaded', checkSidebarVisibility);
 </script>
