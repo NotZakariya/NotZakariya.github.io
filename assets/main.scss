@@ -254,7 +254,21 @@ $headingFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, s
   justify-content: space-between;
   background: $backgroundColour;
   border-bottom: 4px solid $accentColour;
+  position: relative;
 }
+  @media (max-width: 1040px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+    .navbar > * {
+      width: 100%;
+      margin: 0.5rem 0;
+      box-sizing: border-box;
+    }
+  }
 
 // Second gradient border under header (placed after header for Jekyll compatibility)
 .header-gradient-bar-bottom {
@@ -669,6 +683,57 @@ h1, h2, h3, h4, h5, h6 {
   0% { background-position: 0% 50%; }
   100% { background-position: 100% 50%; }
 }
+// Responsive navigation for mobile
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #388e3c;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+@media (max-width: 1040px) {
+  .main-nav {
+    display: none !important;
+    flex-direction: column !important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #b2dfdb, #ffb74d);
+    border-radius: 0 0 1rem 1rem;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    align-items: flex-start !important;
+  }
+  .main-nav.open {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .logo {
+    margin-right: auto;
+  }
+  .main-nav a {
+    margin: 0.5rem 0;
+    width: 100%;
+    text-align: left;
+    border-radius: 0;
+    border-left: 3px solid $accentColour;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    padding: 1.5em 1em; // Increased vertical padding
+    font-size: 1.5em;   // Larger text for bigger boxes
+  }
+}
 @media (max-width: 800px) {
   .header-flex {
     flex-direction: row;
@@ -703,5 +768,85 @@ h1, h2, h3, h4, h5, h6 {
   .main-title {
     font-size: 1.3em;
     margin: 1rem 0 0.5rem 0;
+  }
+}
+@media (max-width: 840px) {
+  .tag-section,
+  .tag-section *,
+  .tag-section:parent,
+  .tag-section-parent,
+  .sidebar,
+  [class*="sidebar"],
+  [id*="sidebar"],
+  [class*="tag-list"],
+  [id*="tag-list"] {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    overflow: hidden !important;
+  }
+  .main-content, .container {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin: 0 !important;
+    padding: 0.5em !important;
+  }
+}
+@media (max-width: 840px) {
+  .tag-section {
+    display: none !important;
+  }
+  .main-content, .container {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin: 0 !important;
+    padding: 0.5em !important;
+  }
+}
+@media (max-width: 840px) {
+  .tag-section {
+    display: block;
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0 auto 2em auto;
+    border-radius: 0 0 1.5em 1.5em;
+    box-shadow: 0 4px 24px rgba(5,191,133,0.10);
+    position: static;
+    padding: 2em 0.5em;
+  }
+}
+@media (max-width: 840px) {
+  .container {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  .tag-section {
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0 auto 2em auto;
+    border-radius: 0 0 1.5em 1.5em;
+    box-shadow: 0 4px 24px rgba(5,191,133,0.10);
+    position: static;
+    padding: 2em 0.5em;
+    display: block !important;
+  }
+}
+@media (min-width: 841px) {
+  .tags-toggle {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  /* Hide the sidebar: first child div of the main flex container */
+  div[style*="display: flex"][style*="flex-direction: row"] > div:nth-child(1) {
+    display: none !important;
+  }
+  /* Make main content full width */
+  div[style*="display: flex"][style*="flex-direction: row"] > div:nth-child(2) {
+    flex: 1 1 100vw !important;
+    max-width: 100vw !important;
+    margin: 0 !important;
+    padding: 0.5em !important;
   }
 }
