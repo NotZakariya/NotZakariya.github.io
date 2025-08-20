@@ -48,6 +48,32 @@
     {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
 
     <!-- Removed theme-specific includes -->
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          // Lightbox for post images
+    document.querySelectorAll('.container img').forEach(function(img) {
+            img.style.cursor = 'zoom-in';
+            img.addEventListener('click', function() {
+              var overlay = document.createElement('div');
+              overlay.className = 'lightbox-overlay';
+              var bigImg = document.createElement('img');
+              bigImg.src = img.src;
+              bigImg.alt = img.alt;
+              overlay.appendChild(bigImg);
+              document.body.appendChild(overlay);
+              overlay.addEventListener('click', function() {
+                overlay.remove();
+              });
+              document.addEventListener('keydown', function esc(e) {
+                if (e.key === 'Escape') {
+                  overlay.remove();
+                  document.removeEventListener('keydown', esc);
+                }
+              });
+            });
+          });
+        });
+      </script>
   </head>
 
 
