@@ -859,7 +859,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 840px) {
   .tag-section {
-    display: block !important;
+    display: none !important;
   }
   .main-content, .container {
     width: 100vw !important;
@@ -901,7 +901,7 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   /* Hide the sidebar: first child div of the main flex container */
   div[style*="display: flex"][style*="flex-direction: row"] > div:nth-child(1) {
     display: none !important;
