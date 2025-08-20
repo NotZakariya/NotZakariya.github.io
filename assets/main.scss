@@ -395,6 +395,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $accentColour;
   margin-top: 2.2rem;
   margin-bottom: 1.1rem;
+  
 }
 .main-title {
   font-size: 2.2em;
@@ -413,12 +414,16 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1.5em 0 1em 0;
   letter-spacing: 0.04em;
   text-shadow: 0 4px 24px rgba(5,191,133,0.10);
+  border-bottom: 2px solid $accentColour;
+  padding-bottom: 0.2em;
 }
 .post-title {
   font-size: 1.3em;
   font-weight: 600;
   margin-bottom: 0.5em;
   color: $accentColour;
+  border-bottom: 2px solid $accentColour;
+  padding-bottom: 0.2em;
 }
 .caption, .post-meta {
   color: $captionColour;
