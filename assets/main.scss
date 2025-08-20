@@ -859,7 +859,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 840px) {
   .tag-section {
-    display: none !important;
+    display: block !important;
   }
   .main-content, .container {
     width: 100vw !important;
