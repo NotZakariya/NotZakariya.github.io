@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(62.5,0,0,62.5,0,0)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16"><image width="16" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAEKADAAQAAAABAAAAEAAAAAA0VXHyAAAAuklEQVQ4EWNc8Uz2PwMFgAWkNyT2MVlGrFksywA2AKSb2Zo0M9gcWxkWM8xAGADS/vcocYZc37aHgeHYSbBiuAtgWgm5BGTzOZhiII1hAEgOl0uQbYaZgdUAkCSyS1ZmyDLE3sxAsRlmABOMgYsGadYWno9LmgGvAYQ0g0zFaQAxmkEGYA0DzppWBoabIGlIVIFYuACGAVeq92ANLKIMANsMTSC4NKCLw11Aqs0wg8AGkGMzzABGSrMzAPXSL2P2r/9wAAAAAElFTkSuQmCC"></image></svg></g></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1200)"><rect width="1000" height="1000" fill="#05bf85"></rect><g transform="matrix(62.5,0,0,62.5,0,0)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16"><image width="16" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAEKADAAQAAAABAAAAEAAAAAA0VXHyAAAAuklEQVQ4EWNc8Uz2PwMFgAWkNyT2MVlGrFksywA2AKSb2Zo0M9gcWxkWM8xAGADS/vcocYZc37aHgeHYSbBiuAtgWgm5BGTzOZhiII1hAEgOl0uQbYaZgdUAkCSyS1ZmyDLE3sxAsRlmABOMgYsGadYWno9LmgGvAYQ0g0zFaQAxmkEGYA0DzppWBoabIGlIVIFYuACGAVeq92ANLKIMANsMTSC4NKCLw11Aqs0wg8AGkGMzzABGSrMzAPXSL2P2r/9wAAAAAElFTkSuQmCC"></image></svg></g></g><defs><clipPath id="SvgjsClipPath1200"><rect width="1000" height="1000" x="0" y="0" rx="150" ry="150"></rect></clipPath></defs></svg></g></svg>
