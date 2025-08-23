@@ -151,7 +151,7 @@ Station 2: There's a situation in restaurant where red wine has dropped on someo
 Station 3: How do you deal with stress?
 Station 4: You prescribed the wrong medication to a patient, but there were no consequences, should you tell the patient, what negative consequences could arise from you telling them/not telling them, what values should a doctor uphold in that situation?
 
-**St Johns' Cambridge interview (clinical interview (the non-sciencey one)):**   
+**St Johns' Cambridge interview (clinical interview (the non-sciencey one)):**       
 Can you give me 5 characteristics of resilience?  
 Tell me about a time where you were resilient?  
 What would you do if you didnt get into med school?  
