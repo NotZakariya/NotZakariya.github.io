@@ -125,78 +125,7 @@ So why Cambridge? I can’t help but draw similarities between supervisions and 
 
 # My Interview questions:
 
-**As of writing this, I've seen loads of interview questions online already, and Im pretty sure they make up different ones every year. Because the 2024-2025 interview cycle has ended, I think I'm in the clear to share these. If someone from these universities reaches out to me and tells me otherwise, I'll take them down, but as of right now, I am under the impression that it's fine for me to share these.**
-
-***ALSO NOTE, THIS IS A WORK IN PROGRESS, I FORGOT WHERE I MADE NOTE OF SOME OF MY INTERVIEW QUESTIONS, SO I NEED TO GO FIND THOSE**
-
-
-**UCL interview**
-1. Why medicine, why medicine at UCL, what about the course specifically.   
-2. Tell me about a time you've shown empathy, tell me about a time you've seen empathy in a medical setting, where might empathy being important in medicine.  
-3. Tell me about something medical related you've researched.   
-4. Should vaccines be mandatory for all healthcare workers.   
-5. I was shown a graph related to internet usage in different age groups and genders and the guy wanted to have a discussion about technology and medicine, then afterwards a discussion about inequalities in access to medicine because of the data (honestly I think the guy at this one station was a bit dismissive of what I was saying, in all my interviews, this was the only instance where the interviewers didn't feel super supportive).   
-6. Someone is giving birth in a hospital, what does the medial team look like in that situation, what does the nonmedical team look like in that situation, tell me about a time where you've shown teamwork, why is teamwork important in medicine?   
-7. I was shown a picture of a girl in a wheel chair and had a discussion about the things that might affect her life as a result of her disability.  
-
-**manchester interview:**  
-I forgot, I'll find it another time, come back later...
-
-**imperial interview (asynchronous):**  
-I forgot, I'll find it another time, come back later...
-
-**imperial interview (synchronous one):**
-Station 1: why medicine, why not nursing.  
-Station 2: There's a situation in restaurant where red wine has dropped on someone's dress AND a customer is frustrated because they haven't been seated AND a waiter has cut themselves on glass AND a customer is walking towards a spilage on the floor, what do you deal with first, in which order, why? 
-Station 3: How do you deal with stress?
-Station 4: You prescribed the wrong medication to a patient, but there were no consequences, should you tell the patient, what negative consequences could arise from you telling them/not telling them, what values should a doctor uphold in that situation?
-
-**St Johns' Cambridge interview (clinical interview (the non-sciencey one)):**       
-Can you give me 5 characteristics of resilience?  
-Tell me about a time where you were resilient?  
-What would you do if you didnt get into med school?  
-ok, what would you do in your gap year?  
-Tell me about direct to consumer genetic testing? (never heard of it before, but they got me to work it through word by word).  
-What are the potential issues, and benefits of it?    
-Who could this testing negatively effect?    
-I was given this graph in black and white and asked me to describe it:
-![alt text](/images/4.png)
-Then they asked me to explain why it is how it is. (I said the great depression lol).  
-Then they explored my idea on cost of living and then prompted me with “it’s something affecting people in your lifetime”. 
-and then when I got social media, they had another set of graphs and we talked a bit about how social media could cause it.  
-But the other graph showed stuff like decrease in people playing outside and antisocial behaviours and asked me how I could show correlation implied causation between the 2.  
-Then one of the interviewers cut out and me and the other one talked a bit about it waiting for him to rejoin and then we continued.  
-As it is right now, the NHS cannot continue to function. You have to cut an essential service, what would it be?  
-
-
-**St Johns' Cambridge interview (science interview):**   
-They took turns asking me questions, the first guy asked all of his, then second guy asked his:  
-![alt text](/images/5.png)
-First guy gave me a graph like this and asked me to describe it.   
-Then explain what it could be showing (there was no label on the axis, he wanted me to be creative I think).  
-Then they gave me these exact graphs:    
-![alt text](/images/6.png)
-side by side from this study: https://www.pnas.org/doi/10.1073/pnas.1713605114, but they removed the y axis and replaced it with total product.  
-Then they went back to the first graph and asked me if I had different opinions on it, and to label the y and x axis.  
-
-Then the second guy took over and gave me a picture of a sauna and asked me what the humidity and water level were like in it.  
-Then they told me it was actually very dry and asked why that was.   
-Then they asked about why sweating is endothermic.  
-Then they asked me about other mechanisms to decrease heat loss. 
-Then they showed me a picture a bit like this, but not really:  
-![alt text](/images/7.jpg)
-It had capillaries near the fingers and a blood vessel going in and out at first. Then I told them about vasoconstriction and how arterioles constrict.  
-Then they added an alternative route/pathway like the deep palmar arch in the photo and asked how this would affect heat loss.  
-Then they showed me a superficial vein and asked how it would affect heatloss.  
-Then they asked me where I would reposition the vein and added a deep vein above the artery.  
-Then they asked how this would benefit blood flow, heat is transferred between the 2.  
-Then they got me to compare concurrent and countercurrent mechanisms of blood supply in veins and arteries.  
-Then they showed me a graph bascially the same as this one but I think without the words?:  
-![alt text](/images/8.png)
-then that was the end.  
-They asked me if I had any other questions.  
-
-
+apparently I cant put that online 07
 
 
 
@@ -253,3 +182,4 @@ Oh damn, I should probably end on something that makes me sound approachable sho
 Ummmm, Im a nice guy trust....  
 
 07
+
