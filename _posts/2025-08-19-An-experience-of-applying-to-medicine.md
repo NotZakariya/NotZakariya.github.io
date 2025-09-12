@@ -1,5 +1,5 @@
 ---
-title: "An experience of getting into medschool"
+title: "An experience of applying to medicine"
 subtitle: "by a normal person"
 date: 2025-08-18
 tags: [medicine]
