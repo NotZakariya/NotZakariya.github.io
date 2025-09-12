@@ -2,7 +2,6 @@
 title: "An experience of getting into medschool"
 subtitle: "by a normal person"
 date: 2025-08-18
-categories: [test]
 tags: [medicine]
 ---
 # Preamble
