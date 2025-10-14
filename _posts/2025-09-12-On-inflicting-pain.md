@@ -1,4 +1,4 @@
----
+#---
 title: "On inflicting suffering"
 subtitle: " 🚧 under construction 🚧 "
 date: 2025-09-12
