@@ -52,7 +52,7 @@ Hey, it worked for Nietzsche in "Thus Spake Zarathustra" and Kierkegaard in "Eit
 
 
 If anyone reading this knows how long my quote list is, you know how hard it was for me to narrow that down to 3.
-If it doesn't make sense to you, then just pretend you never read it I guess... Shout out to any Kierkegaard fans who thought the Lessing quote was beautiful by the way.
+If it doesn't make sense to you, then just pretend you never read it I guess...
 
 
 # How did I get into medicine?
