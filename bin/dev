@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+pkill -f "jekyll serve" >/dev/null 2>&1 || true
+
+bundle install
+exec bundle exec jekyll serve --config _config.yml,_config.dev.yml --livereload --livereload-port 35730 --incremental --trace --verbose

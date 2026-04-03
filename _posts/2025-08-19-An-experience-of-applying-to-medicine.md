@@ -34,13 +34,13 @@ I won't explain what changed in too much detail. I could write multiple volumes 
 
 ***Hi again... sorry to break the fourth wall...***   
 *I started writing the next part... then 2 paragraphs in... I realised that I'd used lots of big words like "Cartesian skepticism" and "aristotelian virtue ethics"... so I deleted it..............*  
-*Um... still not too sure how I explain why I wanted to apply for medicine without using philosophy (which is why I just lied in my interviews, and said some rubbish like "I like science and human interaction", it was just easier)...*  
+*Um... still not too sure how I explain why I wanted to apply for medicine without using theology (which is why I just lied in my interviews, and said some rubbish like "I like science and human interaction", it was just easier)...*  
 
 *If you're really good at acting (I think I am), that's defo a strat btw...*  
 
 I think the easiest way for me to explain my motivation for doing medicine, is to just spout aphorisms and hope you get what I mean.  
 If not...   
-Well... I tried to simplify the contents of hundreds of philosophical concepts in 3 quotes so give me some slack and just move on...  
+Well... I tried to simplify the contents of hundreds of theological and philosophical concepts in 3 quotes so give me some slack and just move on...  
 Hey, it worked for Nietzsche in "Thus Spake Zarathustra" and Kierkegaard in "Either/Or", soooo maybe it will work for me too... 🤷‍♂️ : 
 
 
