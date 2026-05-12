@@ -3,4 +3,4 @@ title: About
 layout: default
 ---
 
-🚧 Under construction 🚧
+ Under construction 
