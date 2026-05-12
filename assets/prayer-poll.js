@@ -40,14 +40,6 @@ function getTodayDate() {
   return today.toISOString().split('T')[0];
 }
 
-// Check if it's past 22:15 (reset threshold)
-function shouldResetPolls() {
-  const now = new Date();
-  const hours = now.getHours();
-  const minutes = now.getMinutes();
-  return hours >= 22 && minutes >= 15;
-}
-
 // Initialize polls for all prayers
 async function initializePolls() {
   if (!supabase) return;
@@ -251,41 +243,6 @@ function setupRealtimeSubscription() {
     .subscribe();
 }
 
-// Daily reset check (runs every minute)
-let lastResetDate = null;
-function setupDailyReset() {
-  setInterval(async () => {
-    const now = new Date();
-    const currentDate = getTodayDate();
-    
-    // Check if it's past 22:15 and we haven't reset today yet
-    if (shouldResetPolls() && lastResetDate !== currentDate) {
-      lastResetDate = currentDate;
-      try {
-        const yesterday = new Date();
-        yesterday.setDate(yesterday.getDate() - 1);
-        const yesterdayDate = yesterday.toISOString().split('T')[0];
-
-        // Clear yesterday's polls from server
-        await supabase
-          .from('polls')
-          .delete()
-          .eq('day_date', yesterdayDate);
-
-        // Clear all localStorage votes (user can vote again tomorrow)
-        for (const prayer of PRAYERS) {
-          localStorage.removeItem(`prayer_vote_${prayer}_${yesterdayDate}`);
-        }
-
-        // Reinitialize for today
-        await initializePolls();
-      } catch (err) {
-        console.error('Error resetting polls:', err);
-      }
-    }
-  }, 60000); // Check every minute
-}
-
 // Start everything on page load
 document.addEventListener('DOMContentLoaded', async () => {
   try {
@@ -293,7 +250,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
     await initializePolls();
     setupRealtimeSubscription();
-    setupDailyReset();
   } catch (err) {
     console.error('Poll initialization failed:', err);
   }
