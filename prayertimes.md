@@ -11,7 +11,7 @@ no_container: true
   <div class="prayer-card-wrap">
     <header class="prayer-hero">
       <h1>Prayer Times</h1>
-      <p>St John's Islamic Society — Weekly times</p>
+      <p>St John's Islamic Society - Prayer times</p>
       <p id="date-range">11/05 - 17/05</p>
       <br></br>
       <p> How to use: Please upvote the poll when you're setting off. </p>
