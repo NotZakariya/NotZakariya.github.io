@@ -37,7 +37,7 @@ no_container: true
 
       <article class="prayer-card" data-prayer="Maghrib">
         <div class="prayer-name">Maghrib</div>
-        <div class="prayer-time">SUNSET</div>
+        <div class="prayer-time">Sunset (see CCM time)</div>
         <div class="prayer-poll"></div>
       </article>
 
