@@ -31,6 +31,9 @@
     <meta name="theme-color" content="{{ site.manifest.theme_color | default: '#242e2b' }}"/>
 
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    {% if page.extra_css %}
+      <link rel="stylesheet" href="{{ page.extra_css | relative_url }}">
+    {% endif %}
 
     <!-- Favicon for browser tab -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -109,7 +112,7 @@
 
     {% include site-feature.html %}
 
-    <main class="container">
+    {% if page.no_container %}
       {% if page.title and page.layout == "post" %}
         <h1 class="post-title-main">{{ page.title }}</h1>
         {% if page.subtitle %}
@@ -117,7 +120,17 @@
         {% endif %}
       {% endif %}
       {{ content }}
-    </main>
+    {% else %}
+      <main class="container">
+        {% if page.title and page.layout == "post" %}
+          <h1 class="post-title-main">{{ page.title }}</h1>
+          {% if page.subtitle %}
+            <h2 class="post-subtitle">{{ page.subtitle }}</h2>
+          {% endif %}
+        {% endif %}
+        {{ content }}
+      </main>
+    {% endif %}
 
     {% include site-footer.html %}
     <!-- Removed missing site-sw.html include -->

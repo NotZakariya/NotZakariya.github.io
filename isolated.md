@@ -1,20 +1,51 @@
 ---
 layout: default
-title: "Isolated Page"
-permalink: /isolated/
+title: "St John's ISOC — Prayer Times"
+permalink: /prayer-times/
 hide_nav: true
+extra_css: /assets/prayertimes.css
+no_container: true
 ---
 
-<main>
-  <h1>Isolated Page</h1>
+<main class="prayer-page">
+  <div class="prayer-card-wrap">
+    <header class="prayer-hero">
+      <h1>Prayer Times</h1>
+      <p>St John's Islamic Society — Weekly times</p>
+      <p id="date-range">11/05 - 17/05</p>
+    </header>
 
-  <p>This is a standalone page using the site's theme. Replace this content with whatever you need.</p>
+    <section class="prayer-grid">
+      <article class="prayer-card">
+        <div class="prayer-name">Fajr</div>
+        <div class="prayer-time">04:15</div>
+    
+      </article>
 
-  <section>
-    <h2>Notes</h2>
-    <ul>
-      <li>File: isolated.md</li>
-      <li>URL: <a href="/isolated/">/isolated/</a></li>
-    </ul>
-  </section>
+      <article class="prayer-card">
+        <div class="prayer-name">Zuhr</div>
+        <div class="prayer-time">—</div>
+        
+      </article>
+
+      <article class="prayer-card">
+        <div class="prayer-name">Asr</div>
+        <div class="prayer-time">18:30</div>
+      </article>
+
+      <article class="prayer-card">
+        <div class="prayer-name">Maghrib</div>
+        <div class="prayer-time">SUNSET</div>
+      </article>
+
+      <article class="prayer-card">
+        <div class="prayer-name">Isha</div>
+        <div class="prayer-time">22:00</div>
+      </article>
+    </section>
+
+    <div class="prayer-footer">
+      © St John's ISOC — Times are indicative. Contact us for updates.
+    </div>
+  </div>
 </main>

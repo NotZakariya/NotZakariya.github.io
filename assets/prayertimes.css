@@ -1,0 +1,93 @@
+/* Prayer times page styles - polished */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Libre+Franklin:wght@300;600&display=swap');
+
+:root{
+  --card-bg: #f4e9df;
+  --card-shadow: rgba(6,10,8,0.12);
+  --accent: #0b8b5e;
+}
+
+html, body { height:100%; }
+.prayer-page {
+  min-height: 100%;
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+  padding:0;
+  background: transparent;
+  color: #09201a;
+  font-family: 'Libre Franklin', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+.prayer-card-wrap{
+  width: min(1200px, 96%);
+  max-width: 1200px;
+  background: transparent;
+  border-radius: 12px;
+  padding: 42px 48px 56px;
+  box-shadow: none;
+}
+
+.prayer-hero{ text-align:center; margin-bottom:34px; color: rgba(5,22,18,0.95); }
+.prayer-hero{ background: transparent; }
+.prayer-hero h1{ font-family: 'Playfair Display', serif; font-weight:700; font-size:64px; margin:0; color: #ffffff; }
+.prayer-hero p{ margin:8px 0 0; font-weight:600; color: #ffffff; }
+.prayer-hero #date-range{ margin-top:6px; font-weight:600; }
+
+.prayer-grid{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap:28px;
+  align-items:start;
+  justify-items:center;
+}
+
+.prayer-card{
+  background: #ffffff;
+  padding:32px 22px;
+  border-radius:12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  text-align:center;
+  position:relative;
+  min-height:120px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  overflow:visible;
+  width:100%;
+  max-width:560px;
+}
+
+.prayer-card::before{ display:none; }
+
+.prayer-name{ font-family: 'Playfair Display', serif; font-size:26px; font-weight:700; margin-bottom:12px; }
+.prayer-time{ font-family: 'Playfair Display', serif; font-size:34px; font-weight:900; letter-spacing:0.5px; }
+.prayer-note{ font-size:12px; margin-top:10px; color:#2b2b2b }
+.prayer-footer{ margin-top:48px; text-align:center; color:#f7f7f7; font-size:13px }
+
+/* Make the grid layout match the mock: 4 across, last item wraps on left */
+.prayer-card{ max-width:720px; }
+
+@media (max-width:800px){
+  .prayer-hero h1{ font-size:44px; }
+  .prayer-card{ max-width:100%; }
+}
+
+/* Override site container styles for prayer page */
+main.container.layout-default {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  max-width: 100% !important;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Hide site footer on prayer times page */
+body.layout-default .footer {
+  display: none !important;
+}
