@@ -13,7 +13,7 @@ no_container: true
       <h1>Prayer Times</h1>
       <p>St John's Islamic Society - Prayer times</p>
       <p id="date-range">11/05 - 17/05</p>
-      <p> How to use: Please upvote the poll when you're setting off. </p>
+      <p> How to use: Please upvote the poll when you are certain you will make be able to make it إن شاء الله. </p>
     </header>
 
     <div class="poll-info-box">
