@@ -13,6 +13,7 @@ no_container: true
       <h1>Prayer Times</h1>
       <p>St John's Islamic Society — Weekly times</p>
       <p id="date-range">11/05 - 17/05</p>
+      <p> How to use: Upvote the poll when you're setting off please. Poll resets at 22:15 every day </p>
     </header>
 
     <section class="prayer-grid">
