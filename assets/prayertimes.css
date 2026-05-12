@@ -152,6 +152,13 @@ body.layout-default .footer {
   background: rgba(252,67,0,0.05);
 }
 
+.poll-btn.voted {
+  outline: 2px solid rgba(5,191,133,0.12);
+  box-shadow: 0 6px 18px rgba(6,10,8,0.06) inset;
+  cursor: default;
+  opacity: 0.98;
+}
+
 .poll-count {
   display: inline-block;
   background: rgba(0,0,0,0.08);

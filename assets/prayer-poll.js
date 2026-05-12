@@ -119,15 +119,22 @@ async function loadPollData(prayer) {
 function updatePollDisplay(prayer) {
   const attending = (pollData[prayer] && pollData[prayer]['Attending']) || 0;
   const notAttending = (pollData[prayer] && pollData[prayer]['Not Attending']) || 0;
-
   const container = document.querySelector(`[data-prayer="${prayer}"] .prayer-poll`);
   if (container) {
+    // Check local vote to prevent duplicate voting
+    const today = getTodayDate();
+    const localKey = `prayer_vote_${prayer}_${today}`;
+    const localVote = localStorage.getItem(localKey);
+
+    const attendingDisabled = localVote ? 'disabled' : '';
+    const notAttendingDisabled = localVote ? 'disabled' : '';
+
     container.innerHTML = `
       <div class="poll-votes">
-        <button class="poll-btn attending" data-prayer="${prayer}" data-vote="Attending">
+        <button class="poll-btn attending ${localVote === 'Attending' ? 'voted' : ''}" data-prayer="${prayer}" data-vote="Attending" ${attendingDisabled}>
           ✓ Attending <span class="poll-count">${attending}</span>
         </button>
-        <button class="poll-btn not-attending" data-prayer="${prayer}" data-vote="Not Attending">
+        <button class="poll-btn not-attending ${localVote === 'Not Attending' ? 'voted' : ''}" data-prayer="${prayer}" data-vote="Not Attending" ${notAttendingDisabled}>
           ✗ Not Attending <span class="poll-count">${notAttending}</span>
         </button>
       </div>
@@ -142,6 +149,12 @@ function updatePollDisplay(prayer) {
 async function castVote(prayer, voteType) {
   if (!supabase) return;
   const today = getTodayDate();
+
+  // Prevent duplicate voting from same browser for the day
+  const votingKeyCheck = `prayer_vote_${prayer}_${today}`;
+  if (localStorage.getItem(votingKeyCheck)) {
+    return; // already voted
+  }
 
   try {
     // Store user's vote in localStorage (one vote per prayer per day)
