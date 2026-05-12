@@ -16,31 +16,34 @@ no_container: true
     </header>
 
     <section class="prayer-grid">
-      <article class="prayer-card">
+      <article class="prayer-card" data-prayer="Fajr">
         <div class="prayer-name">Fajr</div>
         <div class="prayer-time">04:15</div>
-    
+        <div class="prayer-poll"></div>
       </article>
 
-      <article class="prayer-card">
+      <article class="prayer-card" data-prayer="Zuhr">
         <div class="prayer-name">Zuhr</div>
         <div class="prayer-time">—</div>
-        
+        <div class="prayer-poll"></div>
       </article>
 
-      <article class="prayer-card">
+      <article class="prayer-card" data-prayer="Asr">
         <div class="prayer-name">Asr</div>
         <div class="prayer-time">18:30</div>
+        <div class="prayer-poll"></div>
       </article>
 
-      <article class="prayer-card">
+      <article class="prayer-card" data-prayer="Maghrib">
         <div class="prayer-name">Maghrib</div>
         <div class="prayer-time">SUNSET</div>
+        <div class="prayer-poll"></div>
       </article>
 
-      <article class="prayer-card">
+      <article class="prayer-card" data-prayer="Isha">
         <div class="prayer-name">Isha</div>
         <div class="prayer-time">22:00</div>
+        <div class="prayer-poll"></div>
       </article>
     </section>
 
@@ -49,3 +52,5 @@ no_container: true
     </div>
   </div>
 </main>
+
+<script src="/assets/prayer-poll.js"></script>

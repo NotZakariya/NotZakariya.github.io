@@ -91,3 +91,74 @@ main.container.layout-default {
 body.layout-default .footer {
   display: none !important;
 }
+
+/* Prayer poll styles */
+.prayer-poll {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.poll-votes {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.poll-btn {
+  background: #ffffff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+  min-width: 100px;
+  justify-content: center;
+}
+
+.poll-btn:hover {
+  border-color: #05bf85;
+  color: #05bf85;
+  box-shadow: 0 2px 8px rgba(5,191,133,0.15);
+}
+
+.poll-btn:active {
+  transform: scale(0.98);
+}
+
+.poll-btn.attending {
+  border-color: #05bf85;
+  color: #05bf85;
+}
+
+.poll-btn.attending:hover {
+  background: rgba(5,191,133,0.05);
+}
+
+.poll-btn.not-attending {
+  border-color: #fc4300;
+  color: #fc4300;
+}
+
+.poll-btn.not-attending:hover {
+  background: rgba(252,67,0,0.05);
+}
+
+.poll-count {
+  display: inline-block;
+  background: rgba(0,0,0,0.08);
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 11px;
+  font-weight: 700;
+  min-width: 18px;
+  text-align: center;
+}
