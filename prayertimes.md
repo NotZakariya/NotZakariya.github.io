@@ -14,7 +14,8 @@ no_container: true
       <p>St John's Islamic Society — Weekly times</p>
       <p id="date-range">11/05 - 17/05</p>
       <p> How to use: Please upvote the poll when you're setting off. </p>
-      <p> (Poll resets at 22:15 every day, and each vote is 1 per web-brower) </p>
+      <p> Poll resets at 22:15 every day </p>
+      <p> You can cast one vote per browser (not one per IP address) </p>
     </header>
 
     <section class="prayer-grid">
