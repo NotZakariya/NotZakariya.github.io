@@ -108,22 +108,13 @@ body.layout-default .footer {
 }
 
 .poll-votes {
-  display: block;
-  gap: 10px;
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 32px;
 }
 
-.poll-votes.fajr {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.poll-votes.fajr > .poll-btn:only-child {
+.poll-votes > .poll-btn:only-child {
   grid-column: 1 / -1;
-}
-
-.poll-votes.single > .poll-btn {
-  display: flex;
-  width: 100%;
 }
 
 .poll-btn {
@@ -239,6 +230,5 @@ body.layout-default .footer {
 }
 
 @media (max-width:800px){
-  .poll-votes.fajr{ grid-template-columns: 1fr; }
-  .poll-votes.fajr > .poll-btn:only-child{ grid-column: auto; }
+  .poll-votes{ grid-template-columns: 1fr; }
 }

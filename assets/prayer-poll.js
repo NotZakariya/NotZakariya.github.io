@@ -4,11 +4,10 @@ const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBh
 
 // Prayer names
 const PRAYERS = ['Fajr', 'Zuhr', 'Asr', 'Maghrib', 'Isha'];
-const FAJR_POLL_TYPES = [
+const POLL_TYPES = [
   { label: 'Brothers Attending' },
   { label: 'Sisters Attending' },
 ];
-const DEFAULT_POLL_TYPES = [{ label: 'Attending' }];
 
 let supabase = null;
 
@@ -20,19 +19,16 @@ function getPollDbKey(prayer, voteLabel) {
 }
 
 function getPrayerFromDbKey(dbKey) {
-  return dbKey.startsWith('Fajr - ') ? 'Fajr' : dbKey;
-}
-
-function getPollTypesForPrayer(prayer) {
-  return prayer === 'Fajr' ? FAJR_POLL_TYPES : DEFAULT_POLL_TYPES;
+  for (const prayer of PRAYERS) {
+    if (dbKey.startsWith(prayer + ' - ')) {
+      return prayer;
+    }
+  }
+  return dbKey;
 }
 
 function getPollQueryValues(prayer, voteLabel) {
-  if (prayer === 'Fajr') {
-    return { prayer_name: getPollDbKey(prayer, voteLabel), vote_type: voteLabel };
-  }
-
-  return { prayer_name: prayer, vote_type: 'Attending' };
+  return { prayer_name: getPollDbKey(prayer, voteLabel), vote_type: voteLabel };
 }
 
 function loadSupabaseLibrary() {
@@ -71,8 +67,7 @@ async function initializePolls() {
 
   for (const prayer of PRAYERS) {
     try {
-      const pollTypes = getPollTypesForPrayer(prayer);
-      const pollDbKeys = pollTypes.map(({ label }) => getPollQueryValues(prayer, label).prayer_name);
+      const pollDbKeys = POLL_TYPES.map(({ label }) => getPollQueryValues(prayer, label).prayer_name);
       const { data, error } = await supabase
         .from('polls')
         .select('*')
@@ -83,7 +78,7 @@ async function initializePolls() {
 
       const existingDbKeys = new Set((data || []).map((row) => row.prayer_name));
 
-      for (const { label } of pollTypes) {
+      for (const { label } of POLL_TYPES) {
         const { prayer_name: dbKey, vote_type } = getPollQueryValues(prayer, label);
         if (existingDbKeys.has(dbKey)) {
           continue;
@@ -114,8 +109,7 @@ async function initializePolls() {
 async function loadPollData(prayer) {
   if (!supabase) return;
   const today = getTodayDate();
-  const pollTypes = getPollTypesForPrayer(prayer);
-  const pollDbKeys = pollTypes.map(({ label }) => getPollQueryValues(prayer, label).prayer_name);
+  const pollDbKeys = POLL_TYPES.map(({ label }) => getPollQueryValues(prayer, label).prayer_name);
 
   try {
     const { data, error } = await supabase
@@ -144,8 +138,7 @@ function updatePollDisplay(prayer) {
   const container = document.querySelector(`[data-prayer="${prayer}"] .prayer-poll`);
   if (container) {
     const today = getTodayDate();
-    const pollTypes = getPollTypesForPrayer(prayer);
-    const buttons = pollTypes.map(({ label }) => {
+    const buttons = POLL_TYPES.map(({ label }) => {
       const voteCount = (pollData[prayer] && pollData[prayer][label]) || 0;
       const localKey = `prayer_vote_${prayer}_${label}_${today}`;
       const localVote = localStorage.getItem(localKey);
@@ -157,10 +150,9 @@ function updatePollDisplay(prayer) {
         </button>
       `;
     }).join('');
-    const pollModeClass = prayer === 'Fajr' ? 'fajr' : 'single';
 
     container.innerHTML = `
-      <div class="poll-votes ${pollModeClass}">
+      <div class="poll-votes">
         ${buttons}
       </div>
     `;
