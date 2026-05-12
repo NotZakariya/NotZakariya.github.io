@@ -153,10 +153,11 @@ body.layout-default .footer {
 }
 
 .poll-btn.voted {
-  outline: 2px solid rgba(5,191,133,0.12);
-  box-shadow: 0 6px 18px rgba(6,10,8,0.06) inset;
-  cursor: default;
-  opacity: 0.98;
+  outline: 2px solid rgba(5,191,133,0.25);
+  background: rgba(5,191,133,0.08) !important;
+  box-shadow: 0 0 12px rgba(5,191,133,0.12) inset;
+  opacity: 1;
+  font-weight: 500;
 }
 
 .poll-count {

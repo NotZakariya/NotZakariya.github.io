@@ -4,7 +4,7 @@ const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBh
 
 // Prayer names
 const PRAYERS = ['Fajr', 'Zuhr', 'Asr', 'Maghrib', 'Isha'];
-const VOTE_TYPES = ['Attending', 'Not Attending'];
+const VOTE_TYPES = ['Attending'];
 
 let supabase = null;
 
@@ -118,24 +118,17 @@ async function loadPollData(prayer) {
 // Update UI for a prayer's poll
 function updatePollDisplay(prayer) {
   const attending = (pollData[prayer] && pollData[prayer]['Attending']) || 0;
-  const notAttending = (pollData[prayer] && pollData[prayer]['Not Attending']) || 0;
   const container = document.querySelector(`[data-prayer="${prayer}"] .prayer-poll`);
   if (container) {
-    // Check local vote to prevent duplicate voting
+    // Check local vote to show which option is toggled
     const today = getTodayDate();
     const localKey = `prayer_vote_${prayer}_${today}`;
     const localVote = localStorage.getItem(localKey);
 
-    const attendingDisabled = localVote ? 'disabled' : '';
-    const notAttendingDisabled = localVote ? 'disabled' : '';
-
     container.innerHTML = `
       <div class="poll-votes">
-        <button class="poll-btn attending ${localVote === 'Attending' ? 'voted' : ''}" data-prayer="${prayer}" data-vote="Attending" ${attendingDisabled}>
+        <button class="poll-btn attending ${localVote === 'Attending' ? 'voted' : ''}" data-prayer="${prayer}" data-vote="Attending">
           ✓ Attending <span class="poll-count">${attending}</span>
-        </button>
-        <button class="poll-btn not-attending ${localVote === 'Not Attending' ? 'voted' : ''}" data-prayer="${prayer}" data-vote="Not Attending" ${notAttendingDisabled}>
-          ✗ Not Attending <span class="poll-count">${notAttending}</span>
         </button>
       </div>
     `;
@@ -149,34 +142,73 @@ function updatePollDisplay(prayer) {
 async function castVote(prayer, voteType) {
   if (!supabase) return;
   const today = getTodayDate();
-
-  // Prevent duplicate voting from same browser for the day
-  const votingKeyCheck = `prayer_vote_${prayer}_${today}`;
-  if (localStorage.getItem(votingKeyCheck)) {
-    return; // already voted
-  }
+  const votingKey = `prayer_vote_${prayer}_${today}`;
+  const currentVote = localStorage.getItem(votingKey);
 
   try {
-    // Store user's vote in localStorage (one vote per prayer per day)
-    const votingKey = `prayer_vote_${prayer}_${today}`;
-    localStorage.setItem(votingKey, voteType);
-
-    // Direct increment via read + update for reliability
-    const { data } = await supabase
-      .from('polls')
-      .select('vote_count')
-      .eq('prayer_name', prayer)
-      .eq('vote_type', voteType)
-      .eq('day_date', today)
-      .single();
-
-    if (data) {
-      await supabase
+    // If clicking the same button, toggle off (remove vote)
+    if (currentVote === voteType) {
+      // Decrement current vote
+      const { data } = await supabase
         .from('polls')
-        .update({ vote_count: data.vote_count + 1 })
+        .select('vote_count')
         .eq('prayer_name', prayer)
         .eq('vote_type', voteType)
-        .eq('day_date', today);
+        .eq('day_date', today)
+        .single();
+
+      if (data) {
+        await supabase
+          .from('polls')
+          .update({ vote_count: Math.max(0, data.vote_count - 1) })
+          .eq('prayer_name', prayer)
+          .eq('vote_type', voteType)
+          .eq('day_date', today);
+      }
+
+      // Remove from localStorage
+      localStorage.removeItem(votingKey);
+    } else {
+      // If there's a previous vote, decrement it (switch behavior)
+      if (currentVote) {
+        const { data } = await supabase
+          .from('polls')
+          .select('vote_count')
+          .eq('prayer_name', prayer)
+          .eq('vote_type', currentVote)
+          .eq('day_date', today)
+          .single();
+
+        if (data) {
+          await supabase
+            .from('polls')
+            .update({ vote_count: Math.max(0, data.vote_count - 1) })
+            .eq('prayer_name', prayer)
+            .eq('vote_type', currentVote)
+            .eq('day_date', today);
+        }
+      }
+
+      // Increment new vote
+      const { data } = await supabase
+        .from('polls')
+        .select('vote_count')
+        .eq('prayer_name', prayer)
+        .eq('vote_type', voteType)
+        .eq('day_date', today)
+        .single();
+
+      if (data) {
+        await supabase
+          .from('polls')
+          .update({ vote_count: data.vote_count + 1 })
+          .eq('prayer_name', prayer)
+          .eq('vote_type', voteType)
+          .eq('day_date', today);
+      }
+
+      // Store new vote in localStorage
+      localStorage.setItem(votingKey, voteType);
     }
 
     // Reload poll data
@@ -220,19 +252,30 @@ function setupRealtimeSubscription() {
 }
 
 // Daily reset check (runs every minute)
+let lastResetDate = null;
 function setupDailyReset() {
   setInterval(async () => {
-    if (shouldResetPolls()) {
-      // Reset all polls by deleting yesterday's data and reinitializing
+    const now = new Date();
+    const currentDate = getTodayDate();
+    
+    // Check if it's past 22:15 and we haven't reset today yet
+    if (shouldResetPolls() && lastResetDate !== currentDate) {
+      lastResetDate = currentDate;
       try {
         const yesterday = new Date();
         yesterday.setDate(yesterday.getDate() - 1);
         const yesterdayDate = yesterday.toISOString().split('T')[0];
 
+        // Clear yesterday's polls from server
         await supabase
           .from('polls')
           .delete()
           .eq('day_date', yesterdayDate);
+
+        // Clear all localStorage votes (user can vote again tomorrow)
+        for (const prayer of PRAYERS) {
+          localStorage.removeItem(`prayer_vote_${prayer}_${yesterdayDate}`);
+        }
 
         // Reinitialize for today
         await initializePolls();
