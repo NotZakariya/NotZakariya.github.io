@@ -18,7 +18,7 @@ no_container: true
 
     <div class="poll-info-box">
       <p class="poll-info-item"> The poll resets at 22:15 every day</p>
-      <p class="poll-info-item">One vote per browser (not one per IP address)</p>
+      <p class="poll-info-item">One vote per browser for each box (not one per IP address)</p>
     </div>
 
     <section class="prayer-grid">
