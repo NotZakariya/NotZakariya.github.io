@@ -160,6 +160,31 @@ body.layout-default .footer {
   font-weight: 500;
 }
 
+/* Poll info box styling */
+.poll-info-box {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(5, 191, 133, 0.2);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 24px 0 28px;
+  text-align: center;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.poll-info-item {
+  font-size: 13px;
+  margin: 6px 0;
+  color: rgba(5, 22, 18, 0.75);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.poll-info-item:last-child {
+  margin-bottom: 0;
+}
+
 .poll-count {
   display: inline-block;
   background: rgba(0,0,0,0.08);

@@ -13,11 +13,13 @@ no_container: true
       <h1>Prayer Times</h1>
       <p>St John's Islamic Society - Prayer times</p>
       <p id="date-range">11/05 - 17/05</p>
-      <br></br>
       <p> How to use: Please upvote the poll when you're setting off. </p>
     </header>
-  <p> The poll resets at 22:15 every day </p>
-  <p> You can cast one vote per browser (not one per IP address) </p>
+
+    <div class="poll-info-box">
+      <p class="poll-info-item"> The poll resets at 22:15 every day</p>
+      <p class="poll-info-item">One vote per browser (not one per IP address)</p>
+    </div>
 
     <section class="prayer-grid">
       <article class="prayer-card" data-prayer="Fajr">
