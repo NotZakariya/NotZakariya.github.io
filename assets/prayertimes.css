@@ -61,7 +61,7 @@ html, body { height:100%; }
 .prayer-card::before{ display:none; }
 
 .prayer-name{ font-family: 'Playfair Display', serif; font-size:26px; font-weight:700; margin-bottom:12px; }
-.prayer-time{ font-family: 'Playfair Display', serif; font-size:34px; font-weight:900; letter-spacing:0.5px; }
+.prayer-time{ font-family: 'Playfair Display', serif; font-size:34px; font-weight:600; letter-spacing:0.5px; }
 .prayer-note{ font-size:12px; margin-top:10px; color:#2b2b2b }
 .prayer-footer{ margin-top:48px; text-align:center; color:#f7f7f7; font-size:13px }
 
@@ -70,7 +70,14 @@ html, body { height:100%; }
 
 @media (max-width:800px){
   .prayer-hero h1{ font-size:44px; }
-  .prayer-card{ max-width:100%; }
+  .prayer-hero p{ font-size: 14px; }
+  .prayer-card{ max-width:100%; padding: 24px 16px; }
+  .prayer-name{ font-size: 20px; margin-bottom: 8px; }
+  .prayer-time{ font-size: 28px; }
+  .prayer-card-wrap{ padding: 28px 16px 40px; }
+  .poll-info-box{ padding: 12px 14px; margin: 16px 0 20px; }
+  .poll-info-item{ font-size: 12px; margin: 4px 0; }
+  .poll-btn{ font-size: 11px; padding: 6px 10px; }
 }
 
 /* Override site container styles for prayer page */
