@@ -28,9 +28,9 @@ html, body { height:100%; }
   box-shadow: none;
 }
 
-.prayer-hero{ text-align:center; margin-bottom:34px; color: rgba(5,22,18,0.95); }
+.prayer-hero{ text-align:center; margin-bottom:48px; color: rgba(5,22,18,0.95); }
 .prayer-hero{ background: transparent; }
-.prayer-hero h1{ font-family: 'Playfair Display', serif; font-weight:700; font-size:64px; margin:0; color: #ffffff; }
+.prayer-hero h1{ font-family: 'Playfair Display', serif; font-weight:700; font-size:64px; margin:0; color: #ffffff; border-bottom: 2px solid rgba(255,255,255,0.4); padding-bottom: 16px; }
 .prayer-hero p{ margin:8px 0 0; font-weight:600; color: #ffffff; }
 .prayer-hero #date-range{ margin-top:6px; font-weight:600; }
 
@@ -69,7 +69,8 @@ html, body { height:100%; }
 .prayer-card{ max-width:720px; }
 
 @media (max-width:800px){
-  .prayer-hero h1{ font-size:44px; }
+  .prayer-hero h1{ font-size:44px; padding-bottom: 12px; border-bottom: 2px solid rgba(255,255,255,0.4); }
+  .prayer-hero{ margin-bottom: 36px; }
   .prayer-hero p{ font-size: 14px; }
   .prayer-card{ max-width:100%; padding: 24px 16px; }
   .prayer-name{ font-size: 20px; margin-bottom: 8px; }
