@@ -80,6 +80,7 @@
   <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
 
 
+    {% unless page.hide_nav %}
     <header class="site-header">
       <div class="header-bar"></div>
       <div class="header-flex">
@@ -98,6 +99,7 @@
         </nav>
       </div>
     </header>
+    {% endunless %}
 
     {% if page.url == '/' or page.url == '/index.html' %}
       <div class="hero-banner">

@@ -2,6 +2,7 @@
 layout: default
 title: "Isolated Page"
 permalink: /isolated/
+hide_nav: true
 ---
 
 <main>
