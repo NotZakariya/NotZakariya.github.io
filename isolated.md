@@ -48,7 +48,7 @@ no_container: true
     </section>
 
     <div class="prayer-footer">
-      © St John's ISOC — Times are indicative. Contact us for updates.
+    (See St John's Whatsapp group for alternations to prayer times)
     </div>
   </div>
 </main>
