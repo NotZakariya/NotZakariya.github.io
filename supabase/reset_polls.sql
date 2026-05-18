@@ -1,4 +1,4 @@
--- Server-side reset at 22:15 UK local time (Europe/London), DST-safe.
+-- Server-side reset at 22:30 UK local time (Europe/London), DST-safe.
 -- Run in Supabase SQL Editor once.
 
 -- Ensure pg_cron is available.
@@ -10,7 +10,7 @@ create table if not exists public.poll_reset_runs (
   executed_at timestamptz not null default now()
 );
 
--- Reset poll counts once per UK-local day at 22:15.
+-- Reset poll counts once per UK-local day at 22:30.
 create or replace function public.run_prayer_poll_reset_if_due_uk()
 returns void
 language plpgsql
@@ -26,8 +26,8 @@ begin
   london_date := london_now::date;
   london_time := london_now::time;
 
-  -- Run only during 22:15 minute in UK local time.
-  if london_time < time '22:15:00' or london_time >= time '22:16:00' then
+  -- Run only during 22:30 minute in UK local time.
+  if london_time < time '22:30:00' or london_time >= time '22:31:00' then
     return;
   end if;
 
@@ -61,7 +61,7 @@ declare
 begin
   select jobid into existing_job_id
   from cron.job
-  where jobname = 'reset-prayer-polls-2215';
+  where jobname = 'reset-prayer-polls-2230';
 
   if existing_job_id is not null then
     perform cron.unschedule(existing_job_id);
@@ -69,9 +69,9 @@ begin
 end
 $$;
 
--- Schedule every minute; function itself enforces UK-local 22:15 once/day.
+-- Schedule every minute; function itself enforces UK-local 22:30 once/day.
 select cron.schedule(
-  'reset-prayer-polls-2215',
+  'reset-prayer-polls-2230',
   '* * * * *',
   $$select public.run_prayer_poll_reset_if_due_uk();$$
 );
