@@ -54,18 +54,18 @@ begin
 end;
 $$;
 
--- Remove existing job if it already exists.
+-- Remove existing jobs if they already exist, including the old 22:15 job.
 do $$
 declare
   existing_job_id integer;
 begin
-  select jobid into existing_job_id
-  from cron.job
-  where jobname = 'reset-prayer-polls-2230';
-
-  if existing_job_id is not null then
+  for existing_job_id in
+    select jobid
+    from cron.job
+    where jobname in ('reset-prayer-polls-2215', 'reset-prayer-polls-2230')
+  loop
     perform cron.unschedule(existing_job_id);
-  end if;
+  end loop;
 end
 $$;
 
