@@ -30,7 +30,7 @@ no_container: true
 
       <article class="prayer-card" data-prayer="Zuhr">
         <div class="prayer-name">Zuhr</div>
-        <div class="prayer-time">14:00</div>
+        <div class="prayer-time">13:30</div>
         <div class="prayer-poll"></div>
       </article>
 
