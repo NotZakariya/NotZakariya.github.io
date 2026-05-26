@@ -17,7 +17,7 @@ no_container: true
     </header>
 
     <div class="poll-info-box">
-      <p class="poll-info-item"> The poll resets at 22:30 every day</p>
+      <p class="poll-info-item" id="poll-reset-time">The poll resets at 22:45 every day</p>
       <p class="poll-info-item">One vote per browser for each box (not one per IP address)</p>
     </div>
 

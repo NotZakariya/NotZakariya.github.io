@@ -44,6 +44,31 @@ function loadSupabaseLibrary() {
   });
 }
 
+function formatResetTime(resetTime) {
+  const [hours = '00', minutes = '00'] = String(resetTime).split(':');
+  return `${hours.padStart(2, '0')}:${minutes.padStart(2, '0')}`;
+}
+
+async function loadResetTime() {
+  const resetTimeEl = document.getElementById('poll-reset-time');
+  if (!supabase || !resetTimeEl) return;
+
+  const { data, error } = await supabase
+    .from('poll_settings')
+    .select('reset_time')
+    .eq('id', true)
+    .single();
+
+  if (error) {
+    console.error('Error loading poll reset time:', error);
+    return;
+  }
+
+  if (data?.reset_time) {
+    resetTimeEl.textContent = `The poll resets at ${formatResetTime(data.reset_time)} every day`;
+  }
+}
+
 // Get today's date in YYYY-MM-DD format
 function getTodayDate() {
   const today = new Date();
@@ -255,6 +280,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   try {
     await loadSupabaseLibrary();
     supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    await loadResetTime();
     await initializePolls();
     setupRealtimeSubscription();
   } catch (err) {

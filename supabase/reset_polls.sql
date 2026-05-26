@@ -1,8 +1,22 @@
--- Server-side reset at 22:30 UK local time (Europe/London), DST-safe.
+-- Server-side reset at configurable UK local time (Europe/London), DST-safe.
 -- Run in Supabase SQL Editor once.
 
 -- Ensure pg_cron is available.
 create extension if not exists pg_cron;
+
+-- Stores the reset time so it can be changed quickly without editing the cron job.
+create table if not exists public.poll_settings (
+  id boolean primary key default true,
+  reset_time time not null default time '22:45:00',
+  constraint poll_settings_single_row check (id)
+);
+
+insert into public.poll_settings (id, reset_time)
+values (true, time '22:45:00')
+on conflict (id) do nothing;
+
+revoke all on public.poll_settings from anon, authenticated;
+grant select on public.poll_settings to anon, authenticated;
 
 -- Tracks which UK-local date has already been reset.
 create table if not exists public.poll_reset_runs (
@@ -10,7 +24,7 @@ create table if not exists public.poll_reset_runs (
   executed_at timestamptz not null default now()
 );
 
--- Reset poll counts once per UK-local day at 22:30.
+-- Reset poll counts once per UK-local day at the configured reset time.
 create or replace function public.run_prayer_poll_reset_if_due_uk()
 returns void
 language plpgsql
@@ -20,14 +34,20 @@ declare
   london_now timestamp;
   london_date date;
   london_time time;
+  configured_reset_time time;
   already_ran boolean;
 begin
   london_now := now() at time zone 'Europe/London';
   london_date := london_now::date;
   london_time := london_now::time;
 
-  -- Run only during 22:30 minute in UK local time.
-  if london_time < time '22:30:00' or london_time >= time '22:31:00' then
+  select reset_time
+  into configured_reset_time
+  from public.poll_settings
+  where id = true;
+
+  -- Run only during the configured reset minute in UK local time.
+  if london_time < configured_reset_time or london_time >= (configured_reset_time + interval '1 minute')::time then
     return;
   end if;
 
@@ -54,7 +74,7 @@ begin
 end;
 $$;
 
--- Remove existing jobs if they already exist, including the old 22:15 job.
+-- Remove existing jobs if they already exist, including old reset-time jobs.
 do $$
 declare
   existing_job_id integer;
@@ -62,16 +82,16 @@ begin
   for existing_job_id in
     select jobid
     from cron.job
-    where jobname in ('reset-prayer-polls-2215', 'reset-prayer-polls-2230')
+    where jobname in ('reset-prayer-polls', 'reset-prayer-polls-2215', 'reset-prayer-polls-2230', 'reset-prayer-polls-2245')
   loop
     perform cron.unschedule(existing_job_id);
   end loop;
 end
 $$;
 
--- Schedule every minute; function itself enforces UK-local 22:30 once/day.
+-- Schedule every minute; function itself enforces the configured reset time once/day.
 select cron.schedule(
-  'reset-prayer-polls-2230',
+  'reset-prayer-polls',
   '* * * * *',
   $$select public.run_prayer_poll_reset_if_due_uk();$$
 );
