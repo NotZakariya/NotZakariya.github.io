@@ -30,13 +30,13 @@ no_container: true
 
       <article class="prayer-card" data-prayer="Zuhr">
         <div class="prayer-name">Zuhr</div>
-        <div class="prayer-time">13:30</div>
+        <div class="prayer-time">13:05</div>
         <div class="prayer-poll"></div>
       </article>
 
       <article class="prayer-card" data-prayer="Asr">
         <div class="prayer-name">Asr</div>
-        <div class="prayer-time">18:30</div>
+        <div class="prayer-time">18:40</div>
         <div class="prayer-poll"></div>
       </article>
 
