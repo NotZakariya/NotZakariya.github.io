@@ -12,7 +12,7 @@ no_container: true
     <header class="prayer-hero">
       <h1>Prayer Times</h1>
       <p>St John's Islamic Society - Prayer times</p>
-      <p id="date-range">18/05 - 24/05</p>
+      <p id="date-range">05/06 - 09/06</p>
       <p> How to use: Please upvote the poll when you are certain you will make be able to make it إن شاء الله. </p>
     </header>
 
@@ -30,7 +30,7 @@ no_container: true
 
       <article class="prayer-card" data-prayer="Zuhr">
         <div class="prayer-name">Zuhr</div>
-        <div class="prayer-time">13:05</div>
+        <div class="prayer-time">13:15</div>
         <div class="prayer-poll"></div>
       </article>
 
@@ -48,7 +48,7 @@ no_container: true
 
       <article class="prayer-card" data-prayer="Isha">
         <div class="prayer-name">Isha</div>
-        <div class="prayer-time">22:30</div>
+        <div class="prayer-time">22:35</div>
         <div class="prayer-poll"></div>
       </article>
     </section>
