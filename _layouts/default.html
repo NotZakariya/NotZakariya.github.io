@@ -27,7 +27,6 @@
       {% endfor %}
     {% endif %}
 
-    <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
     <meta name="theme-color" content="{{ site.manifest.theme_color | default: '#242e2b' }}"/>
 
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
@@ -36,53 +35,46 @@
     {% endif %}
 
     <!-- Favicon for browser tab -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ "/assets/icons/favicon.ico" | relative_url }}" type="image/x-icon">
 
     <!-- Comprehensive favicon and manifest support -->
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="{{ "/assets/icons/favicon-96x96.png" | relative_url }}" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="{{ "/assets/icons/favicon.svg" | relative_url }}" />
+    <link rel="shortcut icon" href="{{ "/assets/icons/favicon.ico" | relative_url }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/icons/apple-touch-icon.png" | relative_url }}" />
     <meta name="apple-mobile-web-app-title" content="Diapslamata" />
-    <link rel="manifest" href="/site.webmanifest" />
-
-    {% if site.favicons or site.avatarurl %}{% include site-favicons.html %}{% endif %}
+    <link rel="manifest" href="{{ "/site.webmanifest" | relative_url }}" />
 
     {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
 
-    <!-- Removed theme-specific includes -->
-      <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          // Lightbox for post images
-    document.querySelectorAll('.container img').forEach(function(img) {
-            img.style.cursor = 'zoom-in';
-            img.addEventListener('click', function() {
-              var overlay = document.createElement('div');
-              overlay.className = 'lightbox-overlay';
-              var bigImg = document.createElement('img');
-              bigImg.src = img.src;
-              bigImg.alt = img.alt;
-              overlay.appendChild(bigImg);
-              document.body.appendChild(overlay);
-              overlay.addEventListener('click', function() {
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.container img').forEach(function(img) {
+          img.style.cursor = 'zoom-in';
+          img.addEventListener('click', function() {
+            var overlay = document.createElement('div');
+            overlay.className = 'lightbox-overlay';
+            var bigImg = document.createElement('img');
+            bigImg.src = img.src;
+            bigImg.alt = img.alt;
+            overlay.appendChild(bigImg);
+            document.body.appendChild(overlay);
+            overlay.addEventListener('click', function() {
+              overlay.remove();
+            });
+            document.addEventListener('keydown', function esc(e) {
+              if (e.key === 'Escape') {
                 overlay.remove();
-              });
-              document.addEventListener('keydown', function esc(e) {
-                if (e.key === 'Escape') {
-                  overlay.remove();
-                  document.removeEventListener('keydown', esc);
-                }
-              });
+                document.removeEventListener('keydown', esc);
+              }
             });
           });
         });
-      </script>
+      });
+    </script>
   </head>
 
-
   <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
-
-
     {% unless page.hide_nav %}
     <header class="site-header">
       <div class="header-bar"></div>
@@ -133,14 +125,12 @@
     {% endif %}
 
     {% include site-footer.html %}
-    <!-- Removed missing site-sw.html include -->
-    <!-- Removed theme-specific includes -->
+
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         var navToggle = document.querySelector('.nav-toggle');
         var mainNav = document.querySelector('.main-nav');
         navToggle && navToggle.addEventListener('click', function() {
-          console.log('Hamburger clicked');
           mainNav.classList.toggle('open');
         });
       });

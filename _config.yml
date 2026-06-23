@@ -4,76 +4,52 @@ email: tanweerzakariya@gmail.com
 description: >-
   Philosophical fragments...
 
-  
-
-
 # 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
-paginate_path: blog/page:num # jekyll-paginate > blog page
-author: Zakariya Tanweer # jekyll-seo-tag > default author
+paginate: 2
+paginate_path: blog/page:num
+author: Zakariya Tanweer
 
 # 4. Jekyll settings
 sass:
-  style: compressed # Style compression
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
-excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/London # Timezone for blog posts and alike
+  style: compressed
+permalink: pretty
+excerpt_separator: <!-- more -->
+timezone: Europe/London
 
 # 5. Collections
 collections:
   posts:
-    title: Diapsalmata # Needed for Siteleaf
+    title: Diapsalmata
     output: true
-    description: "" # The post list page content
+    description: ""
     feature_text: |
-  pages:
-    output: true
-  _pages:
-    output: true
 
-# 6. Jekyll collections settings
+# 6. Defaults
 defaults:
   -
     scope:
       path: ""
     values:
-      image: "/assets/header.png" # Default image for sharing
+      image: "/assets/Header.png"
   -
     scope:
       path: ""
       type: "posts"
     values:
-      layout: post # Set the default layout for posts
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: page # Set the default layout for pages
+      layout: post
 
 # 7. Site settings
-encoding: utf-8 # Make sure the encoding is right
-lang: en-GB # Set the site language
-title: "Diapsalmata" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logo.png" # Site logo, also used in jekyll-seo-tag
-description: "Philosophical fragments..." # Site description and default description, also used in jekyll-seo-tag
-url: "https://notzakariya.github.io/" # Site url, also used in jekyll-seo-tag
+encoding: utf-8
+lang: en-GB
+logo: "/assets/logo.png"
+url: "https://notzakariya.github.io/"
 baseurl: ""
 repo: "https://github.com/NotZakariya/NotZakariya.github.io"
-email: "tanweerzakariya@gmail.com"
-# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
-# date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
-# google_analytics: ""
-# google_analytics_anonymize_ip: ""
-# service_worker: false # Will turn off the service worker if set to false
-# short_name: "Al" # The web application short name, defaults to the site title
-
-
 
 navigation_header:
   - title: Tags
-    url: /categories/
-  - title: Search 
+    url: /tags/
+  - title: Search
     url: /search/
   - title: About
     url: /about/
@@ -82,8 +58,8 @@ navigation_header:
 
 navigation_footer:
   - title: Tags
-    url: /categories/
-  - title: Search 
+    url: /tags/
+  - title: Search
     url: /search/
   - title: About
     url: /about/
@@ -96,17 +72,13 @@ navigation_footer:
 # remote_theme: daviddarnes/alembic@main
 # remote_theme: broccolini/swiss
 
-
-
-
 plugins:
-## jekyll-remote-theme removed; not needed
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-feed
-- jekyll-commonmark
-- jekyll-include-cache
-- jemoji
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-commonmark
+  - jekyll-include-cache
+  - jemoji

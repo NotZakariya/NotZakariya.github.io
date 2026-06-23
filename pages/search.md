@@ -1,6 +1,7 @@
 ---
 title: Search
 layout: default
+permalink: /search/
 ---
 
 <!-- container removed, handled by layout -->
@@ -17,7 +18,7 @@ const posts = [
       url: {{ post.url | jsonify }},
       date: {{ post.date | date: '%B %d, %Y' | jsonify }},
       tags: {{ post.tags | jsonify }},
-      excerpt: {{ post.excerpt | strip_html | strip_newlines | jsonify }}
+      excerpt: {{ post.excerpt | strip_html | normalize_whitespace | truncate: 220 | jsonify }}
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ];
@@ -56,5 +57,14 @@ input.addEventListener('input', function() {
   display: block;
   background: #fff;
   box-shadow: 0 2px 8px rgba(5,191,133,0.07);
+}
+  
+
+.post-card-excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-top: 0.4rem;
 }
 </style>
