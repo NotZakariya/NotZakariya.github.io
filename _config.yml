@@ -24,7 +24,7 @@ collections:
   posts:
     title: Diapsalmata # Needed for Siteleaf
     output: true
-    description: "Philosophical fragments..." # The post list page content
+    description: "" # The post list page content
     feature_text: |
   pages:
     output: true

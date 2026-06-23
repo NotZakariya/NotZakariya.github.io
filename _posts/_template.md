@@ -6,4 +6,8 @@ categories: null #[xyz]
 tags: null #[abc]
 ---
 
-<!---  ./bin/dev >
+cd ~/Desktop/Recreational/Code/Github/NotZakariya.github.io
+
+bundle exec jekyll serve --livereload
+
+http://localhost:4000
