@@ -1782,3 +1782,14 @@ body:not(.layout-post) .hero-title {
     white-space: normal;
   }
 }
+
+/* Reduce homepage hero height so title feels less floaty */
+body:not(.layout-post) .hero-banner {
+  min-height: clamp(240px, 36vw, 460px);
+}
+
+@media (max-width: 700px) {
+  body:not(.layout-post) .hero-banner {
+    min-height: 220px;
+  }
+}
