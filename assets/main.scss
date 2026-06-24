@@ -1890,3 +1890,35 @@ body:not(.layout-post) main.container {
     background: #fff !important;
   }
 }
+
+/* Mobile post image scaling fix */
+body.layout-post .container img,
+body.layout-post .main-content img,
+body.layout-post article img {
+  display: block;
+  width: 100%;
+  max-width: 100% !important;
+  height: auto !important;
+  box-sizing: border-box;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 700px) {
+  body.layout-post .container img,
+  body.layout-post .main-content img,
+  body.layout-post article img {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    height: auto !important;
+    margin: 1.25rem auto;
+  }
+
+  body.layout-post .container p:has(img),
+  body.layout-post .main-content p:has(img) {
+    max-width: 100% !important;
+    overflow-x: hidden;
+  }
+}
