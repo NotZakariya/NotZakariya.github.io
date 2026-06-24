@@ -1785,11 +1785,31 @@ body:not(.layout-post) .hero-title {
 
 /* Reduce homepage hero height so title feels less floaty */
 body:not(.layout-post) .hero-banner {
-  min-height: clamp(240px, 36vw, 460px);
+  min-height: clamp(220px, 32vw, 410px);
 }
 
 @media (max-width: 700px) {
   body:not(.layout-post) .hero-banner {
-    min-height: 220px;
+    min-height: 200px;
+  }
+}
+
+/* Homepage hero spacing: reduce gap below title */
+body:not(.layout-post) .hero-banner {
+  min-height: clamp(205px, 28vw, 360px);
+  margin-bottom: 0;
+}
+
+body:not(.layout-post) main.container {
+  margin-top: clamp(1rem, 2.2vw, 2rem);
+}
+
+@media (max-width: 700px) {
+  body:not(.layout-post) .hero-banner {
+    min-height: 185px;
+  }
+
+  body:not(.layout-post) main.container {
+    margin-top: 0.85rem;
   }
 }
