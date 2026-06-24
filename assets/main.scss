@@ -1813,3 +1813,22 @@ body:not(.layout-post) main.container {
     margin-top: 0.85rem;
   }
 }
+
+/* Homepage hero spacing: slightly tighter top and bottom */
+body:not(.layout-post) .hero-banner {
+  min-height: clamp(185px, 24vw, 320px);
+}
+
+body:not(.layout-post) main.container {
+  margin-top: clamp(0.65rem, 1.5vw, 1.25rem);
+}
+
+@media (max-width: 700px) {
+  body:not(.layout-post) .hero-banner {
+    min-height: 165px;
+  }
+
+  body:not(.layout-post) main.container {
+    margin-top: 0.6rem;
+  }
+}
