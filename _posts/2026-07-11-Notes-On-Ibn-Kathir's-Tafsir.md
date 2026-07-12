@@ -6,3 +6,8 @@ categories: null #[xyz]
 tags: [Theology] #[abc]
 ---
 
+Ibn Kathir begins his exegesis just as God begins the Quran, by praising the lord: with حمد (hamd):
+
+He begins with 
+![](Quran1:2.png)
+f
