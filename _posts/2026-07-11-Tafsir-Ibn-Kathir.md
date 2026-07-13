@@ -45,9 +45,13 @@ to hold fast to it, and to avoid forsaking it, lest our hearts harden and become
 ![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-9.png)
 ![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-11.png)
 ![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-13.png)
+### 3. The Companions (first generation of Islam)
 "If one cannot find the exegesis in the Quran or Sunnah, he should refer to the statements of the Companions, who were the most knowledgeable in exegesis, for they witnessed the situations and incidents that we did not witness. They also had the deepest comprehension, the most correct knowledge, and the most righteous works."
 
-### 3. Israelite accounts and tales:
+### 4. The Tabi'in (second generation of Islam)
+When unable to find the exegesis in the Quran, the Sunnah or with the Companions, the scholars then look to the exegesis of the Tabi'in (second generation of Islam).
+
+### Israelite accounts and tales:
 "Israelite accounts and stories should only be used as supporting evidence, not as evidence themselves. There are three types of these accounts and tales:
 1. A kind that we are sure is authentic because we have in our religion something that testifies to its truth. 
 2. The second type is what we know to be false based on what we have.
