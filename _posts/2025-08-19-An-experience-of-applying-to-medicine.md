@@ -25,9 +25,9 @@ To be honest I don't remember exactly when I decided I wanted to do medicine. I 
  If I had to sum up pre-med Zakariya in 2 words, they would be arrogant and naïve. I'd bought into this idea that society was continually moving forward for the better, that all the hundreds of generations before me were more stupid and backwards than me, that I could outdo and supersede all the stupid philosophers before me, and their backward ways, because I was just better 💀.
 
 But at some point, between the end of year 10 and the start of year 11, my views changed:
-![alt text](/images/1.png)
-![alt text](/images/2.png)
-![alt text](/images/3.png)
+![alt text](/images/2025-08-19-An-experience-of-applying-to-medicine/1.png)
+![alt text](/images/2025-08-19-An-experience-of-applying-to-medicine/2.png)
+![alt text](/images/2025-08-19-An-experience-of-applying-to-medicine/3.png)
 (Yes. I blurred out reason 2, because it sounds stupid the way I wrote it, so it's philosophically embarrassing 🫠)
 
 I won't explain what changed in too much detail. I could write multiple volumes on the many many many many changes in my outlook and personal philosophy between year 7 and now, but to put it simply, eventually I came to the realisation that I'm not that guy (or put less simply: I became disillusioned in enlightenment and hegelian ideas of human progress).

@@ -1513,8 +1513,8 @@ body.layout-post .post-title-main {
   width: 100%;
   max-width: 720px;
   margin: 0 auto 0.8em auto;
-  padding: 0;
-  border-bottom: none;
+  padding: 0 0 0.35em 0;
+  border-bottom: 2px solid $accentColour;
   text-align: center;
   font-family: $headingFont;
   font-style: normal;
@@ -1526,9 +1526,16 @@ body.layout-post .post-title-main {
   text-shadow: none;
 }
 
+body.layout-post .post-title-main:has(+ .post-subtitle) {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
 body.layout-post .post-subtitle {
   max-width: 680px;
   margin: 0 auto 2rem auto;
+  padding-bottom: 0.7rem;
+  border-bottom: 2px solid $accentColour;
   text-align: center;
   font-family: $bodyFont;
   font-size: clamp(1rem, 1.4vw, 1.25rem);
@@ -1561,7 +1568,7 @@ body.layout-post .container h6 {
 }
 
 body.layout-post .container h2 {
-  font-size: clamp(1.6rem, 2.4vw, 2.2rem);
+  font-size: clamp(1.45rem, 2vw, 1.9rem);
 }
 
 body.layout-post .container h3 {
