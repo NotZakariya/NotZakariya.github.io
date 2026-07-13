@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "markdown.copyFiles.destination": {
+      "**/_posts/*.md": "../images/${documentBaseName}/"
+	},
+	"folder-color.pathColors": []
+  }
+}
