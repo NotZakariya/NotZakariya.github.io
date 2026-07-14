@@ -58,3 +58,12 @@ When unable to find the exegesis in the Quran, the Sunnah or with the Companions
 3. The third is of neither type. Hence, we neither affirm nor deny this type, and we are allowed to narrate it, because of the Hadith
 ![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-15.png)
 (This Hadith from Abdullah bin Amr was collected by Al-Bukhāri (Fath Al-Bari 6:572))
+
+### Tafsir by mere Opinion:
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-16.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-17.png)
+
+### Explaining What One Has Knowledge Of, Or Silence Otherwise
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-18.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-19.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-20.png)
