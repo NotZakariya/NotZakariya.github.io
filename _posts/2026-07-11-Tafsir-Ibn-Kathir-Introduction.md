@@ -1,9 +1,9 @@
 ---
-title: "Tafsir Ibn Kathir"
-subtitle: Notes On Ibn Kathir's Exegesis (Tafsir) of The Quran
+title: "Tafsir Ibn Kathir: Introduction"
+subtitle: "Notes On Ibn Kathir's Exegesis (Tafsir) of The Quran: Introduction"
 date: 2026-07-11
 categories: null #[xyz]
-tags: [Theology] #[abc]e
+tags: [Tafsir Ibn Kathir] #[abc]e
 ---
 <div dir="rtl" lang="ar">
 
@@ -82,3 +82,48 @@ When unable to find the exegesis in the Quran, the Sunnah or with the Companions
 ![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-25.png)
 ![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-26.png)
 The halfway point is at 18:19 (وليتلطف)
+
+### Meaning of Surah:
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-27.png)
+
+**Proposed meaning 1: Elevation or high rank:**  
+"It was said that "surah" means elevation and height... Furthermore, surah implies that the reader is moving from one stage to another."
+
+**Proposed meaning 2: Height, like the walls enclosing a city/chapter:**  
+It was also said that Surah means height, just like walls that surround cities." Ibn Kathir favours this meaning, writing: "I say that the word surah means collecting or surrounding parts - or the Ayat in this case, just as the wall that surrounds the city, surrounds its homes and buildings."
+
+**Proposed meaning 3: Portion, like the remaining portion in a pot:**  
+"It was said that surah was called as such because it is a part of the Quran, as compared to the word Asăr, which is in reference to
+whatever remains in the pot. Therefore, in this case, the origin of the word was altered so that the word now reads surah."
+- suʾrah — سُؤْرَة
+- becoming sūrah — سُورَة
+
+**Proposed meaning 4: A perfect/complete thing:**  
+It was also said that surah was called such because it is complete and perfect, as the Arabs used to call the perfect camel a surah.
+
+**Plurals of Surah:**  
+-  سُوَر — suwar
+-  سُوَرَات — suwarāt
+-  سُورَات — sūrāt
+
+### Meaning of Ayah:
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-28.png)
+
+**Proposed meaning 1: The "sign"/boundary demarcating one unit of recitation:**  
+"The Ayah is the sign - or pause - that separates the speech before and after, meaning that the Ayah is separate from its preceding and following sentences."
+
+**Proposed meaning 2: A "sign"/wonder from God:**  
+It was also said that it was called 'Ayah', meaning, a wonder', because mankind is unable to produce something like it.
+
+**Plurals of ayah:**  
+-  آي — āy
+-  آيَات — āyāt
+-  آيَاي — āyāy
+
+
+**Meaning of Kalimah:**   
+- "As for the word Kalimah, it means 'one word'".  
+- "The scholars of Kufah said that each of 'Alif Läm, Mim, Ta Ha, Yasin, Ha, Mim is a Kalimah."
+
+### Does the Quran contain non-Arabic words?"
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-29.png)

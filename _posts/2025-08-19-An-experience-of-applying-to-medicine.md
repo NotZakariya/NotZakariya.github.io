@@ -4,6 +4,12 @@ subtitle: "by a normal person"
 date: 2025-08-18
 tags: [medicine]
 ---
+<div dir="rtl" lang="ar">
+
+  أعوذُ باللهِ منَ الشيطانِ الرجيمِ،
+<br>
+  بسمِ اللهِ الرحمنِ الرحيمِ
+</div>
 # Preamble
 Hello there 👋, I imagine the vast majority of people reading this article will have no interest in anything else on this website. At the time of writing, I intend for this to be my only article unrelated to philosophy, theology, politics or economics. I should also add that if you know me, or if you've ever read anything I've written, you know I have two very distinctive and polar opposite styles of writing. One which is incredibly formal and austere, and another which is much easier to read and much more comical. Don't worry I'm going to make this article the informal and easy to read kind, for the sake of making applying to medicine seem less scary and austere. 
  
