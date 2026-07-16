@@ -67,3 +67,18 @@ When unable to find the exegesis in the Quran, the Sunnah or with the Companions
 ![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-18.png)
 ![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-19.png)
 ![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-20.png)
+
+### The obligation to share knowledge, but refrain from speaking without it:
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-21.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-22.png)
+
+### Place of revelation according to Ibn Kathir:
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-23.png)
+
+### How the companions divided the Quran:
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-24.png)
+
+### Points of division:
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-25.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-26.png)
+The halfway point is at 18:19 (وليتلطف)
