@@ -51,15 +51,15 @@ to hold fast to it, and to avoid forsaking it, lest our hearts harden and become
 ### 4. The Tabi'in (second generation of Islam)
 When unable to find the exegesis in the Quran, the Sunnah or with the Companions, the scholars then look to the exegesis of the Tabi'in (second generation of Islam).
 
-### Israelite accounts and tales:
+### On Israelite accounts and tales:
 "Israelite accounts and stories should only be used as supporting evidence, not as evidence themselves. There are three types of these accounts and tales:
 1. A kind that we are sure is authentic because we have in our religion something that testifies to its truth. 
 2. The second type is what we know to be false based on what we have.
 3. The third is of neither type. Hence, we neither affirm nor deny this type, and we are allowed to narrate it, because of the Hadith
 ![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-15.png)
-(This Hadith from Abdullah bin Amr was collected by Al-Bukhāri (Fath Al-Bari 6:572))
+(This Hadith from Abdullah bin Amr was collected by Al-Bukhāri (Fath Al-Bari 6:572))"
 
-### Tafsir by mere Opinion:
+### On Tafsir by mere Opinion:
 ![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-16.png)
 ![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-17.png)
 
