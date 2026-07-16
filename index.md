@@ -26,7 +26,7 @@ But what of this work? Well, I intend for this to be an assorted collation of al
 
 Why should you read what I have to say? Maybe you shouldn't. I'm just a random person on the internet after all. 🤷‍♂️
 
-So why does it exist? This mostly exists for my own benefit. I think that if I give form to my thoughts and beliefs, I'll be better able to identify the holes and inconsistencies in my worldview. But perhaps you might find something on here that contains remnants of truth that are explained in a form that is easy for you to understand. 🤷‍♂️
+So why does it exist? This mostly exists for my own benefit. I think that if I give form to my thoughts and beliefs, I'll be better able to identify the holes and inconsistencies in my worldview. Why are you here? I don't know, maybe you should ask yourself that question...
 
 In any case, I would recommend extreme caution and skepticism when exploring this site.
 
