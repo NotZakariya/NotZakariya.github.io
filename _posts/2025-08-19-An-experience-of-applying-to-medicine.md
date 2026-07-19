@@ -2,7 +2,7 @@
 title: "An experience of applying to medicine"
 subtitle: "by a normal person"
 date: 2025-08-18
-tags: [medicine]
+tags: [Medicine]
 ---
 <div dir="rtl" lang="ar">
 

@@ -1929,3 +1929,49 @@ body.layout-post article img {
     overflow-x: hidden;
   }
 }
+/* Subtle article quotation blocks */
+body.layout-post .container blockquote,
+body.layout-post .main-content blockquote,
+body.layout-post article blockquote {
+  max-width: 760px;
+  margin: 1.75rem auto;
+  padding: 0.4rem 0 0.4rem 1.1rem;
+  border: none;
+  border-left: 2px solid rgba(5, 191, 133, 0.28);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: rgba(34, 34, 34, 0.7);
+  font-family: inherit;
+  font-size: inherit;
+  font-style: normal;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+
+body.layout-post .container blockquote p,
+body.layout-post .main-content blockquote p,
+body.layout-post article blockquote p {
+  margin: 0;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+
+body.layout-post .container blockquote em,
+body.layout-post .main-content blockquote em,
+body.layout-post article blockquote em {
+  color: inherit;
+}
+
+@media (max-width: 700px) {
+  body.layout-post .container blockquote,
+  body.layout-post .main-content blockquote,
+  body.layout-post article blockquote {
+    margin: 1.35rem auto;
+    padding: 0.25rem 0 0.25rem 0.9rem;
+    border-left-width: 2px;
+  }
+}

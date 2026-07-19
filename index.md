@@ -2,8 +2,6 @@
 layout: default
 title: Home
 ---
-
-# Alethonym:
 <div dir="rtl" lang="ar">
 
   أعوذُ باللهِ منَ الشيطانِ الرجيمِ،
