@@ -127,3 +127,5 @@ It was also said that it was called 'Ayah', meaning, a wonder', because mankind 
 
 ### Does the Quran contain non-Arabic words?"
 ![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-29.png)
+
+[Next: Tafsir Ibn Kathir - Chapter 1](/2026/07/20/Tafsir-Ibn-Kathir-Chapter-1/)

@@ -1966,6 +1966,30 @@ body.layout-post article blockquote em {
   color: inherit;
 }
 
+/* Default links inside articles */
+body.layout-post .container a {
+  display: inline-block;
+  color: $accentColour;
+  font-family: $headingFont;
+  font-size: clamp(1.45rem, 3vw, 2.15rem);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.08;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+body.layout-post .container a:hover,
+body.layout-post .container a:focus-visible {
+  color: $focusColour;
+  transform: translateX(0.2rem);
+}
+
+body.layout-post .container a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 0.25rem;
+}
+
 @media (max-width: 700px) {
   body.layout-post .container blockquote,
   body.layout-post .main-content blockquote,
