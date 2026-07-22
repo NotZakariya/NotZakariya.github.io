@@ -21,9 +21,8 @@ tags: [Tafsir Ibn Kathir] #[abc]e
 ![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-2.png)
 4. It is also called **Al-Salah** (the prayer) because reciting it is a condition for the correctness of the Salah (prayer).
 5. It is also called **Ash-Shifa** (the cure).
-6. It is also called **Ar-Ruqyah** (the remedy) since in the Sahih, there is a narration of Abu Sa'id telling the story of the companion who used Al-Fatihah as a remedy for the tribal chief who was poisoned. Later the Messenger of Allah ﷺ said to a companion:
-![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-4.png)
-(Fath Al-bari 4:529)"
+6. It is also called **Ar-Ruqyah** (the remedy) since in the Sahih, there is a narration of Abu Sa'id telling the story of the companion who used Al-Fatihah as a remedy for the tribal chief who was poisoned. 
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-12.png)
 
 ## Place of revelation:
 "Al-Fatihah was revealed in Makkah, as Ibn 'Abbas, Qatadah and Abu Al-Aliyah stated."
@@ -34,3 +33,22 @@ tags: [Tafsir Ibn Kathir] #[abc]e
 
 ## The Reason It Is Called Umm Al-Kitab (Mother of The Book):
 ![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-6.png)
+
+## Al-Fatihah Being The greatest Surah:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-7.png)
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-10.png)
+"Some scholars have relied on this Hadith as evidence that some Ayat and Surahs have more virtue than others.
+
+## The Uniqueness of Al-Fatihah:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-8.png)
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-9.png)
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-13.png)
+
+## Requirement for Al-Fatihah to be recited in prayer:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-14.png)
+
+## What Happens When One Recites Al-Fatihah:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-15.png)
+
+## The Usage of "Recitation" and "Prayer":
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-16.png)
