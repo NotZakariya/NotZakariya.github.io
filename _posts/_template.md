@@ -11,3 +11,5 @@ cd ~/Desktop/Recreational/Code/Github/NotZakariya.github.io
 bundle exec jekyll serve --livereload
 
 http://localhost:4000
+
+bin/optimize-image

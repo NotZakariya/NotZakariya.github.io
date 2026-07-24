@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+project_root="$(cd "$(dirname "$0")/.." && pwd)"
+tool_environment="$project_root/.image-tools"
+python="$tool_environment/bin/python"
+
+if [[ ! -x "$python" ]]; then
+  echo "Preparing the image optimizer (first run only)..."
+  python3 -m venv "$tool_environment"
+fi
+
+if ! "$python" -c "from PIL import Image" >/dev/null 2>&1; then
+  echo "Installing the image optimizer (first run only)..."
+  "$python" -m pip install --quiet --disable-pip-version-check \
+    -r "$project_root/requirements-images.txt"
+fi
+
+exec "$python" "$project_root/bin/optimize_image.py" "$@"

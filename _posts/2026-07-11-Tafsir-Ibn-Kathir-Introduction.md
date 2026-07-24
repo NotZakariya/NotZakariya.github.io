@@ -15,24 +15,24 @@ tags: [Tafsir Ibn Kathir] #[abc]e
 # Ibn Kathir's Introduction:
 
 Ibn Kathir Begins his Exegesis as God begins the Quran, by praising the one who begins his book with praise:
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image.webp)
 and who begins his creation with praise:
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-1.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-1.webp)
 and who ends with praise:
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-2.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-2.webp)
 and who sent messengers:
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-3.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-3.webp)
 to warn all:
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-4.png)
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-5.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-4.webp)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-5.webp)
 Ibn Kathir then writes that it is the obligation of scholars to elucidate the meaning of God's message:
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-7.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-7.webp)
 And is the obligation of those who believe, to learn and understand God's message,
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-8.png)
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-10.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-8.webp)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-10.webp)
 to hold fast to it, and to avoid forsaking it, lest our hearts harden and become unreceptive.
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-14.png)
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-12.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-14.webp)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-12.webp)
 
 ## The sources for Tafsir:
 
@@ -41,10 +41,10 @@ to hold fast to it, and to avoid forsaking it, lest our hearts harden and become
 (Internal references require no external sources, so no extra axioms of faith).
 ### 2. The Sunnah (practices/way of the prophet )
 "When one does not find this easily, he should look to the Sunnah because its purpose is to explain the Qur'an and elaborate upon its meanings":
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-6.png)
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-9.png)
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-11.png)
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-13.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-6.webp)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-9.webp)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-11.webp)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-13.webp)
 ### 3. The Companions (first generation of Islam)
 "If one cannot find the exegesis in the Quran or Sunnah, he should refer to the statements of the Companions, who were the most knowledgeable in exegesis, for they witnessed the situations and incidents that we did not witness. They also had the deepest comprehension, the most correct knowledge, and the most righteous works."
 
@@ -56,35 +56,35 @@ When unable to find the exegesis in the Quran, the Sunnah or with the Companions
 1. A kind that we are sure is authentic because we have in our religion something that testifies to its truth. 
 2. The second type is what we know to be false based on what we have.
 3. The third is of neither type. Hence, we neither affirm nor deny this type, and we are allowed to narrate it, because of the Hadith
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-15.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-15.webp)
 (This Hadith from Abdullah bin Amr was collected by Al-Bukhāri (Fath Al-Bari 6:572))"
 
 ### On Tafsir by mere Opinion:
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-16.png)
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-17.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-16.webp)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-17.webp)
 
 ### Explaining What One Has Knowledge Of, Or Silence Otherwise
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-18.png)
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-19.png)
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-20.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-18.webp)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-19.webp)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-20.webp)
 
 ### The obligation to share knowledge, but refrain from speaking without it:
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-21.png)
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-22.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-21.webp)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-22.webp)
 
 ### Place of revelation according to Ibn Kathir:
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-23.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-23.webp)
 
 ### How the companions divided the Quran:
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-24.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-24.webp)
 
 ### Points of division:
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-25.png)
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-26.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-25.webp)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-26.webp)
 The halfway point is at 18:19 (وليتلطف)
 
 ### Meaning of Surah:
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-27.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-27.webp)
 
 **Proposed meaning 1: Elevation or high rank:**  
 "It was said that "surah" means elevation and height... Furthermore, surah implies that the reader is moving from one stage to another."
@@ -107,7 +107,7 @@ It was also said that surah was called such because it is complete and perfect, 
 -  سُورَات — sūrāt
 
 ### Meaning of Ayah:
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-28.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-28.webp)
 
 **Proposed meaning 1: The "sign"/boundary demarcating one unit of recitation:**  
 "The Ayah is the sign - or pause - that separates the speech before and after, meaning that the Ayah is separate from its preceding and following sentences."
@@ -126,6 +126,6 @@ It was also said that it was called 'Ayah', meaning, a wonder', because mankind 
 - "The scholars of Kufah said that each of 'Alif Läm, Mim, Ta Ha, Yasin, Ha, Mim is a Kalimah."
 
 ### Does the Quran contain non-Arabic words?"
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-29.png)
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-29.webp)
 
 [Next: Tafsir Ibn Kathir - Chapter 1](/2026/07/20/Tafsir-Ibn-Kathir-Chapter-1/)
