@@ -13,3 +13,5 @@ bundle exec jekyll serve --livereload
 http://localhost:4000
 
 bin/optimize-image
+
+bin/optimize-image images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1
