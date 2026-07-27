@@ -78,7 +78,7 @@ tags: [Tafsir Ibn Kathir] #[abc]e
 ## What does it mean to seek refuge?:
 ![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-7-1.webp)
 
-## Why is the devil called Shaytan?:
+## The meaning of Shaytan:
 The Arabic word Shayṭān (شيطان) has two proposed linguistic origins: 
 1. Shaṭana (شطن) – meaning "to be far away" or "distant."
 - This is considered the stronger and more widely accepted explanation.
