@@ -52,3 +52,37 @@ tags: [Tafsir Ibn Kathir] #[abc]e
 
 ## The Usage of "Recitation" and "Prayer":
 ![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-16.webp)
+
+## How to treat human vs satanic enemies:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-17.webp)
+"These are the only 3 ayat with this meaning: Allah commanded that we be lenient with human enemies, because their soft nature means that perhaps they might relent, but he commanded that we seek refuge from satanic enemies, because the devil does not relent in his emnity if we treat him with kindness and leniency. The devil only seeks the destruction of the son of Adam due to the viscious emnity and hatred that he has always had towards man's father, Adam.
+
+## The devil's intention to mislead Adam out of Paradise and humanity into hell:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-18.webp)
+
+## Seeking refuge before reading the Quran:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-2-1.webp)
+
+## Seeking refuge before Prayer:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-3-1.webp)
+
+## Seeking refuge when one is angry:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-4-1.webp)
+
+## Is seeking refuge required?:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-5-1.webp)
+
+## The virtues of seeking refuge:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-6-1.webp)
+
+## What does it mean to seek refuge?:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-7-1.webp)
+
+## Why is the devil called Shaytan?:
+The Arabic word Shayṭān (شيطان) has two proposed linguistic origins: 
+1. Shaṭana (شطن) – meaning "to be far away" or "distant."
+- This is considered the stronger and more widely accepted explanation.
+- It refers to being far from Allah's mercy and far from righteousness.
+1. Shāṭa (شاط) – meaning "to burn."
+- This is linked to the belief that jinn were created from fire.
+- Some scholars accepted this meaning, but many preferred the first.
