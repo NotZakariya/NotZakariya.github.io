@@ -12,9 +12,9 @@ tags: [Tafsir Ibn Kathir] #[abc]e
   بسمِ اللهِ الرحمنِ الرحيمِ
 </div>
 
-- [Etymology of Surah:](/2026/07/11/Tafsir-Ibn-Kathir-Introduction/#meaning-of-surah)
+- [Etymology of Surah (سورة):](/2026/07/11/Tafsir-Ibn-Kathir-Introduction/#meaning-of-surah)
 
-- [Etymology of Ayah:](/2026/07/11/Tafsir-Ibn-Kathir-Introduction/#meaning-of-ayah)
+- [Etymology of Ayah (آية):](/2026/07/11/Tafsir-Ibn-Kathir-Introduction/#meaning-of-ayah)
 
-- [Etymology of Shaytan:](/2026/07/20/Tafsir-Ibn-Kathir-Chapter-1#why-is-the-devil-called-shaytan)
+- [Etymology of Shaytan (شيطان):](/2026/07/20/Tafsir-Ibn-Kathir-Chapter-1#why-is-the-devil-called-shaytan)
 

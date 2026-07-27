@@ -78,7 +78,7 @@ tags: [Tafsir Ibn Kathir] #[abc]e
 ## What does it mean to seek refuge?:
 ![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-7-1.webp)
 
-## The meaning of Shaytan:
+## The meaning of Shaytan (شيطان):
 The Arabic word Shayṭān (شيطان) has two proposed linguistic origins: 
 1. Shaṭana (شطن) – meaning "to be far away" or "distant."
 - This is considered the stronger and more widely accepted explanation.
@@ -92,3 +92,4 @@ The former explanation is favoured because Shaytan is used to refer to both men 
 
 Additionally it is used to refer to other creatures who are rebellious in the sunnah:
 ![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-1-3.webp)
+
