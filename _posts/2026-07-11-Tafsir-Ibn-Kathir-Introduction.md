@@ -84,8 +84,6 @@ When unable to find the exegesis in the Quran, the Sunnah or with the Companions
 The halfway point is at 18:19 (وليتلطف)
 
 ### Meaning of Surah:
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-27.webp)
-
 **Proposed meaning 1: Elevation or high rank:**  
 "It was said that "surah" means elevation and height... Furthermore, surah implies that the reader is moving from one stage to another."
 
@@ -106,9 +104,8 @@ It was also said that surah was called such because it is complete and perfect, 
 -  سُوَرَات — suwarāt
 -  سُورَات — sūrāt
 
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-27.webp)
 ### Meaning of Ayah:
-![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-28.webp)
-
 **Proposed meaning 1: The "sign"/boundary demarcating one unit of recitation:**  
 "The Ayah is the sign - or pause - that separates the speech before and after, meaning that the Ayah is separate from its preceding and following sentences."
 
@@ -120,7 +117,7 @@ It was also said that it was called 'Ayah', meaning, a wonder', because mankind 
 -  آيَات — āyāt
 -  آيَاي — āyāy
 
-
+![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-28.webp)
 **Meaning of Kalimah:**   
 - "As for the word Kalimah, it means 'one word'".  
 - "The scholars of Kufah said that each of 'Alif Läm, Mim, Ta Ha, Yasin, Ha, Mim is a Kalimah."

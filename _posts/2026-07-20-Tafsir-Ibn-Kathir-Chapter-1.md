@@ -83,6 +83,12 @@ The Arabic word Shayṭān (شيطان) has two proposed linguistic origins:
 1. Shaṭana (شطن) – meaning "to be far away" or "distant."
 - This is considered the stronger and more widely accepted explanation.
 - It refers to being far from Allah's mercy and far from righteousness.
-1. Shāṭa (شاط) – meaning "to burn."
+2. Shāṭa (شاط) – meaning "to burn."
 - This is linked to the belief that jinn were created from fire.
 - Some scholars accepted this meaning, but many preferred the first.
+
+The former explanation is favoured because Shaytan is used to refer to both men and jinn in the verse:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-19.webp)
+
+Additionally it is used to refer to other creatures who are rebellious in the sunnah:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-1-3.webp)
