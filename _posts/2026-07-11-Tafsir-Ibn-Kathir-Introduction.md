@@ -83,9 +83,9 @@ When unable to find the exegesis in the Quran, the Sunnah or with the Companions
 ![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-26.webp)
 The halfway point is at 18:19 (وليتلطف)
 
-### Meaning of Surah (سورة):
+### Meaning of Surah:
 **Proposed meaning 1: Elevation or high rank:**  
-"It was said that "surah" means elevation and height... Furthermore, surah implies that the reader is moving from one stage to another."
+"It was said that "surah" (سورة) means elevation and height... Furthermore, surah implies that the reader is moving from one stage to another."
 
 **Proposed meaning 2: Height, like the walls enclosing a city/chapter:**  
 It was also said that Surah means height, just like walls that surround cities." Ibn Kathir favours this meaning, writing: "I say that the word surah means collecting or surrounding parts - or the Ayat in this case, just as the wall that surrounds the city, surrounds its homes and buildings."
@@ -105,9 +105,9 @@ It was also said that surah was called such because it is complete and perfect, 
 -  سُورَات — sūrāt
 
 ![alt text](/images/2026-07-11-Tafsir-Ibn-Kathir/image-27.webp)
-### Meaning of Ayah (آية):
+### Meaning of Ayah:
 **Proposed meaning 1: The "sign"/boundary demarcating one unit of recitation:**  
-"The Ayah is the sign - or pause - that separates the speech before and after, meaning that the Ayah is separate from its preceding and following sentences."
+"The Ayah (آية) is the sign - or pause - that separates the speech before and after, meaning that the Ayah is separate from its preceding and following sentences."
 
 **Proposed meaning 2: A "sign"/wonder from God:**  
 It was also said that it was called 'Ayah', meaning, a wonder', because mankind is unable to produce something like it.
