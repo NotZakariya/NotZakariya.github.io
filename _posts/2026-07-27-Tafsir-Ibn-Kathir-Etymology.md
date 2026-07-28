@@ -18,3 +18,4 @@ tags: [Tafsir Ibn Kathir] #[abc]e
 
 - [Etymology of Shaytan (شيطان):](/2026/07/20/Tafsir-Ibn-Kathir-Chapter-1#the-meaning-of-shaytan)
 
+- [Etymology of Rajim (رجيم):](/2026/07/20/Tafsir-Ibn-Kathir-Chapter-1#the-meaning-of-rajim)

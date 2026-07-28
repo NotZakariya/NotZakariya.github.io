@@ -93,4 +93,19 @@ The former explanation is favoured because Shaytan is used to refer to both men 
 Additionally it is used to refer to other creatures who are rebellious in the sunnah:
 ![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-1-3.webp)
 
-## The meaning of Rajim (رجيم):
+## The meaning of Rajim:
+Rajim (رجيم) has 2 proposed meanings:
+1. "Rajim" means outcast/expelled from Allah's mercy and all forms of righteousness, as the devil is described as being outcast in these ayat:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-20.webp)
+(here "رجوم" is used to describe the مصابيح that are **driving out** the devils)
+Similarly in the 37th chapter of the Quran (37:6-10), the shayateen are described as being pelted, driven out and outcast:
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-1-4.webp)
+This is perhaps even more clear in 15:16-18 where "رجيم" is used to describe the devils in the context of them being expelled.
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-2-2.webp)
+Here the devils have things being thrown **at** them, so they are outcast.
+
+2. The second proposition is that rajim means **the one who throws**, i.e. the devil throws doubts and evil thoughts in people's hearts.
+
+(but according to Ibn-Kathir, the first meaning is more popular and accurate)
+![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-3-2.webp)
+
