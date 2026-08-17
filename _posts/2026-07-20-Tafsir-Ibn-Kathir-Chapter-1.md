@@ -109,3 +109,8 @@ Here the devils have things being thrown **at** them, so they are outcast.
 (but according to Ibn-Kathir, the first meaning is more popular and accurate)
 ![alt text](/images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image-3-2.webp)
 
+# On Bismillah in Al-Fatihah:
+- The companions started the book of Allah with Bismillah
+- The scholars also agree that Bismillah is a part of an ayah in Surah An-Naml (27:30)
+![alt text](../images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1/image.png)
+- They disagree over whether it is a separate Ayah before every Surah, or if it is an Ayah, or a part of an yah, included in every Surah where the Bismillah appears in its beginning (the exception being the 9th Chapter)

@@ -1967,6 +1967,10 @@ body.layout-post article blockquote em {
 }
 
 /* Default links inside articles */
+body.layout-post :is(h1, h2, h3, h4, h5, h6)[id] {
+  scroll-margin-top: 1rem;
+}
+
 body.layout-post .container a {
   display: inline-block;
   color: $accentColour;
@@ -1996,5 +2000,39 @@ body.layout-post .container a:focus-visible {
     margin: 1.35rem auto;
     padding: 0.25rem 0 0.25rem 0.9rem;
     border-left-width: 2px;
+  }
+}
+
+/* More compact, editorial article typography on phones */
+@media (max-width: 700px) {
+  body.layout-post .container p,
+  body.layout-post .container li,
+  body.layout-post .container blockquote {
+    font-size: clamp(0.96rem, 4.1vw, 1rem);
+    line-height: 1.62;
+    letter-spacing: -0.012em;
+  }
+
+  body.layout-post .container h1:not(.post-title-main),
+  body.layout-post .container h2,
+  body.layout-post .container h3,
+  body.layout-post .container h4,
+  body.layout-post .container h5,
+  body.layout-post .container h6 {
+    margin-top: 1.65rem;
+    margin-bottom: 0.6rem;
+    line-height: 1.12;
+  }
+
+  body.layout-post .container h1:not(.post-title-main) {
+    font-size: 1.5rem;
+  }
+
+  body.layout-post .container h2 {
+    font-size: 1.35rem;
+  }
+
+  body.layout-post .container h3 {
+    font-size: 1.2rem;
   }
 }
