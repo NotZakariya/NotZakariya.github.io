@@ -2013,6 +2013,18 @@ body.layout-post .container a:focus-visible {
     letter-spacing: -0.012em;
   }
 
+  body.layout-post .container ol,
+  body.layout-post .container ul {
+    padding-left: 1.4rem;
+  }
+
+  body.layout-post .container li {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0.2rem;
+    text-align: left;
+  }
+
   body.layout-post .container h1:not(.post-title-main),
   body.layout-post .container h2,
   body.layout-post .container h3,
