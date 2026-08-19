@@ -1,0 +1,33 @@
+---
+title: "On Good And Evil"
+subtitle: null
+date: 2026-08-18
+categories: null  #[xyz]
+tags: [Prose] #[abc]
+---
+<div dir="rtl" lang="ar">
+
+  أعوذُ باللهِ منَ الشيطانِ الرجيمِ،
+<br>
+  بسمِ اللهِ الرحمنِ الرحيمِ
+</div>
+
+***I am not certain of anything that I have written below, God knows best (الله أعلم), but the thoughts that I have elucidated below seem to be a plausible theory of good and evil...***
+
+### A foreword on my methodology of explanation:
+There are 2 ways I could approach this piece. I could give you the logical argument for this theory of morality and then back it up with scripture, or I could substantiate up my claims with scripture and then give my logical analysis as additional substantiation. 
+I shall use the second methodology, for 3 reasons.
+
+Firstly, because this is how we should approach all internal religious affairs. What do I mean by that? Let's say that one has accepted Islam (or any religion for that matter). You now have 2 choices when settling on your beliefs: you can either follow God and his word, or you can invent your own doctrines and beliefs based on your own desires and wishful thinking. In this scenario, you have accepted Islam, so you believe that the Quran, your scripture, is the unadulterated word of God. So how could you ever pick the second option? How could you ever reject God's word and turn to your often defective mental faculties as a means of uncovering higher truths? If one is muslim (if they have submitted to God's will), then they should take God's word as the source of their beliefs (as a primary resource that overrides conjecture). To reject God's word as the ultimate source of truth is to reject his divine revelation, and this is to reject the religion.  
+Does this mean that people should blindly follow scripture? No. If the scripture necessitates a belief that is contradictory, i.e. it cannot be true internally, then a sincere person must reject the internal consistency of their belief system. Notably, if you reject a religion or belief system because of an internal contradiction or problem, it **must** come from a logical perspective, not merely intuition or "vibes". This is because our intuition is liable to many forms of distortion, like social conditioning. For example, if you were raised in Nazi Germany your intuition would be warped by your social conditioning, leading you to believe that there was one master race and that everyone else was subhuman, or if you were born in Cold-War era America, your intuition would be warped to synonymize communism with pure evil. These may seem like extreme examples, but the reality is that we are all socially conditioned. Every time your parents told you off as a child or rewarded you, every time you picked up "proper etiquette", every time you went to school, every-time you read a book or watched a TV-show, you consumed some form of propaganda that has warped your intuition and made you into who you are. This is why moral inclinations vary based on culture and time, this is why intuition is not reliable. Any sincere person must be willing to cede their emotional faculties to religion (their intuition) but not their rational faculties (their logic). If someone criticises the external validity of your religion or belief system rationally, you must keep an open heart, if someone criticises the internal validity of your religion, you must keep an open heart, but one must choose between sound, internal doctrine (God's revelation) and conjecture (uncertain belief that may or may not be true, based on incomplete evidence), they should choose the former.
+ (from a logical perspective **not** merely based on "vibes" and intuition, as these are liable to social conditioning and other forms of distortion)
+Well, People have 2 choices to when they pick to a belief system - they can either follow God and his word, or they can invent their own doctrines and beliefs based on their desires and wishful thinking. If one is a muslim (one who has submitted to God), then one should take God's word as the source of their beliefs. If you believe that God is all-knowing, and yet you choose to still follow your own wishful thinking and desires and reject his word, then this is a disease of the heart - arrogance and disobedience, the epitome of all evil. Does this mean that we should blindly follow scripture? No. If scripture necessitates a belief that cannot be true internally (from a logical perspective, not merely based on "vibes" or intuition), then one should question the validity of their scripture and their belief system. But if the beliefs that follow from scripture are internally consistent, then one should believe them, if one has submitted their heart to the belief system.
+1. Firstly because using the former methodology makes it look look like this is apologetical, which I do not believe it is. This conception of good and evil isn't an attempt to reconcile evil with a system of existing theology, rather it *is* an integral part of an existing system of theology, substantiated and proponented by our religious doctrine itself. 
+God is the origin and creator of all things from a monotheistic perspective like Islam. 
+![alt text](/images/2026-08-18-On-Good-And-Evil/image.png)
+God is good, and so everything that emanates from him - everything divine, is good. Even something seemingly unremarkable like a chair is good, because God has given it a divine purpose and form and it submits to him, like all things do, and so it is good. It is important to note that my 
+
+ His divinity is  (all positive qualities). He is the one from which everything emanates (just like how [Beauty](/2026/07/16/Beauty/)  is a manifestation of his attributes). Evil is merely an absence of divinity, it does not exist as a separate ontological emanation from an ontologically distinct source of emanation - at least in monotheism. For evil to "exist" positively, like good does, then one would have to attribute it to
+### On Pure vs Impure Love
+Firstly, before considering the nature of love, it is important to differentiate pure from impure love. I believe that all good comes from God, and so all love that is pure is from God too, but this does not extend to the tainted malformations of love that those with crooked hearts experience. Many people love evil things. In these cases their evil and disobedience to their Lord is made to look good
+ note that I do not intend for this to be a discussion of the crooked malformations of love that are experienced by those whose hearts are 

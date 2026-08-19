@@ -16,4 +16,9 @@ bin/optimize-image
 
 bin/optimize-image images/2026-07-20-Tafsir-Ibn-Kathir-Chapter-1
 
+
 bin/optimize-image images/2026-07-16-Beauty
+
+
+bin/optimize-image images/2026-07-11-Tafsir-Ibn-Kathir-Introduction
+
