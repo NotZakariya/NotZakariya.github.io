@@ -3,7 +3,7 @@ title: "First Year Cambridge Medicine Guide"
 subtitle: null
 date: 2026-08-23
 categories: null  #[xyz]
-tags: [Prose] #[abc]
+tags: [Medicine]
 ---
 <div dir="rtl" lang="ar">
 
