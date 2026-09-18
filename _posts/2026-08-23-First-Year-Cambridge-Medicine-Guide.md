@@ -82,6 +82,8 @@ FAB consists of 3 parts. In terms of workload FAB is organised as follows:
 ### Actual Cambridge Medicine Advice - FAB - the handbook/DR:
 FAB is a subject where you can spend a lot of time learning absolutely nothing. The FAB handbook is incredibly dense and unhelpful as a teaching method. Imperial medics get access to an app called "Complete Anatomy" that I think is an incredibly good investment. I used to open the FAB handbook, and go through it with complete anatomy open, adding the anatomical features and seeing their relations. 
 
+*Note: One of my friends has pointed out to me that Visual Body suite is amazing too (instead of Complete Anatomy). I've personally never used it, but I would check it out before cashing out on a Complete Anatomy subscription.*
+
 - Sam Webster makes good introductory videos that are quite easy to watch whilst you're eating a meal: [Sam Webster's Youtube Channel](https://www.youtube.com/@SamWebster)
 
 - This guy has really good anatomy videos for the pelvic diaphram and the long list of arteries in the abdomen: [About Medicine](https://www.youtube.com/@aboutmedicine)
@@ -174,6 +176,8 @@ I went to every histology session and didn't learn a single thing. For the manda
 That being said... even though I knew literally nothing (not exaggerating), until 2 days before my exam, it's very easy to do high yield cramming at a very chill pace. I wasn't stressed when I was revising for histology, I just put my head down for a few hours and did well, so don't worry about it too much. Definitely don't let the handout pre-reading consume you. 
 
 Lots of people will cry about histology, and lots of people will say it's easy - it's not serious, and it's not hard, but it's also not *that* easy. It's about a day of work to learn the entire subject well, before exams. And it only counts for 3.333% of your overall grade so... make of that what you will.
+
+*Note: My friends have also emphasised that you should make sure to do the pre-reading quiz to get 100% attendance every week before the deadline, and that the diagrams in the official uni mock (which they give you access to a few weeks before the exam) seem to repeat in the actual exam too. So that mock is probably very high yield. They also recommend doing someone else's anki the day before the exam to learn it, which is not the method I used, but I see where they're coming from. I personally incline more to the methodology of reading AI summaries of the handouts, as a revision technique for histology, especially if you're stressed for time.*
 
 ### HOM...
 
