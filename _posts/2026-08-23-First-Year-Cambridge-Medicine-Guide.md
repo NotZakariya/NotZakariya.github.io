@@ -82,7 +82,7 @@ FAB consists of 3 parts. In terms of workload FAB is organised as follows:
 ### Actual Cambridge Medicine Advice - FAB - the handbook/DR:
 FAB is a subject where you can spend a lot of time learning absolutely nothing. The FAB handbook is incredibly dense and unhelpful as a teaching method. Imperial medics get access to an app called "Complete Anatomy" that I think is an incredibly good investment. I used to open the FAB handbook, and go through it with complete anatomy open, adding the anatomical features and seeing their relations. 
 
-*Note: One of my friends has pointed out to me that Visible Body suite, which apparently us Cambridge medics get for free, is amazing too (instead of Complete Anatomy). I've personally never used it, but I would check it out before cashing out on a Complete Anatomy subscription. Directions to accessing it for free are linked [here](https://bio.lib.cam.ac.uk/pdn-library/electronic-resources).*
+*Note: One of my friends has pointed out to me that Visible Body Suite, which apparently us Cambridge medics get for free, is amazing too (instead of Complete Anatomy). I've personally never used it, but I would check it out before cashing out on a Complete Anatomy subscription. Directions to accessing it for free are linked [here](https://bio.lib.cam.ac.uk/pdn-library/electronic-resources).*
 
 - Sam Webster makes good introductory videos that are quite easy to watch whilst you're eating a meal: [Sam Webster's Youtube Channel](https://www.youtube.com/@SamWebster)
 
