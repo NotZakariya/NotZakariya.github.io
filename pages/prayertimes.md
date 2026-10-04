@@ -42,7 +42,7 @@ no_container: true
 
       <article class="prayer-card" data-prayer="Maghrib">
         <div class="prayer-name">Maghrib</div>
-        <div class="prayer-time">Sunset (see (CCM time )[https://cambridgecentralmosque.org])</div>
+        <div class="prayer-time">Sunset (see <a href="https://cambridgecentralmosque.org" target="_blank">CCM time</a>)</div>
         <div class="prayer-poll"></div>
       </article>
 
