@@ -231,4 +231,16 @@ body.layout-default .footer {
 
 @media (max-width:800px){
   .poll-votes{ grid-template-columns: 1fr; }
+
+.prayer-time a {
+  color: #05bf85;
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+.prayer-time a:hover,
+.prayer-time a:focus {
+  color: #fc4300;
+}
 }
