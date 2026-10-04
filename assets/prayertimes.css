@@ -8,6 +8,7 @@
 }
 
 html, body { height:100%; }
+
 .prayer-page {
   min-height: 100%;
   display:flex;
@@ -28,11 +29,33 @@ html, body { height:100%; }
   box-shadow: none;
 }
 
-.prayer-hero{ text-align:center; margin-bottom:48px; color: rgba(5,22,18,0.95); }
-.prayer-hero{ background: transparent; }
-.prayer-hero h1{ font-family: 'Playfair Display', serif; font-weight:700; font-size:64px; margin:0; color: #ffffff; border-bottom: 2px solid rgba(255,255,255,0.4); padding-bottom: 16px; }
-.prayer-hero p{ margin:8px 0 0; font-weight:600; color: #ffffff; }
-.prayer-hero #date-range{ margin-top:6px; font-weight:600; }
+.prayer-hero{
+  text-align:center;
+  margin-bottom:48px;
+  color: rgba(5,22,18,0.95);
+  background: transparent;
+}
+
+.prayer-hero h1{
+  font-family: 'Playfair Display', serif;
+  font-weight:700;
+  font-size:64px;
+  margin:0;
+  color: #ffffff;
+  border-bottom: 2px solid rgba(255,255,255,0.4);
+  padding-bottom: 16px;
+}
+
+.prayer-hero p{
+  margin:8px 0 0;
+  font-weight:600;
+  color: #ffffff;
+}
+
+.prayer-hero #date-range{
+  margin-top:6px;
+  font-weight:600;
+}
 
 .prayer-grid{
   display:grid;
@@ -55,30 +78,103 @@ html, body { height:100%; }
   justify-content:center;
   overflow:visible;
   width:100%;
-  max-width:560px;
+  max-width:720px;
 }
 
-.prayer-card::before{ display:none; }
+.prayer-card::before{
+  display:none;
+}
 
-.prayer-name{ font-family: 'Playfair Display', serif; font-size:26px; font-weight:700; margin-bottom:12px; }
-.prayer-time{ font-family: 'Playfair Display', serif; font-size:34px; font-weight:600; letter-spacing:0.5px; }
-.prayer-note{ font-size:12px; margin-top:10px; color:#2b2b2b }
-.prayer-footer{ margin-top:48px; text-align:center; color:#f7f7f7; font-size:13px }
+.prayer-name{
+  font-family: 'Playfair Display', serif;
+  font-size:26px;
+  font-weight:700;
+  margin-bottom:12px;
+}
 
-/* Make the grid layout match the mock: 4 across, last item wraps on left */
-.prayer-card{ max-width:720px; }
+.prayer-time{
+  font-family: 'Playfair Display', serif;
+  font-size:34px;
+  font-weight:600;
+  letter-spacing:0.5px;
+}
+
+/* CCM link styling */
+.prayer-time a,
+.prayer-time a:visited {
+  color: #05bf85 !important;
+  text-decoration: none !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+}
+
+.prayer-time a:hover,
+.prayer-time a:focus {
+  color: #fc4300 !important;
+  text-decoration: none !important;
+}
+
+.prayer-note{
+  font-size:12px;
+  margin-top:10px;
+  color:#2b2b2b;
+}
+
+.prayer-footer{
+  margin-top:48px;
+  text-align:center;
+  color:#f7f7f7;
+  font-size:13px;
+}
 
 @media (max-width:800px){
-  .prayer-hero h1{ font-size:44px; padding-bottom: 12px; border-bottom: 2px solid rgba(255,255,255,0.4); }
-  .prayer-hero{ margin-bottom: 36px; }
-  .prayer-hero p{ font-size: 14px; }
-  .prayer-card{ max-width:100%; padding: 24px 16px; }
-  .prayer-name{ font-size: 20px; margin-bottom: 8px; }
-  .prayer-time{ font-size: 28px; }
-  .prayer-card-wrap{ padding: 28px 16px 40px; }
-  .poll-info-box{ padding: 12px 14px; margin: 16px 0 20px; }
-  .poll-info-item{ font-size: 12px; margin: 4px 0; }
-  .poll-btn{ font-size: 11px; padding: 6px 10px; }
+  .prayer-hero h1{
+    font-size:44px;
+    padding-bottom:12px;
+    border-bottom:2px solid rgba(255,255,255,0.4);
+  }
+
+  .prayer-hero{
+    margin-bottom:36px;
+  }
+
+  .prayer-hero p{
+    font-size:14px;
+  }
+
+  .prayer-card{
+    max-width:100%;
+    padding:24px 16px;
+  }
+
+  .prayer-name{
+    font-size:20px;
+    margin-bottom:8px;
+  }
+
+  .prayer-time{
+    font-size:28px;
+  }
+
+  .prayer-card-wrap{
+    padding:28px 16px 40px;
+  }
+
+  .poll-info-box{
+    padding:12px 14px;
+    margin:16px 0 20px;
+  }
+
+  .poll-info-item{
+    font-size:12px;
+    margin:4px 0;
+  }
+
+  .poll-btn{
+    font-size:11px;
+    padding:6px 10px;
+  }
 }
 
 /* Override site container styles for prayer page */
@@ -230,17 +326,7 @@ body.layout-default .footer {
 }
 
 @media (max-width:800px){
-  .poll-votes{ grid-template-columns: 1fr; }
-
-.prayer-time a {
-  color: #05bf85;
-  text-decoration: none;
-  font-family: inherit;
-  font-weight: inherit;
-}
-
-.prayer-time a:hover,
-.prayer-time a:focus {
-  color: #fc4300;
-}
+  .poll-votes{
+    grid-template-columns: 1fr;
+  }
 }
