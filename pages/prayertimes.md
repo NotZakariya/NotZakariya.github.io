@@ -24,7 +24,7 @@ no_container: true
     <section class="prayer-grid">
       <article class="prayer-card" data-prayer="Fajr">
         <div class="prayer-name">Fajr</div>
-        <div class="prayer-time">6:45</div>
+        <div class="prayer-time">7:00</div>
         <div class="prayer-poll"></div>
       </article>
 
