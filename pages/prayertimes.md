@@ -12,7 +12,7 @@ no_container: true
     <header class="prayer-hero">
       <h1>Prayer Times</h1>
       <p>St John's Islamic Society - Prayer times</p>
-      <p id="date-range">04/10 - 11/10 </p>
+      <p id="date-range"> 12/10 - 19/10 </p>
       <p> How to use: Please upvote the poll when you are certain you will make be able to make it إن شاء الله. </p>
     </header>
 
