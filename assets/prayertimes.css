@@ -57,6 +57,18 @@ html, body { height:100%; }
   font-weight:600;
 }
 
+.prayer-hero a,
+.prayer-hero a:visited {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.prayer-hero a:hover,
+.prayer-hero a:focus-visible {
+  text-decoration-thickness: 2px;
+}
+
 .prayer-grid{
   display:grid;
   grid-template-columns: 1fr;

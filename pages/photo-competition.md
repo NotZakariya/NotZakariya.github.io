@@ -13,7 +13,7 @@ no_container: true
     <header class="prayer-hero">
       <h1>Weekly Photo Competition</h1>
       <p>St John's Islamic Society</p>
-      
+      <p><a href="{{ '/photo-competition/rules/' | relative_url }}">Competition rules</a></p>
     </header>
 
     <section class="prayer-grid" aria-label="Competition details">
@@ -54,8 +54,13 @@ Samana (New Court, St John's)
 ![alt text](/images/photo-competition/image-6.webp)
 Samana (Kitchen Bridge, St John's)
 
+
+
+
 </article>
     </section>
+
+
 
     <nav class="prayer-footer" aria-label="ISOC pages">
       <a href="{{ '/prayer-times/' | relative_url }}">Back to prayer times</a>

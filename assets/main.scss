@@ -1971,7 +1971,8 @@ body.layout-post :is(h1, h2, h3, h4, h5, h6)[id] {
   scroll-margin-top: 1rem;
 }
 
-body.layout-post .container a {
+body.layout-post .container a,
+.prayer-page .prayer-card a {
   display: inline-block;
   color: $accentColour;
   font-family: $headingFont;
@@ -1983,12 +1984,15 @@ body.layout-post .container a {
 }
 
 body.layout-post .container a:hover,
-body.layout-post .container a:focus-visible {
+body.layout-post .container a:focus-visible,
+.prayer-page .prayer-card a:hover,
+.prayer-page .prayer-card a:focus-visible {
   color: $focusColour;
   transform: translateX(0.2rem);
 }
 
-body.layout-post .container a:focus-visible {
+body.layout-post .container a:focus-visible,
+.prayer-page .prayer-card a:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 0.25rem;
 }
