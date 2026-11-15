@@ -1,7 +1,11 @@
 {
-    "cSpell.words": [
-        "acquaintancey",
-        "medschool"
-    ],
-    "folder-color.pathColors": []
+  "cSpell.words": [
+    "acquaintancey",
+    "medschool"
+  ],
+  "folder-color.pathColors": [],
+  "markdown.copyFiles.destination": {
+    "**/_posts/*.md": "../images/${documentBaseName}/",
+    "**/pages/*.md": "../images/${documentBaseName}/"
+  }
 }

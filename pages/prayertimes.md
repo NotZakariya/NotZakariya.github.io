@@ -55,6 +55,7 @@ no_container: true
 
     <div class="prayer-footer">
     (See St John's Whatsapp group for alternations to prayer times)
+      <p><a href="{{ '/photo-competition/' | relative_url }}">ISOC Photo Competition</a></p>
     </div>
   </div>
 </main>

@@ -64,6 +64,19 @@ html, body { height:100%; }
 .prayer-time{ font-family: 'Playfair Display', serif; font-size:34px; font-weight:600; letter-spacing:0.5px; }
 .prayer-note{ font-size:12px; margin-top:10px; color:#2b2b2b }
 .prayer-footer{ margin-top:48px; text-align:center; color:#f7f7f7; font-size:13px }
+.prayer-footer a{ color:inherit; text-decoration:underline; text-underline-offset:3px; }
+.prayer-footer a:hover, .prayer-footer a:focus-visible{ text-decoration-thickness:2px; }
+
+.photo-competition-page img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: min(100%, 560px);
+  max-height: 420px;
+  object-fit: contain;
+  margin: 16px auto;
+  border-radius: 8px;
+}
 
 /* Make the grid layout match the mock: 4 across, last item wraps on left */
 .prayer-card{ max-width:720px; }

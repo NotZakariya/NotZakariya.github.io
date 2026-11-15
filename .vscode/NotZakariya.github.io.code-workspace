@@ -6,8 +6,9 @@
   ],
   "settings": {
     "markdown.copyFiles.destination": {
-      "**/_posts/*.md": "../images/${documentBaseName}/"
-	},
-	"folder-color.pathColors": []
+      "**/_posts/*.md": "../images/${documentBaseName}/",
+      "**/pages/*.md": "../images/${documentBaseName}/"
+    },
+    "folder-color.pathColors": []
   }
 }
