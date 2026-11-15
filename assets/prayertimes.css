@@ -90,6 +90,23 @@ html, body { height:100%; }
 .prayer-note{ font-size:12px; margin-top:10px; color:#2b2b2b }
 .prayer-footer{ margin-top:48px; text-align:center; color:#f7f7f7; font-size:13px }
 
+.prayer-page .prayer-footer a,
+.prayer-page .prayer-footer a:visited {
+  display: inline-block;
+  color: inherit;
+  font: inherit;
+  line-height: 1.5;
+  padding: 8px 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.prayer-page .prayer-footer a:hover,
+.prayer-page .prayer-footer a:focus-visible {
+  color: #ffffff;
+  text-decoration-thickness: 2px;
+}
+
 /* Make the grid layout match the mock: 4 across, last item wraps on left */
 .prayer-card{ max-width:720px; }
 

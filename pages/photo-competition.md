@@ -22,7 +22,7 @@ no_container: true
 <h2 class="prayer-name">Week II</h2>
 
 ![alt text](/images/photo-competition/image-7.webp)
-Ahmad (???)
+Ahmad (Third Court, St John's)
 
 ![alt text](/images/photo-competition/image-10.webp)
 Atshaam (Formal Hall, St John's)
