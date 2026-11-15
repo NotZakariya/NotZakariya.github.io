@@ -12,7 +12,7 @@ no_container: true
     <header class="prayer-hero">
       <h1>Prayer Times</h1>
       <p>St John's Islamic Society - Prayer times</p>
-      <p id="date-range">05/06 - 09/06</p>
+      <p id="date-range"> 25/10 - 31/10 </p>
       <p> How to use: Please upvote the poll when you are certain you will make be able to make it إن شاء الله. </p>
     </header>
 
@@ -24,7 +24,7 @@ no_container: true
     <section class="prayer-grid">
       <article class="prayer-card" data-prayer="Fajr">
         <div class="prayer-name">Fajr</div>
-        <div class="prayer-time">See CCM for start time</div>
+        <div class="prayer-time">6:30</div>
         <div class="prayer-poll"></div>
       </article>
 
@@ -36,19 +36,19 @@ no_container: true
 
       <article class="prayer-card" data-prayer="Asr">
         <div class="prayer-name">Asr</div>
-        <div class="prayer-time">18:40</div>
+        <div class="prayer-time">15:30</div>
         <div class="prayer-poll"></div>
       </article>
 
       <article class="prayer-card" data-prayer="Maghrib">
         <div class="prayer-name">Maghrib</div>
-        <div class="prayer-time">Sunset (see CCM time)</div>
+        <div class="prayer-time">Sunset (see <a href="https://cambridgecentralmosque.org" target="_blank">CCM time</a>)</div>
         <div class="prayer-poll"></div>
       </article>
 
       <article class="prayer-card" data-prayer="Isha">
         <div class="prayer-name">Isha</div>
-        <div class="prayer-time">22:40</div>
+        <div class="prayer-time">19:30</div>
         <div class="prayer-poll"></div>
       </article>
     </section>
