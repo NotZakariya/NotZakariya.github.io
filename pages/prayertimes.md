@@ -24,7 +24,7 @@ no_container: true
     <section class="prayer-grid">
       <article class="prayer-card" data-prayer="Fajr">
         <div class="prayer-name">Fajr</div>
-        <div class="prayer-time">Ten minutes after <a href="https://cambridgecentralmosque.org/prayer-times/" target="_blank">(CCM Start time)</a></div>
+        <div class="prayer-time">Ten minutes after <a href="https://cambridgecentralmosque.org/prayer-times/" target="_blank">CCM Start time</a></div>
         <div class="prayer-poll"></div>
       </article>
 
