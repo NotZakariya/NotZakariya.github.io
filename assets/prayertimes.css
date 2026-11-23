@@ -97,6 +97,20 @@ html, body { height:100%; }
   display:none;
 }
 
+/* Share one photo width, sized so the tallest photo fits the viewport. */
+.photo-competition-page .prayer-card img {
+  display: block;
+  box-sizing: border-box;
+  width: min(100%, 640px, calc(75vh * var(--photo-min-ratio, 0.5)));
+  width: min(100%, 640px, calc(75svh * var(--photo-min-ratio, 0.5)));
+  max-width: 100%;
+  height: auto;
+  max-height: 75vh;
+  max-height: 75svh;
+  object-fit: contain;
+  margin: 16px auto;
+}
+
 .prayer-name{ font-family: 'Playfair Display', serif; font-size:26px; font-weight:700; margin-bottom:12px; }
 .prayer-time{ font-family: 'Playfair Display', serif; font-size:34px; font-weight:600; letter-spacing:0.5px; }
 .prayer-note{ font-size:12px; margin-top:10px; color:#2b2b2b }

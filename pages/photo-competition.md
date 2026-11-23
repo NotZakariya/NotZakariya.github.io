@@ -19,6 +19,20 @@ no_container: true
     <section class="prayer-grid" aria-label="Competition details">
 <article class="prayer-card" markdown="1">
 
+<h2 class="prayer-name">Week III</h2>
+
+![alt text](/images/photo-competition/2026-11-23_11-45-44.webp)
+Aliya (New Court, St John's)
+
+![alt text](../images/photo-competition/image-11.webp)
+Atshaam (Senior Combination Room, St John's)
+
+![alt text](/images/photo-competition/image-1-1.webp)
+Ahmad (The Backs, St John's)
+
+![alt text](/images/photo-competition/image-2-1.webp)
+Anonymous (Scholar's Garden, St John's)
+
 <h2 class="prayer-name">Week II</h2>
 
 ![alt text](/images/photo-competition/image-7.webp)
@@ -67,3 +81,5 @@ Samana (Kitchen Bridge, St John's)
     </nav>
   </div>
 </main>
+
+<script src="{{ '/assets/photo-competition.js' | relative_url }}" defer></script>
