@@ -21,7 +21,7 @@ no_container: true
 
 <h2 class="prayer-name">Week IV</h2>
 
-![alt text](../images/photo-competition/image-1-2.webp)
+![alt text](../images/photo-competition/image-13.webp)
 Mahisa (The Backs, St John's)
 
 ![alt text](../images/photo-competition/image-2-2.webp)
