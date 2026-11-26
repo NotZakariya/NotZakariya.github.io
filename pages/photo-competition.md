@@ -19,6 +19,20 @@ no_container: true
     <section class="prayer-grid" aria-label="Competition details">
 <article class="prayer-card" markdown="1">
 
+<h2 class="prayer-name">Week IV</h2>
+
+![alt text](../images/photo-competition/image-1-2.webp)
+Mahisa (The Backs, St John's)
+
+![alt text](../images/photo-competition/image-2-2.webp)
+Mahisa (New Court, St John's)
+
+![alt text](../images/photo-competition/image-12.webp)
+Ibrahim (Home, Rochdale)
+
+![alt text](../images/photo-competition/image-3-1.webp)
+Mahisa (The River Cam)
+
 <h2 class="prayer-name">Week III</h2>
 
 ![alt text](/images/photo-competition/2026-11-23_11-45-44.webp)
